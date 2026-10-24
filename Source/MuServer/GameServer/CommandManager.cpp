@@ -1179,65 +1179,19 @@ void CCommandManager::DGCommandResetRecv(SDHP_COMMAND_RESET_RECV* lpMsg)
 		gObjectManager.CharacterCalcAttribute(lpObj->Index);
 	}
 
-	if (gServerInfo.m_CommandResetStats[lpObj->AccountLevel] != 0)
-	{
-		int point = gResetTable.GetResetPoint(lpObj);
+	int point = gServerInfo.m_CommandResetPoint[lpObj->AccountLevel];
 
-		point = (point * gServerInfo.m_CommandResetPointRate[lpObj->Class]) / 100;
+	point = (point * gServerInfo.m_CommandResetPointRate[lpObj->Class]) / 100;
 
-		point += (lpObj->Level - 1) * gServerInfo.m_LevelUpPoint[lpObj->Class];
+	lpObj->LevelUpPoint = point;
 
-		point += ((gQuest.CheckQuestListState(lpObj, 2, QUEST_FINISH) == 0) ? 0 : ((lpObj->Level > 220) ? ((lpObj->Level - 220) * gServerInfo.m_PlusStatPoint) : 0));
+	lpObj->Strength = gDefaultClassInfo.m_DefaultClassInfo[lpObj->Class].Strength;
 
-		point += gQuest.GetQuestRewardLevelUpPoint(lpObj);
+	lpObj->Dexterity = gDefaultClassInfo.m_DefaultClassInfo[lpObj->Class].Dexterity;
 
-		point += lpObj->FruitAddPoint;
+	lpObj->Vitality = gDefaultClassInfo.m_DefaultClassInfo[lpObj->Class].Vitality;
 
-		if (gServerInfo.m_CommandGrandResetStats[lpObj->AccountLevel] != 0)
-		{
-			int grpoint = gServerInfo.m_CommandGrandResetPoint[lpObj->AccountLevel] * lpObj->GrandReset;
-
-			grpoint = (grpoint * gServerInfo.m_CommandGrandResetPointRate[lpObj->Class]) / 100;
-
-			grpoint += (lpObj->Level - 1) * gServerInfo.m_LevelUpPoint[lpObj->Class];
-
-			grpoint += ((gQuest.CheckQuestListState(lpObj, 2, QUEST_FINISH) == 0) ? 0 : ((lpObj->Level > 220) ? ((lpObj->Level - 220) * gServerInfo.m_PlusStatPoint) : 0));
-
-			grpoint += gQuest.GetQuestRewardLevelUpPoint(lpObj);
-
-			grpoint += lpObj->FruitAddPoint;
-
-			point += grpoint;
-		}
-
-		lpObj->LevelUpPoint = point;
-
-		lpObj->Strength = gDefaultClassInfo.m_DefaultClassInfo[lpObj->Class].Strength;
-
-		lpObj->Dexterity = gDefaultClassInfo.m_DefaultClassInfo[lpObj->Class].Dexterity;
-
-		lpObj->Vitality = gDefaultClassInfo.m_DefaultClassInfo[lpObj->Class].Vitality;
-
-		lpObj->Energy = gDefaultClassInfo.m_DefaultClassInfo[lpObj->Class].Energy;
-	}
-	else
-	{
-		int addPoint = gServerInfo.m_CommandResetPoint[lpObj->AccountLevel];
-
-		addPoint = (addPoint * gServerInfo.m_CommandResetPointRate[lpObj->Class]) / 100;
-
-		if (addPoint > 0)
-		{
-			if ((lpObj->LevelUpPoint + addPoint) > 2000000000)
-			{
-				lpObj->LevelUpPoint = 2000000000;
-			}
-			else
-			{
-				lpObj->LevelUpPoint += addPoint;
-			}
-		}
-	}
+	lpObj->Energy = gDefaultClassInfo.m_DefaultClassInfo[lpObj->Class].Energy;
 
 	gObjectManager.CharacterCalcAttribute(lpObj->Index);
 
