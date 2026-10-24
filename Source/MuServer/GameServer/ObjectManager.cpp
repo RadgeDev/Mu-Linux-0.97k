@@ -785,8 +785,6 @@ void CObjectManager::CharacterCalcExperienceSplit(LPOBJ lpObj, LPOBJ lpMonster, 
 
 	gObjMonsterDelHitDamageUser(lpMonster);
 
-	lpMonster->Money = 0;
-
 	for (int n = 0; n < MAX_HIT_DAMAGE; n++)
 	{
 		if (OBJECT_RANGE(lpMonster->HitDamage[n].index) == 0)
@@ -841,8 +839,6 @@ void CObjectManager::CharacterCalcExperienceAlone(LPOBJ lpObj, LPOBJ lpMonster, 
 	experience = (experience * gBonusManager.GetBonusValue(lpObj, BONUS_INDEX_EXPERIENCE_RATE, 100, -1, -1, lpMonster->Class, lpMonster->Level)) / 100;
 
 	experience = (experience * gExperienceTable.GetExperienceRate(lpObj)) / 100;
-
-	lpMonster->Money += (DWORD)experience;
 
 	experience = (((lpObj->Experience + experience) < lpObj->NextExperience) ? experience : (lpObj->NextExperience - lpObj->Experience));
 
@@ -931,8 +927,6 @@ void CObjectManager::CharacterCalcExperienceParty(LPOBJ lpObj, LPOBJ lpMonster, 
 
 	DWORD TotalExperience = level + (level / 4);
 
-	lpMonster->Money = 0;
-
 	for (int n = 0; n < MAX_PARTY_USER; n++)
 	{
 		if (OBJECT_RANGE(lpParty->Index[n]) == 0)
@@ -958,8 +952,6 @@ void CObjectManager::CharacterCalcExperienceParty(LPOBJ lpObj, LPOBJ lpMonster, 
 		experience = (experience * gBonusManager.GetBonusValue(lpTarget, BONUS_INDEX_EXPERIENCE_RATE, 100, -1, -1, lpMonster->Class, lpMonster->Level)) / 100;
 
 		experience = (experience * gExperienceTable.GetExperienceRate(lpTarget)) / 100;
-
-		lpMonster->Money += (DWORD)(experience / PartyCount);
 
 		experience = (((lpTarget->Experience + experience) < lpTarget->NextExperience) ? experience : (lpTarget->NextExperience - lpTarget->Experience));
 

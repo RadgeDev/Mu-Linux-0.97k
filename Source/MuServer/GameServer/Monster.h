@@ -5,6 +5,8 @@
 
 void gObjMonsterDieGiveItem(LPOBJ lpObj, LPOBJ lpTarget);
 
+int gObjGetMonsterMoney(int MonsterLevel);
+
 bool gObjSetPosMonster(int aIndex, int number);
 
 bool gObjSetMonster(int aIndex, int MonsterClass);

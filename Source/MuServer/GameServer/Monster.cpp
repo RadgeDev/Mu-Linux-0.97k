@@ -28,6 +28,20 @@
 #include "Util.h"
 #include "Viewport.h"
 
+int gObjGetMonsterMoney(int MonsterLevel)
+{
+	if (MonsterLevel <= 0)
+	{
+		return 0;
+	}
+
+	// Base Zen formula targeting [20,000 - 100,000] Zen after MoneyAmountDropRate_AL0 (50%):
+	// Nominal base is scaled so that (BaseMoney * 50) / 100 yields [21,000 - 96,000]
+	int money = 42000 + (MonsterLevel * 700) + ((MonsterLevel * MonsterLevel * 64) / 10);
+
+	return money;
+}
+
 void gObjMonsterDieGiveItem(LPOBJ lpObj, LPOBJ lpTarget)
 {
 	int aIndex = gObjMonsterGetTopHitDamageUser(lpObj);
@@ -60,6 +74,11 @@ void gObjMonsterDieGiveItem(LPOBJ lpObj, LPOBJ lpTarget)
 	if (gItemDrop.DropItem(lpObj, lpTarget) != 0)
 	{
 		return;
+	}
+
+	if (lpObj->Money == 0 && lpObj->Level > 0)
+	{
+		lpObj->Money = gObjGetMonsterMoney(lpObj->Level);
 	}
 
 	int DropIndex = -1;
@@ -131,7 +150,24 @@ void gObjMonsterDieGiveItem(LPOBJ lpObj, LPOBJ lpTarget)
 
 		if (money > 0)
 		{
-			if ((money = (GetLargeRand() % money)) > 0)
+			int minMoney = (money * 93) / 100;
+
+			int maxMoney = (money * 107) / 100;
+
+			int range = (maxMoney - minMoney) + 1;
+
+			money = minMoney + (GetLargeRand() % ((range > 0) ? range : 1));
+
+			if (money < 20000)
+			{
+				money = 20000;
+			}
+			else if (money > 100000)
+			{
+				money = 100000;
+			}
+
+			if (money > 0)
 			{
 				gMap[lpObj->Map].MoneyItemDrop(money, lpObj->X, lpObj->Y);
 			}
@@ -263,6 +299,7 @@ bool gObjSetMonster(int aIndex, int MonsterClass)
 	lpObj->AttackType = lpInfo->AttackType;
 	lpObj->ItemRate = lpInfo->ItemRate;
 	lpObj->MoneyRate = lpInfo->MoneyRate;
+	lpObj->Money = gObjGetMonsterMoney(lpInfo->Level);
 	lpObj->Resistance[0] = ((lpInfo->Resistance[0] > 255) ? 255 : lpInfo->Resistance[0]);
 	lpObj->Resistance[1] = ((lpInfo->Resistance[0] > 255) ? 255 : lpInfo->Resistance[1]);
 	lpObj->Resistance[2] = ((lpInfo->Resistance[0] > 255) ? 255 : lpInfo->Resistance[2]);
