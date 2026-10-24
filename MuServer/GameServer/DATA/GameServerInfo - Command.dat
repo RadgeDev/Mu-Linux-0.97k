@@ -37,16 +37,16 @@ CommandResetStartLevel_AL2=1
 CommandResetStartLevel_AL3=1
 
 ; Required money to use "/reset"
-CommandResetMoney_AL0=0
-CommandResetMoney_AL1=0
-CommandResetMoney_AL2=0
-CommandResetMoney_AL3=0
+CommandResetMoney_AL0=15000000
+CommandResetMoney_AL1=15000000
+CommandResetMoney_AL2=15000000
+CommandResetMoney_AL3=15000000
 
 ; Amount of points gain after utilizing "/reset"
-CommandResetPoint_AL0=200
-CommandResetPoint_AL1=200
-CommandResetPoint_AL2=200
-CommandResetPoint_AL3=200
+CommandResetPoint_AL0=400
+CommandResetPoint_AL1=400
+CommandResetPoint_AL2=400
+CommandResetPoint_AL3=400
 
 ; Percentage of points gain after utilizing "/reset"
 CommandResetPointRateDW=100
@@ -67,10 +67,10 @@ CommandResetCheckItem_AL2=0
 CommandResetCheckItem_AL3=0
 
 ; Clear character stats (0 = No / 1 = Yes)
-CommandResetStat_AL0=0
-CommandResetStat_AL1=0
-CommandResetStat_AL2=0
-CommandResetStat_AL3=0
+CommandResetStat_AL0=1
+CommandResetStat_AL1=1
+CommandResetStat_AL2=1
+CommandResetStat_AL3=1
 
 ; Clear character quests (0 = No / 1 = Yes)
 CommandResetQuest_AL0=0
@@ -91,10 +91,10 @@ CommandResetMove_AL2=1
 CommandResetMove_AL3=1
 
 ; Maximum resets 
-CommandResetLimit_AL0=10000
-CommandResetLimit_AL1=10000
-CommandResetLimit_AL2=10000
-CommandResetLimit_AL3=10000
+CommandResetLimit_AL0=100
+CommandResetLimit_AL1=100
+CommandResetLimit_AL2=100
+CommandResetLimit_AL3=100
 
 ; Maximum resets per day
 CommandResetLimitDay_AL0=10000
@@ -115,10 +115,10 @@ CommandResetLimitMon_AL2=10000
 CommandResetLimitMon_AL3=10000
 
 ; Level up points reward during reset cycles (0 = only initial cycle 0 / 1 = every cycle)
-CommandResetLevelUpPoint=0
+CommandResetLevelUpPoint=1
 
 ;==================================================
-; Reset Command Settings
+; Grand Reset Command Settings
 ;==================================================
 ; Required level to use "/grandreset"
 CommandGrandResetLevel_AL0=400
@@ -133,10 +133,10 @@ CommandGrandResetStartLevel_AL2=1
 CommandGrandResetStartLevel_AL3=1
 
 ; Required Reset to use "/grandreset" 
-CommandGrandResetReset_AL0=400
-CommandGrandResetReset_AL1=400
-CommandGrandResetReset_AL2=400
-CommandGrandResetReset_AL3=400
+CommandGrandResetReset_AL0=100
+CommandGrandResetReset_AL1=100
+CommandGrandResetReset_AL2=100
+CommandGrandResetReset_AL3=100
 
 ; Character Reset after utilizing "/grandreset"
 CommandGrandResetStartReset_AL0=1
@@ -145,16 +145,16 @@ CommandGrandResetStartReset_AL2=1
 CommandGrandResetStartReset_AL3=1
 
 ; Required money to use "/grandreset"
-CommandGrandResetMoney_AL0=0
-CommandGrandResetMoney_AL1=0
-CommandGrandResetMoney_AL2=0
-CommandGrandResetMoney_AL3=0
+CommandGrandResetMoney_AL0=500000000
+CommandGrandResetMoney_AL1=500000000
+CommandGrandResetMoney_AL2=500000000
+CommandGrandResetMoney_AL3=500000000
 
 ; Amount of points gain after utilizing "/grandreset"
-CommandGrandResetPoint_AL0=2000
-CommandGrandResetPoint_AL1=2000
-CommandGrandResetPoint_AL2=2000
-CommandGrandResetPoint_AL3=2000
+CommandGrandResetPoint_AL0=5930
+CommandGrandResetPoint_AL1=5930
+CommandGrandResetPoint_AL2=5930
+CommandGrandResetPoint_AL3=5930
 
 ; Percentage of points gain after utilizing "/grandreset"
 CommandGrandResetPointRateDW=100
@@ -169,16 +169,16 @@ CommandGrandResetCount_AL2=1
 CommandGrandResetCount_AL3=1
 
 ; Check equipped items (0 = No / 1 = Yes)
-CommandGrandResetCheckItem_AL0=0
-CommandGrandResetCheckItem_AL1=0
-CommandGrandResetCheckItem_AL2=0
-CommandGrandResetCheckItem_AL3=0
+CommandGrandResetCheckItem_AL0=1
+CommandGrandResetCheckItem_AL1=1
+CommandGrandResetCheckItem_AL2=1
+CommandGrandResetCheckItem_AL3=1
 
 ; Clear character stats (0 = No / 1 = Yes)
-CommandGrandResetStat_AL0=0
-CommandGrandResetStat_AL1=0
-CommandGrandResetStat_AL2=0
-CommandGrandResetStat_AL3=0
+CommandGrandResetStat_AL0=1
+CommandGrandResetStat_AL1=1
+CommandGrandResetStat_AL2=1
+CommandGrandResetStat_AL3=1
 
 ; Clear character quests (0 = No / 1 = Yes)
 CommandGrandResetQuest_AL0=0
@@ -199,10 +199,10 @@ CommandGrandResetMove_AL2=1
 CommandGrandResetMove_AL3=1
 
 ; Maximum resets 
-CommandGrandResetLimit_AL0=10000
-CommandGrandResetLimit_AL1=10000
-CommandGrandResetLimit_AL2=10000
-CommandGrandResetLimit_AL3=10000
+CommandGrandResetLimit_AL0=15
+CommandGrandResetLimit_AL1=15
+CommandGrandResetLimit_AL2=15
+CommandGrandResetLimit_AL3=15
 
 ; Maximum resets per day
 CommandGrandResetLimitDay_AL0=10000
