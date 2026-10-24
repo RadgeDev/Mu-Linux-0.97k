@@ -1159,6 +1159,8 @@ void CServerInfo::ReadCommandInfo(const char* section, const char* path)
 
 	this->m_CommandResetLimitMon[3] = GetPrivateProfileInt(section, "CommandResetLimitMon_AL3", 0, path);
 
+	this->m_CommandResetLevelUpPoint = GetPrivateProfileInt(section, "CommandResetLevelUpPoint", 0, path);
+
 	this->m_CommandGrandResetLevel[0] = GetPrivateProfileInt(section, "CommandGrandResetLevel_AL0", 0, path);
 
 	this->m_CommandGrandResetLevel[1] = GetPrivateProfileInt(section, "CommandGrandResetLevel_AL1", 0, path);

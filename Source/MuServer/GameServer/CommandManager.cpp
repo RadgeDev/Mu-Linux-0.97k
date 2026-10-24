@@ -1113,6 +1113,13 @@ void CCommandManager::DGCommandResetRecv(SDHP_COMMAND_RESET_RECV* lpMsg)
 		return;
 	}
 
+	if (lpObj->Reset >= gServerInfo.m_CommandResetLimit[lpObj->AccountLevel])
+	{
+		gNotice.GCNoticeSend(lpObj->Index, 1, gMessage.GetTextMessage(76, lpObj->Lang), gServerInfo.m_CommandResetLimit[lpObj->AccountLevel]);
+
+		return;
+	}
+
 	lpObj->Money -= gResetTable.GetResetMoney(lpObj);
 
 	GCMoneySend(lpObj->Index, lpObj->Money);
@@ -1212,6 +1219,24 @@ void CCommandManager::DGCommandResetRecv(SDHP_COMMAND_RESET_RECV* lpMsg)
 		lpObj->Vitality = gDefaultClassInfo.m_DefaultClassInfo[lpObj->Class].Vitality;
 
 		lpObj->Energy = gDefaultClassInfo.m_DefaultClassInfo[lpObj->Class].Energy;
+	}
+	else
+	{
+		int addPoint = gServerInfo.m_CommandResetPoint[lpObj->AccountLevel];
+
+		addPoint = (addPoint * gServerInfo.m_CommandResetPointRate[lpObj->Class]) / 100;
+
+		if (addPoint > 0)
+		{
+			if ((lpObj->LevelUpPoint + addPoint) > 2000000000)
+			{
+				lpObj->LevelUpPoint = 2000000000;
+			}
+			else
+			{
+				lpObj->LevelUpPoint += addPoint;
+			}
+		}
 	}
 
 	gObjectManager.CharacterCalcAttribute(lpObj->Index);
@@ -1394,6 +1419,13 @@ void CCommandManager::DGCommandGrandResetRecv(SDHP_COMMAND_RESET_RECV* lpMsg)
 		return;
 	}
 
+	if (lpObj->Reset < gServerInfo.m_CommandGrandResetReset[lpObj->AccountLevel])
+	{
+		gNotice.GCNoticeSend(lpObj->Index, 1, gMessage.GetTextMessage(61, lpObj->Lang), gServerInfo.m_CommandGrandResetReset[lpObj->AccountLevel]);
+
+		return;
+	}
+
 	lpObj->Money -= gServerInfo.m_CommandGrandResetMoney[lpObj->AccountLevel];
 
 	GCMoneySend(lpObj->Index, lpObj->Money);
@@ -1470,6 +1502,24 @@ void CCommandManager::DGCommandGrandResetRecv(SDHP_COMMAND_RESET_RECV* lpMsg)
 		lpObj->Vitality = gDefaultClassInfo.m_DefaultClassInfo[lpObj->Class].Vitality;
 
 		lpObj->Energy = gDefaultClassInfo.m_DefaultClassInfo[lpObj->Class].Energy;
+	}
+	else
+	{
+		int addPoint = gServerInfo.m_CommandGrandResetPoint[lpObj->AccountLevel];
+
+		addPoint = (addPoint * gServerInfo.m_CommandGrandResetPointRate[lpObj->Class]) / 100;
+
+		if (addPoint > 0)
+		{
+			if ((lpObj->LevelUpPoint + addPoint) > 2000000000)
+			{
+				lpObj->LevelUpPoint = 2000000000;
+			}
+			else
+			{
+				lpObj->LevelUpPoint += addPoint;
+			}
+		}
 	}
 
 	gObjectManager.CharacterCalcAttribute(lpObj->Index);

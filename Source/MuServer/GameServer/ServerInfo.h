@@ -321,6 +321,7 @@ public:
 	int m_CommandResetLimitDay[MAX_ACCOUNT_LEVEL];
 	int m_CommandResetLimitWek[MAX_ACCOUNT_LEVEL];
 	int m_CommandResetLimitMon[MAX_ACCOUNT_LEVEL];
+	int m_CommandResetLevelUpPoint;
 	int m_CommandGrandResetLevel[MAX_ACCOUNT_LEVEL];
 	int m_CommandGrandResetStartLevel[MAX_ACCOUNT_LEVEL];
 	int m_CommandGrandResetReset[MAX_ACCOUNT_LEVEL];
