@@ -1179,9 +1179,14 @@ void CCommandManager::DGCommandResetRecv(SDHP_COMMAND_RESET_RECV* lpMsg)
 		gObjectManager.CharacterCalcAttribute(lpObj->Index);
 	}
 
-	int point = gServerInfo.m_CommandResetPoint[lpObj->AccountLevel];
+	int point = gServerInfo.m_CommandResetPoint[lpObj->AccountLevel] * lpObj->Reset;
 
 	point = (point * gServerInfo.m_CommandResetPointRate[lpObj->Class]) / 100;
+
+	if (gServerInfo.m_CommandGrandResetStats[lpObj->AccountLevel] != 0)
+	{
+		point += (gServerInfo.m_CommandGrandResetPoint[lpObj->AccountLevel] * lpObj->GrandReset * gServerInfo.m_CommandGrandResetPointRate[lpObj->Class]) / 100;
+	}
 
 	lpObj->LevelUpPoint = point;
 
