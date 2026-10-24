@@ -139,10 +139,10 @@ CommandGrandResetReset_AL2=100
 CommandGrandResetReset_AL3=100
 
 ; Character Reset after utilizing "/grandreset"
-CommandGrandResetStartReset_AL0=1
-CommandGrandResetStartReset_AL1=1
-CommandGrandResetStartReset_AL2=1
-CommandGrandResetStartReset_AL3=1
+CommandGrandResetStartReset_AL0=0
+CommandGrandResetStartReset_AL1=0
+CommandGrandResetStartReset_AL2=0
+CommandGrandResetStartReset_AL3=0
 
 ; Required money to use "/grandreset"
 CommandGrandResetMoney_AL0=500000000
