@@ -1243,6 +1243,8 @@ void CCommandManager::DGCommandResetRecv(SDHP_COMMAND_RESET_RECV* lpMsg)
 
 	GCNewCharacterInfoSend(lpObj);
 
+	GCCharacterInfoSend(lpObj);
+
 	GDCharacterInfoSaveSend(lpObj->Index);
 
 	GDResetInfoSaveSend(lpObj->Index, lpMsg->ResetDay, lpMsg->ResetWek, lpMsg->ResetMon);
@@ -1493,6 +1495,8 @@ void CCommandManager::DGCommandGrandResetRecv(SDHP_COMMAND_RESET_RECV* lpMsg)
 
 		point += lpObj->FruitAddPoint;
 
+		point += gResetTable.GetResetPoint(lpObj);
+
 		lpObj->LevelUpPoint = point;
 
 		lpObj->Strength = gDefaultClassInfo.m_DefaultClassInfo[lpObj->Class].Strength;
@@ -1525,6 +1529,8 @@ void CCommandManager::DGCommandGrandResetRecv(SDHP_COMMAND_RESET_RECV* lpMsg)
 	gObjectManager.CharacterCalcAttribute(lpObj->Index);
 
 	GCNewCharacterInfoSend(lpObj);
+
+	GCCharacterInfoSend(lpObj);
 
 	GDCharacterInfoSaveSend(lpObj->Index);
 

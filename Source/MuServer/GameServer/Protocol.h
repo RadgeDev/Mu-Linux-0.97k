@@ -726,6 +726,7 @@ void GCFireworksSend(LPOBJ lpObj, int x, int y);
 void GCServerCommandSend(int aIndex, BYTE type, BYTE cmd1, BYTE cmd2);
 
 void GCNewCharacterInfoSend(LPOBJ lpObj);
+void GCCharacterInfoSend(LPOBJ lpObj);
 
 void GCNewCharacterCalcSend(LPOBJ lpObj);
 

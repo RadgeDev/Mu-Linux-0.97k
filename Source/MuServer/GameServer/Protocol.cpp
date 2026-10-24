@@ -2192,6 +2192,59 @@ void GCNewCharacterInfoSend(LPOBJ lpObj)
 #endif
 }
 
+void GCCharacterInfoSend(LPOBJ lpObj)
+{
+	PMSG_CHARACTER_INFO_SEND pMsg;
+
+	pMsg.header.setE(0xF3, 0x03, sizeof(pMsg));
+
+	pMsg.X = (BYTE)lpObj->X;
+
+	pMsg.Y = (BYTE)lpObj->Y;
+
+	pMsg.Map = lpObj->Map;
+
+	pMsg.Dir = lpObj->Dir;
+
+	pMsg.Experience = lpObj->Experience;
+
+	pMsg.NextExperience = lpObj->NextExperience;
+
+	pMsg.LevelUpPoint = lpObj->LevelUpPoint;
+
+	pMsg.Strength = GET_MAX_WORD_VALUE(lpObj->Strength);
+
+	pMsg.Dexterity = GET_MAX_WORD_VALUE(lpObj->Dexterity);
+
+	pMsg.Vitality = GET_MAX_WORD_VALUE(lpObj->Vitality);
+
+	pMsg.Energy = GET_MAX_WORD_VALUE(lpObj->Energy);
+
+	pMsg.Life = GET_MAX_WORD_VALUE(lpObj->Life);
+
+	pMsg.MaxLife = GET_MAX_WORD_VALUE((lpObj->MaxLife + lpObj->AddLife));
+
+	pMsg.Mana = GET_MAX_WORD_VALUE(lpObj->Mana);
+
+	pMsg.MaxMana = GET_MAX_WORD_VALUE((lpObj->MaxMana + lpObj->AddMana));
+
+	pMsg.BP = GET_MAX_WORD_VALUE(lpObj->BP);
+
+	pMsg.MaxBP = GET_MAX_WORD_VALUE((lpObj->MaxBP + lpObj->AddBP));
+
+	pMsg.Money = lpObj->Money;
+
+	pMsg.PKLevel = lpObj->PKLevel;
+
+	pMsg.CtlCode = (BYTE)lpObj->Authority;
+
+	pMsg.FruitAddPoint = lpObj->FruitAddPoint;
+
+	pMsg.MaxFruitAddPoint = gFruit.GetMaxFruitPoint(lpObj);
+
+	DataSend(lpObj->Index, (BYTE*)&pMsg, pMsg.header.size);
+}
+
 void GCNewCharacterCalcSend(LPOBJ lpObj)
 {
 #if(GAMESERVER_EXTRA==1)
