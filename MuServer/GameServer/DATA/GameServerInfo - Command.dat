@@ -37,10 +37,10 @@ CommandResetStartLevel_AL2=1
 CommandResetStartLevel_AL3=1
 
 ; Required money to use "/reset"
-CommandResetMoney_AL0=15000000
-CommandResetMoney_AL1=15000000
-CommandResetMoney_AL2=15000000
-CommandResetMoney_AL3=15000000
+CommandResetMoney_AL0=5000000
+CommandResetMoney_AL1=5000000
+CommandResetMoney_AL2=5000000
+CommandResetMoney_AL3=5000000
 
 ; Amount of points gain after utilizing "/reset"
 CommandResetPoint_AL0=400
@@ -145,10 +145,10 @@ CommandGrandResetStartReset_AL2=0
 CommandGrandResetStartReset_AL3=0
 
 ; Required money to use "/grandreset"
-CommandGrandResetMoney_AL0=500000000
-CommandGrandResetMoney_AL1=500000000
-CommandGrandResetMoney_AL2=500000000
-CommandGrandResetMoney_AL3=500000000
+CommandGrandResetMoney_AL0=50000000
+CommandGrandResetMoney_AL1=50000000
+CommandGrandResetMoney_AL2=50000000
+CommandGrandResetMoney_AL3=50000000
 
 ; Amount of points gain after utilizing "/grandreset"
 CommandGrandResetPoint_AL0=5930
