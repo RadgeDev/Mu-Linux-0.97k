@@ -464,6 +464,13 @@ void ProtocolCore(BYTE head, BYTE* lpMsg, int size, int aIndex, int encrypt, int
 		{
 			switch (lpMsg[3])
 			{
+				case 0x20:
+				{
+					gJewelBank.CGJewelBankOpenRecv(aIndex);
+
+					break;
+				}
+
 				case 0x21:
 				{
 					gJewelBank.CGJewelBankActionRecv((PMSG_JEWEL_BANK_ACTION_RECV*)lpMsg, aIndex);

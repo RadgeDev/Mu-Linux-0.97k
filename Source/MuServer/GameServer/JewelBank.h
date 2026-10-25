@@ -106,6 +106,7 @@ public:
 
 	void NpcJewelBank(int iNpcIndex, int iObjIndex);
 
+	void CGJewelBankOpenRecv(int aIndex);
 	void CGJewelBankActionRecv(PMSG_JEWEL_BANK_ACTION_RECV* lpMsg, int aIndex);
 	void CGJewelBankCloseRecv(int aIndex);
 

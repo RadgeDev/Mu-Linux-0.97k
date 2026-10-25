@@ -89,6 +89,42 @@ void CJewelBank::CGJewelBankCloseRecv(int aIndex)
 	}
 }
 
+void CJewelBank::CGJewelBankOpenRecv(int aIndex)
+{
+	if (OBJECT_RANGE(aIndex) == 0)
+	{
+		return;
+	}
+
+	LPOBJ lpObj = &gObj[aIndex];
+
+	if (gObjIsConnectedGP(aIndex) == 0)
+	{
+		return;
+	}
+
+	if (lpObj->Live == 0)
+	{
+		return;
+	}
+
+	if (lpObj->Interface.use != 0 && lpObj->Interface.type != INTERFACE_JEWEL_BANK)
+	{
+		return;
+	}
+
+	lpObj->Interface.use = 1;
+	lpObj->Interface.type = INTERFACE_JEWEL_BANK;
+	lpObj->Interface.state = 0;
+
+	this->GDJewelBankGetSend(aIndex);
+
+	if (lpObj->JewelBankLoaded)
+	{
+		this->GCJewelBankInfoSend(aIndex);
+	}
+}
+
 void CJewelBank::CGJewelBankActionRecv(PMSG_JEWEL_BANK_ACTION_RECV* lpMsg, int aIndex)
 {
 	if (gObjIsConnectedGP(aIndex) == 0)
