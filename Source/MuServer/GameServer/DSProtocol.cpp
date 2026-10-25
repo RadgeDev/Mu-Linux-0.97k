@@ -785,6 +785,8 @@ void DGCharacterInfoRecv(SDHP_CHARACTER_INFO_RECV* lpMsg)
 
 	gItemManager.GCItemListSend(lpObj->Index);
 
+	gJewelBank.GDJewelBankGetSend(lpObj->Index);
+
 	gSkillManager.GCSkillListSend(lpObj);
 
 	gQuest.GCQuestInfoSend(lpObj->Index);
@@ -894,6 +896,8 @@ void GDCharacterInfoSaveSend(int aIndex)
 	gDataServerConnection.DataSend((BYTE*)&pMsg, sizeof(pMsg));
 
 	gWarehouse.GDWarehouseItemSaveSend(aIndex);
+
+	gJewelBank.GDJewelBankSaveSend(aIndex);
 }
 
 void GDConnectCharacterSend(int aIndex)

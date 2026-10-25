@@ -47,7 +47,12 @@ void CJewelBank::NpcJewelBank(int iNpcIndex, int iObjIndex)
 	lpObj->Interface.type = INTERFACE_JEWEL_BANK;
 	lpObj->Interface.state = 0;
 
-	this->GCJewelBankInfoSend(iObjIndex);
+	this->GDJewelBankGetSend(iObjIndex);
+
+	if (lpObj->JewelBankLoaded)
+	{
+		this->GCJewelBankInfoSend(iObjIndex);
+	}
 }
 
 void CJewelBank::GCJewelBankInfoSend(int aIndex)
@@ -344,6 +349,7 @@ void CJewelBank::GDJewelBankGetSend(int aIndex)
 	}
 
 	SDHP_JEWEL_BANK_GET_SEND pMsg;
+	memset(&pMsg, 0, sizeof(pMsg));
 
 	pMsg.header.set(0x08, 0x00, sizeof(pMsg));
 
@@ -376,6 +382,11 @@ void CJewelBank::DGJewelBankGetRecv(SDHP_JEWEL_BANK_GET_RECV* lpMsg)
 	lpObj->JewelBankLoaded = true;
 	lpObj->JewelBankBusy = false;
 	lpObj->JewelBankPendingWithdrawCount = 0;
+
+	if (lpObj->Interface.type == INTERFACE_JEWEL_BANK)
+	{
+		this->GCJewelBankInfoSend(lpMsg->index);
+	}
 }
 
 void CJewelBank::GDJewelBankSaveSend(int aIndex)
@@ -388,6 +399,7 @@ void CJewelBank::GDJewelBankSaveSend(int aIndex)
 	}
 
 	SDHP_JEWEL_BANK_SAVE_SEND pMsg;
+	memset(&pMsg, 0, sizeof(pMsg));
 
 	pMsg.header.set(0x08, 0x01, sizeof(pMsg));
 
