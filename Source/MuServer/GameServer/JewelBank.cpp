@@ -1,7 +1,7 @@
 #include "stdafx.h"
 #include "JewelBank.h"
-#include "DSProtocol.h"
 #include "GameMain.h"
+#include "DSProtocol.h"
 #include "ItemManager.h"
 #include "Notice.h"
 #include "Util.h"
@@ -16,9 +16,9 @@ CJewelBank::~CJewelBank()
 {
 }
 
-int CJewelBank::GetJewelIndex(BYTE JewelType)
+int CJewelBank::GetJewelIndex(BYTE type)
 {
-	switch (JewelType)
+	switch (type)
 	{
 		case JEWEL_TYPE_BLESS: return GET_ITEM(14, 13);
 		case JEWEL_TYPE_SOUL:  return GET_ITEM(14, 14);
@@ -30,7 +30,7 @@ int CJewelBank::GetJewelIndex(BYTE JewelType)
 
 void CJewelBank::NpcJewelBank(int iNpcIndex, int iObjIndex)
 {
-	if (OBJECT_RANGE(iObjIndex) == 0)
+	if (gObjIsConnectedGP(iObjIndex) == 0)
 	{
 		return;
 	}
@@ -46,26 +46,35 @@ void CJewelBank::NpcJewelBank(int iNpcIndex, int iObjIndex)
 	lpObj->Interface.type = INTERFACE_JEWEL_BANK;
 	lpObj->Interface.state = 0;
 
-	if (lpObj->JewelBankLoaded)
-	{
-		this->GCJewelBankInfoSend(lpObj->Index);
-	}
-	else
-	{
-		this->GDJewelBankGetSend(lpObj->Index);
-	}
+	this->GCJewelBankInfoSend(iObjIndex);
+}
+
+void CJewelBank::GCJewelBankInfoSend(int aIndex)
+{
+	LPOBJ lpObj = &gObj[aIndex];
+
+	PMSG_JEWEL_BANK_INFO_SEND pMsg;
+
+	pMsg.header.set(0xF8, 0x20, sizeof(pMsg));
+
+	pMsg.Bless = lpObj->JewelBankBless;
+	pMsg.Soul  = lpObj->JewelBankSoul;
+	pMsg.Chaos = lpObj->JewelBankChaos;
+	pMsg.Life  = lpObj->JewelBankLife;
+
+	DataSend(aIndex, (BYTE*)&pMsg, pMsg.header.size);
 }
 
 void CJewelBank::CGJewelBankCloseRecv(int aIndex)
 {
-	if (gObjIsConnectedGP(aIndex) == 0)
+	if (OBJECT_RANGE(aIndex) == 0)
 	{
 		return;
 	}
 
 	LPOBJ lpObj = &gObj[aIndex];
 
-	if (lpObj->Interface.use != 0 && lpObj->Interface.type == INTERFACE_JEWEL_BANK)
+	if (lpObj->Interface.type == INTERFACE_JEWEL_BANK)
 	{
 		lpObj->Interface.use = 0;
 		lpObj->Interface.type = INTERFACE_NONE;
@@ -87,7 +96,7 @@ void CJewelBank::CGJewelBankActionRecv(PMSG_JEWEL_BANK_ACTION_RECV* lpMsg, int a
 		return;
 	}
 
-	if (lpObj->JewelBankBusy || lpObj->JewelBankPendingWithdrawCount > 0)
+	if (lpObj->JewelBankBusy)
 	{
 		this->GCJewelBankResultSend(aIndex, JEWEL_BANK_RESULT_BUSY, lpMsg->Action, lpMsg->JewelType, 0);
 		return;
@@ -158,6 +167,9 @@ void CJewelBank::ProcessDeposit(LPOBJ lpObj, BYTE JewelType, DWORD RequestedCoun
 	*pBalance += countToDeposit;
 
 	this->GDJewelBankSaveSend(lpObj->Index);
+	GDInventoryItemSaveSend(lpObj->Index);
+
+	gItemManager.GCItemListSend(lpObj->Index);
 
 	lpObj->JewelBankBusy = false;
 
@@ -203,18 +215,34 @@ void CJewelBank::ProcessWithdraw(LPOBJ lpObj, BYTE JewelType, DWORD RequestedCou
 	}
 
 	lpObj->JewelBankBusy = true;
-	lpObj->JewelBankPendingWithdrawCount = (int)countToWithdraw;
 
 	*pBalance -= countToWithdraw;
 
-	this->GDJewelBankSaveSend(lpObj->Index);
-
+	DWORD delivered = 0;
 	for (DWORD i = 0; i < countToWithdraw; i++)
 	{
-		GDCreateItemSend(lpObj->Index, 0xEB, 0, 0, itemIndex, 0, 0, 0, 0, 0, -1, 0);
+		CItem item;
+		item.Convert(itemIndex, 0, 0, 0, 0);
+		BYTE slot = gItemManager.InventoryInsertItem(lpObj->Index, item);
+		if (slot != 0xFF)
+		{
+			delivered++;
+		}
 	}
 
-	this->GCJewelBankResultSend(lpObj->Index, JEWEL_BANK_RESULT_SUCCESS, JEWEL_BANK_ACTION_WITHDRAW, JewelType, countToWithdraw);
+	if (delivered < countToWithdraw)
+	{
+		*pBalance += (countToWithdraw - delivered);
+	}
+
+	this->GDJewelBankSaveSend(lpObj->Index);
+	GDInventoryItemSaveSend(lpObj->Index);
+
+	gItemManager.GCItemListSend(lpObj->Index);
+
+	lpObj->JewelBankBusy = false;
+
+	this->GCJewelBankResultSend(lpObj->Index, JEWEL_BANK_RESULT_SUCCESS, JEWEL_BANK_ACTION_WITHDRAW, JewelType, delivered);
 }
 
 void CJewelBank::GDJewelBankGetSend(int aIndex)
@@ -258,11 +286,6 @@ void CJewelBank::DGJewelBankGetRecv(SDHP_JEWEL_BANK_GET_RECV* lpMsg)
 	lpObj->JewelBankLoaded = true;
 	lpObj->JewelBankBusy = false;
 	lpObj->JewelBankPendingWithdrawCount = 0;
-
-	if (lpObj->Interface.use != 0 && lpObj->Interface.type == INTERFACE_JEWEL_BANK)
-	{
-		this->GCJewelBankInfoSend(lpObj->Index);
-	}
 }
 
 void CJewelBank::GDJewelBankSaveSend(int aIndex)
@@ -283,27 +306,11 @@ void CJewelBank::GDJewelBankSaveSend(int aIndex)
 	memcpy(pMsg.account, lpObj->Account, sizeof(pMsg.account));
 
 	pMsg.Bless = lpObj->JewelBankBless;
-	pMsg.Soul = lpObj->JewelBankSoul;
+	pMsg.Soul  = lpObj->JewelBankSoul;
 	pMsg.Chaos = lpObj->JewelBankChaos;
-	pMsg.Life = lpObj->JewelBankLife;
+	pMsg.Life  = lpObj->JewelBankLife;
 
 	gDataServerConnection.DataSend((BYTE*)&pMsg, pMsg.header.size);
-}
-
-void CJewelBank::GCJewelBankInfoSend(int aIndex)
-{
-	LPOBJ lpObj = &gObj[aIndex];
-
-	PMSG_JEWEL_BANK_INFO_SEND pMsg;
-
-	pMsg.header.set(0xF8, 0x20, sizeof(pMsg));
-
-	pMsg.Bless = lpObj->JewelBankBless;
-	pMsg.Soul = lpObj->JewelBankSoul;
-	pMsg.Chaos = lpObj->JewelBankChaos;
-	pMsg.Life = lpObj->JewelBankLife;
-
-	DataSend(aIndex, (BYTE*)&pMsg, pMsg.header.size);
 }
 
 void CJewelBank::GCJewelBankResultSend(int aIndex, BYTE Result, BYTE Action, BYTE JewelType, DWORD Count)
@@ -319,9 +326,9 @@ void CJewelBank::GCJewelBankResultSend(int aIndex, BYTE Result, BYTE Action, BYT
 	pMsg.JewelType = JewelType;
 	pMsg.Count = Count;
 	pMsg.Bless = lpObj->JewelBankBless;
-	pMsg.Soul = lpObj->JewelBankSoul;
+	pMsg.Soul  = lpObj->JewelBankSoul;
 	pMsg.Chaos = lpObj->JewelBankChaos;
-	pMsg.Life = lpObj->JewelBankLife;
+	pMsg.Life  = lpObj->JewelBankLife;
 
 	DataSend(aIndex, (BYTE*)&pMsg, pMsg.header.size);
 }
