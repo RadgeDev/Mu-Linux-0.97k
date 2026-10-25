@@ -61,6 +61,8 @@ public:
 
 	void NpcGoldenArcher(LPOBJ lpNpc, LPOBJ lpObj);
 
+	void NpcJewelBank(LPOBJ lpNpc, LPOBJ lpObj);
+
 	void NpcCharon(LPOBJ lpNpc, LPOBJ lpObj);
 
 	void NpcChaosGoblin(LPOBJ lpNpc, LPOBJ lpObj);

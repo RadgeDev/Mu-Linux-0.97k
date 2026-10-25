@@ -78,6 +78,7 @@ enum eInterfaceType
 	INTERFACE_QUEST = 10,
 	INTERFACE_TRANSFER = 11,
 	INTERFACE_GUILD_REQUEST = 14,
+	INTERFACE_JEWEL_BANK = 15,
 };
 
 enum eActionType
@@ -530,6 +531,13 @@ struct OBJECTSTRUCT
 	BYTE LastTeleportTime;
 	BYTE ReqWarehouseOpen;
 	bool IsChaosMixCompleted;
+	DWORD JewelBankBless;
+	DWORD JewelBankSoul;
+	DWORD JewelBankChaos;
+	DWORD JewelBankLife;
+	bool JewelBankLoaded;
+	bool JewelBankBusy;
+	int JewelBankPendingWithdrawCount;
 	int ArcherCoinCount[GOLDEN_ARCHER_MAX_COINS];
 	char ArcherLuckyNumber[13];
 	std::vector<std::string> RegisteredLuckyNumbers;

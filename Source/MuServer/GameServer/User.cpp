@@ -479,6 +479,14 @@ void gObjCharZeroSet(int aIndex)
 
 	lpObj->LoadWarehouse = 0;
 
+	lpObj->JewelBankBless = 0;
+	lpObj->JewelBankSoul = 0;
+	lpObj->JewelBankChaos = 0;
+	lpObj->JewelBankLife = 0;
+	lpObj->JewelBankLoaded = false;
+	lpObj->JewelBankBusy = false;
+	lpObj->JewelBankPendingWithdrawCount = 0;
+
 	memset(lpObj->Quest, 0xFF, sizeof(lpObj->Quest));
 
 	lpObj->SendQuestInfo = 0;

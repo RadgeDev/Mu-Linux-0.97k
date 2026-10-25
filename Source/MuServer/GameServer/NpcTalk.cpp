@@ -8,6 +8,7 @@
 #include "EffectManager.h"
 #include "GameMain.h"
 #include "GoldenArcher.h"
+#include "JewelBank.h"
 #include "ItemBagManager.h"
 #include "Log.h"
 #include "Map.h"
@@ -75,6 +76,13 @@ bool CNpcTalk::NpcTalk(LPOBJ lpNpc, LPOBJ lpObj)
 		case 236:
 		{
 			this->NpcGoldenArcher(lpNpc, lpObj);
+
+			break;
+		}
+
+		case 243:
+		{
+			this->NpcJewelBank(lpNpc, lpObj);
 
 			break;
 		}
@@ -159,6 +167,11 @@ void CNpcTalk::NpcServerTransfer(LPOBJ lpNpc, LPOBJ lpObj)
 void CNpcTalk::NpcGoldenArcher(LPOBJ lpNpc, LPOBJ lpObj)
 {
 	gGoldenArcher.NpcGoldenArcher(lpNpc->Index, lpObj->Index);
+}
+
+void CNpcTalk::NpcJewelBank(LPOBJ lpNpc, LPOBJ lpObj)
+{
+	gJewelBank.NpcJewelBank(lpNpc->Index, lpObj->Index);
 }
 
 void CNpcTalk::NpcCharon(LPOBJ lpNpc, LPOBJ lpObj)
@@ -337,6 +350,13 @@ void CNpcTalk::CGNpcTalkCloseRecv(int aIndex)
 		case INTERFACE_WAREHOUSE:
 		{
 			gWarehouse.CGWarehouseClose(aIndex);
+
+			break;
+		}
+
+		case INTERFACE_JEWEL_BANK:
+		{
+			gJewelBank.CGJewelBankCloseRecv(aIndex);
 
 			break;
 		}

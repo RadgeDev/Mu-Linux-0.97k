@@ -8,6 +8,7 @@
 #include "FlyingDragons.h"
 #include "Fruit.h"
 #include "GoldenArcher.h"
+#include "JewelBank.h"
 #include "GoldenArcherBingo.h"
 #include "GameMain.h"
 #include "Guild.h"
@@ -278,6 +279,21 @@ void DataServerProtocolCore(BYTE head, BYTE* lpMsg, int size)
 
 			break;
 		}
+
+		case 0x08:
+		{
+			switch (((lpMsg[0] == 0xC1) ? lpMsg[3] : lpMsg[4]))
+			{
+				case 0x00:
+				{
+					gJewelBank.DGJewelBankGetRecv((SDHP_JEWEL_BANK_GET_RECV*)lpMsg);
+
+					break;
+				}
+			}
+
+			break;
+		}
 	}
 }
 
@@ -541,6 +557,8 @@ void DGCharacterListRecv(SDHP_CHARACTER_LIST_RECV* lpMsg)
 	GCCharacterMaxLevelSend(lpMsg->index, gServerInfo.m_MaxCharacterLevel);
 
 	gGoldenArcher.GDGoldenArcherGetValuesSend(lpMsg->index);
+
+	gJewelBank.GDJewelBankGetSend(lpMsg->index);
 }
 
 void GDCharacterCreateSend(int aIndex, char* name, BYTE Class)
@@ -1013,6 +1031,15 @@ void DGCreateItemRecv(SDHP_CREATE_ITEM_RECV* lpMsg)
 		if (slot != 0xFF)
 		{
 			gItemManager.GCItemModifySend(lpObj->Index, slot);
+		}
+
+		if (lpObj->JewelBankPendingWithdrawCount > 0)
+		{
+			lpObj->JewelBankPendingWithdrawCount--;
+			if (lpObj->JewelBankPendingWithdrawCount == 0)
+			{
+				lpObj->JewelBankBusy = false;
+			}
 		}
 	}
 	else

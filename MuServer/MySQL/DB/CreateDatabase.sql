@@ -235,6 +235,18 @@ CREATE TABLE `ResetInfo` (
 -- ----------------------------------------------------------------------------
 -- Table warehouse
 -- ----------------------------------------------------------------------------
+-- ----------------------------------------------------------------------------
+-- Table JewelBank
+-- ----------------------------------------------------------------------------
+CREATE TABLE `JewelBank` (
+	`AccountID` VARCHAR(10) NOT NULL,
+	`Bless` INT UNSIGNED NOT NULL DEFAULT 0,
+	`Soul` INT UNSIGNED NOT NULL DEFAULT 0,
+	`Chaos` INT UNSIGNED NOT NULL DEFAULT 0,
+	`Life` INT UNSIGNED NOT NULL DEFAULT 0,
+	CONSTRAINT PK_JewelBank PRIMARY KEY (`AccountID`)
+);
+
 CREATE TABLE `warehouse` (
 	`AccountID` VARCHAR(10) NOT NULL,
 	`Items` VARBINARY(1200) NULL,

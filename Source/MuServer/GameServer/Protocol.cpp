@@ -12,6 +12,7 @@
 #include "Filter.h"
 #include "Fruit.h"
 #include "GoldenArcher.h"
+#include "JewelBank.h"
 #include "Guild.h"
 #include "GuildManager.h"
 #include "HackPacketCheck.h"
@@ -455,6 +456,28 @@ void ProtocolCore(BYTE head, BYTE* lpMsg, int size, int aIndex, int encrypt, int
 		case 0xB0:
 		{
 			gSkillManager.CGSkillTeleportAllyRecv((PMSG_SKILL_TELEPORT_ALLY_RECV*)lpMsg, aIndex);
+
+			break;
+		}
+
+		case 0xF8:
+		{
+			switch (lpMsg[3])
+			{
+				case 0x21:
+				{
+					gJewelBank.CGJewelBankActionRecv((PMSG_JEWEL_BANK_ACTION_RECV*)lpMsg, aIndex);
+
+					break;
+				}
+
+				case 0x23:
+				{
+					gJewelBank.CGJewelBankCloseRecv(aIndex);
+
+					break;
+				}
+			}
 
 			break;
 		}

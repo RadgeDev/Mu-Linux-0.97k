@@ -11,6 +11,7 @@
 #include "SocketManager.h"
 #include "Util.h"
 #include "Warehouse.h"
+#include "JewelBank.h"
 
 void DataServerProtocolCore(int index, BYTE head, BYTE* lpMsg, int size)
 {
@@ -335,6 +336,26 @@ void DataServerProtocolCore(int index, BYTE head, BYTE* lpMsg, int size)
 				{
 					gGuild.GDGuildGlobalNoticeRecv((SDHP_GUILD_GLOBAL_NOTICE_RECV*)lpMsg);
 
+					break;
+				}
+			}
+
+			break;
+		}
+
+		case 0x08:
+		{
+			switch (((lpMsg[0] == 0xC1) ? lpMsg[3] : lpMsg[4]))
+			{
+				case 0x00:
+				{
+					gJewelBank.GDJewelBankGetRecv((SDHP_JEWEL_BANK_GET_SEND*)lpMsg, index);
+					break;
+				}
+
+				case 0x01:
+				{
+					gJewelBank.GDJewelBankSaveRecv((SDHP_JEWEL_BANK_SAVE_SEND*)lpMsg);
 					break;
 				}
 			}
