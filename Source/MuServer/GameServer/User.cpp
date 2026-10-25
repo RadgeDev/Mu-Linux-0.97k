@@ -483,6 +483,7 @@ void gObjCharZeroSet(int aIndex)
 	lpObj->JewelBankSoul = 0;
 	lpObj->JewelBankChaos = 0;
 	lpObj->JewelBankLife = 0;
+	lpObj->JewelBankCreation = 0;
 	lpObj->JewelBankLoaded = false;
 	lpObj->JewelBankBusy = false;
 	lpObj->JewelBankPendingWithdrawCount = 0;

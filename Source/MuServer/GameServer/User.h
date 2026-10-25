@@ -535,6 +535,7 @@ struct OBJECTSTRUCT
 	DWORD JewelBankSoul;
 	DWORD JewelBankChaos;
 	DWORD JewelBankLife;
+	DWORD JewelBankCreation;
 	bool JewelBankLoaded;
 	bool JewelBankBusy;
 	int JewelBankPendingWithdrawCount;

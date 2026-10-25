@@ -24,6 +24,7 @@ int CJewelBank::GetJewelIndex(BYTE type)
 		case JEWEL_TYPE_SOUL:  return GET_ITEM(14, 14);
 		case JEWEL_TYPE_CHAOS: return GET_ITEM(12, 15);
 		case JEWEL_TYPE_LIFE:  return GET_ITEM(14, 16);
+		case JEWEL_TYPE_CREATION: return GET_ITEM(14, 22);
 		default: return -1;
 	}
 }
@@ -61,6 +62,7 @@ void CJewelBank::GCJewelBankInfoSend(int aIndex)
 	pMsg.Soul  = lpObj->JewelBankSoul;
 	pMsg.Chaos = lpObj->JewelBankChaos;
 	pMsg.Life  = lpObj->JewelBankLife;
+	pMsg.Creation = lpObj->JewelBankCreation;
 
 	DataSend(aIndex, (BYTE*)&pMsg, pMsg.header.size);
 }
@@ -151,6 +153,7 @@ void CJewelBank::ProcessDeposit(LPOBJ lpObj, BYTE JewelType, DWORD RequestedCoun
 		case JEWEL_TYPE_SOUL:  pBalance = &lpObj->JewelBankSoul; break;
 		case JEWEL_TYPE_CHAOS: pBalance = &lpObj->JewelBankChaos; break;
 		case JEWEL_TYPE_LIFE:  pBalance = &lpObj->JewelBankLife; break;
+		case JEWEL_TYPE_CREATION: pBalance = &lpObj->JewelBankCreation; break;
 		default: return;
 	}
 
@@ -192,6 +195,7 @@ void CJewelBank::ProcessWithdraw(LPOBJ lpObj, BYTE JewelType, DWORD RequestedCou
 		case JEWEL_TYPE_SOUL:  pBalance = &lpObj->JewelBankSoul; break;
 		case JEWEL_TYPE_CHAOS: pBalance = &lpObj->JewelBankChaos; break;
 		case JEWEL_TYPE_LIFE:  pBalance = &lpObj->JewelBankLife; break;
+		case JEWEL_TYPE_CREATION: pBalance = &lpObj->JewelBankCreation; break;
 		default: return;
 	}
 
@@ -283,6 +287,7 @@ void CJewelBank::DGJewelBankGetRecv(SDHP_JEWEL_BANK_GET_RECV* lpMsg)
 	lpObj->JewelBankSoul = lpMsg->Soul;
 	lpObj->JewelBankChaos = lpMsg->Chaos;
 	lpObj->JewelBankLife = lpMsg->Life;
+	lpObj->JewelBankCreation = lpMsg->Creation;
 	lpObj->JewelBankLoaded = true;
 	lpObj->JewelBankBusy = false;
 	lpObj->JewelBankPendingWithdrawCount = 0;
@@ -309,6 +314,7 @@ void CJewelBank::GDJewelBankSaveSend(int aIndex)
 	pMsg.Soul  = lpObj->JewelBankSoul;
 	pMsg.Chaos = lpObj->JewelBankChaos;
 	pMsg.Life  = lpObj->JewelBankLife;
+	pMsg.Creation = lpObj->JewelBankCreation;
 
 	gDataServerConnection.DataSend((BYTE*)&pMsg, pMsg.header.size);
 }
@@ -329,6 +335,7 @@ void CJewelBank::GCJewelBankResultSend(int aIndex, BYTE Result, BYTE Action, BYT
 	pMsg.Soul  = lpObj->JewelBankSoul;
 	pMsg.Chaos = lpObj->JewelBankChaos;
 	pMsg.Life  = lpObj->JewelBankLife;
+	pMsg.Creation = lpObj->JewelBankCreation;
 
 	DataSend(aIndex, (BYTE*)&pMsg, pMsg.header.size);
 }

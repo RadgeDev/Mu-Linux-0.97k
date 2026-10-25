@@ -18,6 +18,7 @@ struct SDHP_JEWEL_BANK_GET_RECV
 	DWORD Soul;
 	DWORD Chaos;
 	DWORD Life;
+	DWORD Creation;
 };
 
 struct SDHP_JEWEL_BANK_SAVE_SEND
@@ -29,6 +30,7 @@ struct SDHP_JEWEL_BANK_SAVE_SEND
 	DWORD Soul;
 	DWORD Chaos;
 	DWORD Life;
+	DWORD Creation;
 };
 
 class CJewelBank

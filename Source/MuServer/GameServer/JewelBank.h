@@ -24,7 +24,8 @@ enum eJewelType
 	JEWEL_TYPE_SOUL = 1,
 	JEWEL_TYPE_CHAOS = 2,
 	JEWEL_TYPE_LIFE = 3,
-	JEWEL_TYPE_MAX = 4,
+	JEWEL_TYPE_CREATION = 4,
+	JEWEL_TYPE_MAX = 5,
 };
 
 struct PMSG_JEWEL_BANK_INFO_SEND
@@ -34,6 +35,7 @@ struct PMSG_JEWEL_BANK_INFO_SEND
 	DWORD Soul;
 	DWORD Chaos;
 	DWORD Life;
+	DWORD Creation;
 };
 
 struct PMSG_JEWEL_BANK_ACTION_RECV
@@ -55,6 +57,7 @@ struct PMSG_JEWEL_BANK_RESULT_SEND
 	DWORD Soul;
 	DWORD Chaos;
 	DWORD Life;
+	DWORD Creation;
 };
 
 struct SDHP_JEWEL_BANK_GET_SEND
@@ -73,6 +76,7 @@ struct SDHP_JEWEL_BANK_GET_RECV
 	DWORD Soul;
 	DWORD Chaos;
 	DWORD Life;
+	DWORD Creation;
 };
 
 struct SDHP_JEWEL_BANK_SAVE_SEND
@@ -84,6 +88,7 @@ struct SDHP_JEWEL_BANK_SAVE_SEND
 	DWORD Soul;
 	DWORD Chaos;
 	DWORD Life;
+	DWORD Creation;
 };
 
 class CJewelBank

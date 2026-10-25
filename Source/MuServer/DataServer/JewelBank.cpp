@@ -27,19 +27,20 @@ void CJewelBank::GDJewelBankGetRecv(SDHP_JEWEL_BANK_GET_SEND* lpMsg, int index)
 	pMsg.Soul = 0;
 	pMsg.Chaos = 0;
 	pMsg.Life = 0;
+	pMsg.Creation = 0;
 
 #ifndef MYSQL
-	if (gQueryManager.ExecQuery("SELECT Bless, Soul, Chaos, Life FROM JewelBank WHERE AccountID = '%s'", lpMsg->account) == false || gQueryManager.Fetch() == SQL_NO_DATA)
+	if (gQueryManager.ExecQuery("SELECT Bless, Soul, Chaos, Life, Creation FROM JewelBank WHERE AccountID = '%s'", lpMsg->account) == false || gQueryManager.Fetch() == SQL_NO_DATA)
 #else
-	if (gQueryManager.ExecResultQuery("SELECT Bless, Soul, Chaos, Life FROM JewelBank WHERE AccountID = '%s'", lpMsg->account) == false || gQueryManager.Fetch() == false)
+	if (gQueryManager.ExecResultQuery("SELECT Bless, Soul, Chaos, Life, Creation FROM JewelBank WHERE AccountID = '%s'", lpMsg->account) == false || gQueryManager.Fetch() == false)
 #endif
 	{
 		gQueryManager.Close();
 
 #ifndef MYSQL
-		gQueryManager.ExecQuery("INSERT INTO JewelBank (AccountID, Bless, Soul, Chaos, Life) VALUES ('%s', 0, 0, 0, 0)", lpMsg->account);
+		gQueryManager.ExecQuery("INSERT INTO JewelBank (AccountID, Bless, Soul, Chaos, Life, Creation) VALUES ('%s', 0, 0, 0, 0, 0)", lpMsg->account);
 #else
-		gQueryManager.ExecUpdateQuery("INSERT INTO JewelBank (AccountID, Bless, Soul, Chaos, Life) VALUES ('%s', 0, 0, 0, 0)", lpMsg->account);
+		gQueryManager.ExecUpdateQuery("INSERT INTO JewelBank (AccountID, Bless, Soul, Chaos, Life, Creation) VALUES ('%s', 0, 0, 0, 0, 0)", lpMsg->account);
 #endif
 		gQueryManager.Close();
 	}
@@ -49,6 +50,7 @@ void CJewelBank::GDJewelBankGetRecv(SDHP_JEWEL_BANK_GET_SEND* lpMsg, int index)
 		pMsg.Soul = (DWORD)gQueryManager.GetAsInteger64("Soul");
 		pMsg.Chaos = (DWORD)gQueryManager.GetAsInteger64("Chaos");
 		pMsg.Life = (DWORD)gQueryManager.GetAsInteger64("Life");
+		pMsg.Creation = (DWORD)gQueryManager.GetAsInteger64("Creation");
 
 		gQueryManager.Close();
 	}
@@ -59,13 +61,13 @@ void CJewelBank::GDJewelBankGetRecv(SDHP_JEWEL_BANK_GET_SEND* lpMsg, int index)
 void CJewelBank::GDJewelBankSaveRecv(SDHP_JEWEL_BANK_SAVE_SEND* lpMsg)
 {
 #ifndef MYSQL
-	gQueryManager.ExecQuery("INSERT INTO JewelBank (AccountID, Bless, Soul, Chaos, Life) VALUES ('%s', %u, %u, %u, %u) ON DUPLICATE KEY UPDATE Bless = %u, Soul = %u, Chaos = %u, Life = %u",
-		lpMsg->account, lpMsg->Bless, lpMsg->Soul, lpMsg->Chaos, lpMsg->Life,
-		lpMsg->Bless, lpMsg->Soul, lpMsg->Chaos, lpMsg->Life);
+	gQueryManager.ExecQuery("INSERT INTO JewelBank (AccountID, Bless, Soul, Chaos, Life, Creation) VALUES ('%s', %u, %u, %u, %u, %u) ON DUPLICATE KEY UPDATE Bless = %u, Soul = %u, Chaos = %u, Life = %u, Creation = %u",
+		lpMsg->account, lpMsg->Bless, lpMsg->Soul, lpMsg->Chaos, lpMsg->Life, lpMsg->Creation,
+		lpMsg->Bless, lpMsg->Soul, lpMsg->Chaos, lpMsg->Life, lpMsg->Creation);
 #else
-	gQueryManager.ExecUpdateQuery("INSERT INTO JewelBank (AccountID, Bless, Soul, Chaos, Life) VALUES ('%s', %u, %u, %u, %u) ON DUPLICATE KEY UPDATE Bless = %u, Soul = %u, Chaos = %u, Life = %u",
-		lpMsg->account, lpMsg->Bless, lpMsg->Soul, lpMsg->Chaos, lpMsg->Life,
-		lpMsg->Bless, lpMsg->Soul, lpMsg->Chaos, lpMsg->Life);
+	gQueryManager.ExecUpdateQuery("INSERT INTO JewelBank (AccountID, Bless, Soul, Chaos, Life, Creation) VALUES ('%s', %u, %u, %u, %u, %u) ON DUPLICATE KEY UPDATE Bless = %u, Soul = %u, Chaos = %u, Life = %u, Creation = %u",
+		lpMsg->account, lpMsg->Bless, lpMsg->Soul, lpMsg->Chaos, lpMsg->Life, lpMsg->Creation,
+		lpMsg->Bless, lpMsg->Soul, lpMsg->Chaos, lpMsg->Life, lpMsg->Creation);
 #endif
 
 	gQueryManager.Close();
