@@ -104,6 +104,12 @@ void CJewelBank::CGJewelBankActionRecv(PMSG_JEWEL_BANK_ACTION_RECV* lpMsg, int a
 		return;
 	}
 
+	if (lpMsg->Action == JEWEL_BANK_ACTION_DEPOSIT_ALL)
+	{
+		this->ProcessDepositAll(lpObj);
+		return;
+	}
+
 	if (lpMsg->JewelType >= JEWEL_TYPE_MAX)
 	{
 		this->GCJewelBankResultSend(aIndex, JEWEL_BANK_RESULT_INVALID_ITEM, lpMsg->Action, lpMsg->JewelType, 0);
@@ -124,6 +130,68 @@ void CJewelBank::CGJewelBankActionRecv(PMSG_JEWEL_BANK_ACTION_RECV* lpMsg, int a
 	}
 }
 
+void CJewelBank::ProcessDepositAll(LPOBJ lpObj)
+{
+	lpObj->JewelBankBusy = true;
+
+	int MaxValue = gItemManager.GetInventoryMaxValue(lpObj);
+	DWORD deletedTotal = 0;
+
+	for (int n = INVENTORY_WEAR_SIZE; n < MaxValue; n++)
+	{
+		if (lpObj->Inventory[n].IsItem() != 0)
+		{
+			int idx = lpObj->Inventory[n].m_Index;
+			if (idx == GET_ITEM(12, 15)) // Chaos
+			{
+				gItemManager.InventoryDelItem(lpObj->Index, n);
+				lpObj->JewelBankChaos++;
+				deletedTotal++;
+			}
+			else if (idx == GET_ITEM(14, 13)) // Bless
+			{
+				gItemManager.InventoryDelItem(lpObj->Index, n);
+				lpObj->JewelBankBless++;
+				deletedTotal++;
+			}
+			else if (idx == GET_ITEM(14, 14)) // Soul
+			{
+				gItemManager.InventoryDelItem(lpObj->Index, n);
+				lpObj->JewelBankSoul++;
+				deletedTotal++;
+			}
+			else if (idx == GET_ITEM(14, 16)) // Life
+			{
+				gItemManager.InventoryDelItem(lpObj->Index, n);
+				lpObj->JewelBankLife++;
+				deletedTotal++;
+			}
+			else if (idx == GET_ITEM(14, 22)) // Creation
+			{
+				gItemManager.InventoryDelItem(lpObj->Index, n);
+				lpObj->JewelBankCreation++;
+				deletedTotal++;
+			}
+		}
+	}
+
+	if (deletedTotal == 0)
+	{
+		lpObj->JewelBankBusy = false;
+		this->GCJewelBankResultSend(lpObj->Index, JEWEL_BANK_RESULT_NO_BALANCE, JEWEL_BANK_ACTION_DEPOSIT, 0, 0);
+		return;
+	}
+
+	this->GDJewelBankSaveSend(lpObj->Index);
+	GDInventoryItemSaveSend(lpObj->Index);
+
+	gItemManager.GCItemListSend(lpObj->Index);
+
+	lpObj->JewelBankBusy = false;
+
+	this->GCJewelBankResultSend(lpObj->Index, JEWEL_BANK_RESULT_SUCCESS, JEWEL_BANK_ACTION_DEPOSIT, 0, deletedTotal);
+}
+
 void CJewelBank::ProcessDeposit(LPOBJ lpObj, BYTE JewelType, DWORD RequestedCount)
 {
 	int itemIndex = this->GetJewelIndex(JewelType);
@@ -133,41 +201,42 @@ void CJewelBank::ProcessDeposit(LPOBJ lpObj, BYTE JewelType, DWORD RequestedCoun
 		return;
 	}
 
-	int availableCount = gItemManager.GetInventoryItemCount(lpObj, itemIndex, 0);
-	if (availableCount <= 0)
-	{
-		this->GCJewelBankResultSend(lpObj->Index, JEWEL_BANK_RESULT_NO_BALANCE, JEWEL_BANK_ACTION_DEPOSIT, JewelType, 0);
-		return;
-	}
-
-	DWORD countToDeposit = RequestedCount;
-	if (countToDeposit == 0 || countToDeposit > (DWORD)availableCount)
-	{
-		countToDeposit = (DWORD)availableCount;
-	}
-
 	DWORD* pBalance = nullptr;
 	switch (JewelType)
 	{
-		case JEWEL_TYPE_BLESS: pBalance = &lpObj->JewelBankBless; break;
-		case JEWEL_TYPE_SOUL:  pBalance = &lpObj->JewelBankSoul; break;
-		case JEWEL_TYPE_CHAOS: pBalance = &lpObj->JewelBankChaos; break;
-		case JEWEL_TYPE_LIFE:  pBalance = &lpObj->JewelBankLife; break;
+		case JEWEL_TYPE_BLESS:    pBalance = &lpObj->JewelBankBless; break;
+		case JEWEL_TYPE_SOUL:     pBalance = &lpObj->JewelBankSoul; break;
+		case JEWEL_TYPE_CHAOS:    pBalance = &lpObj->JewelBankChaos; break;
+		case JEWEL_TYPE_LIFE:     pBalance = &lpObj->JewelBankLife; break;
 		case JEWEL_TYPE_CREATION: pBalance = &lpObj->JewelBankCreation; break;
 		default: return;
 	}
 
-	if (*pBalance + countToDeposit < *pBalance)
+	lpObj->JewelBankBusy = true;
+
+	int MaxValue = gItemManager.GetInventoryMaxValue(lpObj);
+	DWORD deleted = 0;
+
+	for (int n = INVENTORY_WEAR_SIZE; n < MaxValue && (RequestedCount == 0xFFFFFFFF || deleted < RequestedCount); n++)
 	{
-		this->GCJewelBankResultSend(lpObj->Index, JEWEL_BANK_RESULT_INVALID_ITEM, JEWEL_BANK_ACTION_DEPOSIT, JewelType, 0);
+		if (lpObj->Inventory[n].IsItem() != 0)
+		{
+			if (lpObj->Inventory[n].m_Index == itemIndex)
+			{
+				gItemManager.InventoryDelItem(lpObj->Index, n);
+				deleted++;
+			}
+		}
+	}
+
+	if (deleted == 0)
+	{
+		lpObj->JewelBankBusy = false;
+		this->GCJewelBankResultSend(lpObj->Index, JEWEL_BANK_RESULT_NO_BALANCE, JEWEL_BANK_ACTION_DEPOSIT, JewelType, 0);
 		return;
 	}
 
-	lpObj->JewelBankBusy = true;
-
-	gItemManager.DeleteInventoryItemCount(lpObj, itemIndex, 0, (int)countToDeposit);
-
-	*pBalance += countToDeposit;
+	*pBalance += deleted;
 
 	this->GDJewelBankSaveSend(lpObj->Index);
 	GDInventoryItemSaveSend(lpObj->Index);
@@ -176,7 +245,7 @@ void CJewelBank::ProcessDeposit(LPOBJ lpObj, BYTE JewelType, DWORD RequestedCoun
 
 	lpObj->JewelBankBusy = false;
 
-	this->GCJewelBankResultSend(lpObj->Index, JEWEL_BANK_RESULT_SUCCESS, JEWEL_BANK_ACTION_DEPOSIT, JewelType, countToDeposit);
+	this->GCJewelBankResultSend(lpObj->Index, JEWEL_BANK_RESULT_SUCCESS, JEWEL_BANK_ACTION_DEPOSIT, JewelType, deleted);
 }
 
 void CJewelBank::ProcessWithdraw(LPOBJ lpObj, BYTE JewelType, DWORD RequestedCount)
@@ -191,36 +260,44 @@ void CJewelBank::ProcessWithdraw(LPOBJ lpObj, BYTE JewelType, DWORD RequestedCou
 	DWORD* pBalance = nullptr;
 	switch (JewelType)
 	{
-		case JEWEL_TYPE_BLESS: pBalance = &lpObj->JewelBankBless; break;
-		case JEWEL_TYPE_SOUL:  pBalance = &lpObj->JewelBankSoul; break;
-		case JEWEL_TYPE_CHAOS: pBalance = &lpObj->JewelBankChaos; break;
-		case JEWEL_TYPE_LIFE:  pBalance = &lpObj->JewelBankLife; break;
+		case JEWEL_TYPE_BLESS:    pBalance = &lpObj->JewelBankBless; break;
+		case JEWEL_TYPE_SOUL:     pBalance = &lpObj->JewelBankSoul; break;
+		case JEWEL_TYPE_CHAOS:    pBalance = &lpObj->JewelBankChaos; break;
+		case JEWEL_TYPE_LIFE:     pBalance = &lpObj->JewelBankLife; break;
 		case JEWEL_TYPE_CREATION: pBalance = &lpObj->JewelBankCreation; break;
 		default: return;
 	}
 
-	if (*pBalance < RequestedCount)
+	if (*pBalance == 0)
 	{
 		this->GCJewelBankResultSend(lpObj->Index, JEWEL_BANK_RESULT_NO_BALANCE, JEWEL_BANK_ACTION_WITHDRAW, JewelType, 0);
 		return;
 	}
 
 	DWORD countToWithdraw = RequestedCount;
+	if (countToWithdraw > *pBalance)
+	{
+		countToWithdraw = *pBalance;
+	}
+
 	if (countToWithdraw > 32)
 	{
 		countToWithdraw = 32;
 	}
 
 	int emptySlots = gItemManager.GetInventoryEmptySlotCount(lpObj);
-	if (emptySlots < (int)countToWithdraw)
+	if (emptySlots <= 0)
 	{
 		this->GCJewelBankResultSend(lpObj->Index, JEWEL_BANK_RESULT_NO_SPACE, JEWEL_BANK_ACTION_WITHDRAW, JewelType, 0);
 		return;
 	}
 
-	lpObj->JewelBankBusy = true;
+	if (countToWithdraw > (DWORD)emptySlots)
+	{
+		countToWithdraw = (DWORD)emptySlots;
+	}
 
-	*pBalance -= countToWithdraw;
+	lpObj->JewelBankBusy = true;
 
 	DWORD delivered = 0;
 	for (DWORD i = 0; i < countToWithdraw; i++)
@@ -232,12 +309,20 @@ void CJewelBank::ProcessWithdraw(LPOBJ lpObj, BYTE JewelType, DWORD RequestedCou
 		{
 			delivered++;
 		}
+		else
+		{
+			break;
+		}
 	}
 
-	if (delivered < countToWithdraw)
+	if (delivered == 0)
 	{
-		*pBalance += (countToWithdraw - delivered);
+		lpObj->JewelBankBusy = false;
+		this->GCJewelBankResultSend(lpObj->Index, JEWEL_BANK_RESULT_NO_SPACE, JEWEL_BANK_ACTION_WITHDRAW, JewelType, 0);
+		return;
 	}
+
+	*pBalance -= delivered;
 
 	this->GDJewelBankSaveSend(lpObj->Index);
 	GDInventoryItemSaveSend(lpObj->Index);

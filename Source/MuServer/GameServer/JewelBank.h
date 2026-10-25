@@ -7,6 +7,7 @@ enum eJewelBankAction
 {
 	JEWEL_BANK_ACTION_DEPOSIT = 1,
 	JEWEL_BANK_ACTION_WITHDRAW = 2,
+	JEWEL_BANK_ACTION_DEPOSIT_ALL = 3,
 };
 
 enum eJewelBankResult
@@ -113,6 +114,7 @@ public:
 
 private:
 	void ProcessDeposit(LPOBJ lpObj, BYTE JewelType, DWORD RequestedCount);
+	void ProcessDepositAll(LPOBJ lpObj);
 	void ProcessWithdraw(LPOBJ lpObj, BYTE JewelType, DWORD RequestedCount);
 };
 
