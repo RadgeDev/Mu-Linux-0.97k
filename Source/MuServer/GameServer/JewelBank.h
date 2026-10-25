@@ -29,6 +29,8 @@ enum eJewelType
 	JEWEL_TYPE_MAX = 5,
 };
 
+#pragma pack(push, 1)
+
 struct PMSG_JEWEL_BANK_INFO_SEND
 {
 	PSBMSG_HEAD header; // 0xF8, 0x20
@@ -91,6 +93,8 @@ struct SDHP_JEWEL_BANK_SAVE_SEND
 	DWORD Life;
 	DWORD Creation;
 };
+
+#pragma pack(pop)
 
 class CJewelBank
 {

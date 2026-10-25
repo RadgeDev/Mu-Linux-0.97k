@@ -2,6 +2,8 @@
 
 #include "ProtocolDefines.h"
 
+#pragma pack(push, 1)
+
 struct SDHP_JEWEL_BANK_GET_SEND
 {
 	PSBMSG_HEAD header; // 0x08, 0x00
@@ -32,6 +34,8 @@ struct SDHP_JEWEL_BANK_SAVE_SEND
 	DWORD Life;
 	DWORD Creation;
 };
+
+#pragma pack(pop)
 
 class CJewelBank
 {
