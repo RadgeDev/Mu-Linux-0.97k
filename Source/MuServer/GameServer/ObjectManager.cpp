@@ -2863,6 +2863,30 @@ void CObjectManager::CharacterLifeCheck(LPOBJ lpObj, LPOBJ lpTarget, int damage,
 		{
 			gObjUserDie(lpTarget, &gObj[SummonIndex]);
 
+			// Anuncio global de muerte PvP entre jugadores. Se reutiliza el
+			// paquete de chat 0x02 (mismo canal/estilo que whisper). El
+			// remitente son dos espacios: el cliente compone "<remitente><msg>"
+			// sin ":" y omite el duplicado en el overlay superior de sistema
+			// (el gate del ring legacy ignora mode 0 con remitente no vacio).
+			// El guard externo (Life<=0 && Live!=0) garantiza un unico
+			// anuncio por muerte.
+			if (lpObj->Type == OBJECT_USER && lpObj->Index != lpTarget->Index)
+			{
+				char text[64] = { 0 };
+
+				snprintf(text, sizeof(text), "%s mat\xF3 a %s", lpObj->Name, lpTarget->Name);
+
+				char sender[10] = { ' ', ' ' };
+
+				for (int n = OBJECT_START_USER; n < MAX_OBJECT; n++)
+				{
+					if (gObjIsConnectedGP(n) != 0)
+					{
+						GCChatWhisperSend(n, sender, text);
+					}
+				}
+			}
+
 			if (lpTarget->AttackerKilled == 0)
 			{
 				gObjPlayerKiller(&gObj[SummonIndex], lpTarget);
