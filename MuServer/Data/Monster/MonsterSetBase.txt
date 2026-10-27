@@ -18,42 +18,42 @@
 243	0	0	130	118	3	// Yoda Jewel Bank
 233	0	0	130	127	3	// Messenger of Archangel (Blood Castle)
 237	0	0	148	123	2	// Charon (Devil Square)
-// Spot Bull Fighter (BK Leveo - Exact Tile 137,76)
-0	0	0	137	76	-1	// Bull Fighter
-0	0	0	137	76	-1	// Bull Fighter
-0	0	0	137	76	-1	// Bull Fighter
-0	0	0	137	76	-1	// Bull Fighter
-0	0	0	137	76	-1	// Bull Fighter
-0	0	0	137	76	-1	// Bull Fighter
-0	0	0	137	76	-1	// Bull Fighter
-0	0	0	137	76	-1	// Bull Fighter
-// Spot Bull Fighter (Exact Tile 162,82)
-0	0	0	162	82	-1	// Bull Fighter
-0	0	0	162	82	-1	// Bull Fighter
-0	0	0	162	82	-1	// Bull Fighter
-0	0	0	162	82	-1	// Bull Fighter
-0	0	0	162	82	-1	// Bull Fighter
-0	0	0	162	82	-1	// Bull Fighter
-0	0	0	162	82	-1	// Bull Fighter
-0	0	0	162	82	-1	// Bull Fighter
-// Spot Skeleton (Exact Tile 134,180)
-14	0	0	134	180	-1	// Skeleton
-14	0	0	134	180	-1	// Skeleton
-14	0	0	134	180	-1	// Skeleton
-14	0	0	134	180	-1	// Skeleton
-14	0	0	134	180	-1	// Skeleton
-14	0	0	134	180	-1	// Skeleton
-14	0	0	134	180	-1	// Skeleton
-14	0	0	134	180	-1	// Skeleton
-// Spot Hound (Exact Tile 90,127)
-1	0	0	90	127	-1	// Hound
-1	0	0	90	127	-1	// Hound
-1	0	0	90	127	-1	// Hound
-1	0	0	90	127	-1	// Hound
-1	0	0	90	127	-1	// Hound
-1	0	0	90	127	-1	// Hound
-1	0	0	90	127	-1	// Hound
-1	0	0	90	127	-1	// Hound
+// Spot Bull Fighter (BK Leveo - Area compacta funcional 137,76)
+0	0	1	137	76	-1	// Bull Fighter
+0	0	1	138	76	-1	// Bull Fighter
+0	0	1	136	76	-1	// Bull Fighter
+0	0	1	137	77	-1	// Bull Fighter
+0	0	1	137	75	-1	// Bull Fighter
+0	0	1	138	77	-1	// Bull Fighter
+0	0	1	136	75	-1	// Bull Fighter
+0	0	1	138	75	-1	// Bull Fighter
+// Spot Bull Fighter (Area compacta funcional 162,82)
+0	0	1	162	82	-1	// Bull Fighter
+0	0	1	163	82	-1	// Bull Fighter
+0	0	1	161	82	-1	// Bull Fighter
+0	0	1	162	83	-1	// Bull Fighter
+0	0	1	162	81	-1	// Bull Fighter
+0	0	1	163	83	-1	// Bull Fighter
+0	0	1	161	81	-1	// Bull Fighter
+0	0	1	163	81	-1	// Bull Fighter
+// Spot Skeleton (Area compacta funcional 134,180)
+14	0	1	134	180	-1	// Skeleton
+14	0	1	135	180	-1	// Skeleton
+14	0	1	133	180	-1	// Skeleton
+14	0	1	134	181	-1	// Skeleton
+14	0	1	134	179	-1	// Skeleton
+14	0	1	135	181	-1	// Skeleton
+14	0	1	133	179	-1	// Skeleton
+14	0	1	135	179	-1	// Skeleton
+// Spot Hound (Area compacta funcional 90,127)
+1	0	1	90	127	-1	// Hound
+1	0	1	91	127	-1	// Hound
+1	0	1	89	127	-1	// Hound
+1	0	1	90	128	-1	// Hound
+1	0	1	90	126	-1	// Hound
+1	0	1	91	128	-1	// Hound
+1	0	1	89	126	-1	// Hound
+1	0	1	91	126	-1	// Hound
 249	0	10	131	88	1	// Berdysh Guard
 249	0	20	173	125	3	// Berdysh Guard
 249	0	20	94	125	7	// Berdysh Guard
