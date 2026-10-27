@@ -36,6 +36,15 @@
 0	0	0	162	82	-1	// Bull Fighter
 0	0	0	162	82	-1	// Bull Fighter
 0	0	0	162	82	-1	// Bull Fighter
+// Spot Skeleton (Exact Tile 134,180)
+14	0	0	134	180	-1	// Skeleton
+14	0	0	134	180	-1	// Skeleton
+14	0	0	134	180	-1	// Skeleton
+14	0	0	134	180	-1	// Skeleton
+14	0	0	134	180	-1	// Skeleton
+14	0	0	134	180	-1	// Skeleton
+14	0	0	134	180	-1	// Skeleton
+14	0	0	134	180	-1	// Skeleton
 249	0	10	131	88	1	// Berdysh Guard
 249	0	20	173	125	3	// Berdysh Guard
 249	0	20	94	125	7	// Berdysh Guard
@@ -333,8 +342,8 @@ end
 2	0	30	180	90	226	244	-1	35	// Budge Dragon
 2	0	30	135	20	240	88	-1	20	// Budge Dragon
 0	0	30	135	20	240	88	-1	35	// Bull Fighter
-6	0	30	95	168	175	244	-1	20	// Lich
-14	0	30	95	168	175	244	-1	22	// Skeleton Warrior
+6	0	30	95	168	175	244	-1	10	// Lich
+14	0	30	95	168	175	244	-1	10	// Skeleton Warrior
 1	0	30	8	11	94	244	-1	35	// Hound
 4	0	30	8	11	94	244	-1	35	// Hunter
 7	0	30	8	11	60	80	-1	15	// Giant
