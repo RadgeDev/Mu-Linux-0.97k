@@ -72,7 +72,7 @@ BOOL CMapPath::CanWeMoveForward(int x, int y)
 		return FALSE;
 	}
 
-	if (this->m_MapAttr[which] > 1 || this->m_HitAttr[which] != 0)
+	if ((this->m_MapAttr[which] & 1) != 0 || (this->m_MapAttr[which] & 4) != 0 || (this->m_MapAttr[which] & 8) != 0 || this->m_HitAttr[which] != 0)
 	{
 		this->m_HitAttr[which] = 1;
 

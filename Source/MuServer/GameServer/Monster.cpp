@@ -339,7 +339,10 @@ bool gObjSetMonster(int aIndex, int MonsterClass)
 		}
 	}
 
-	gMap[lpObj->Map].SetStandAttr(lpObj->X, lpObj->Y);
+	if (lpObj->Type == OBJECT_NPC)
+	{
+		gMap[lpObj->Map].SetStandAttr(lpObj->X, lpObj->Y);
+	}
 
 	lpObj->OldX = lpObj->X;
 
