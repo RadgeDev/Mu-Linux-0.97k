@@ -15,7 +15,7 @@
 240	0	0	147	145	1	// Safety Guardian
 240	0	0	146	110	3	// Safety Guardian
 236	0	0	130	127	3	// Golden Archer
-243	0	0	130	123	3	// Eo the Craftsman (Jewel Bank)
+243	0	0	130	118	3	// Yoda Jewel Bank
 249	0	10	131	88	1	// Berdysh Guard
 249	0	20	173	125	3	// Berdysh Guard
 249	0	20	94	125	7	// Berdysh Guard
@@ -43,6 +43,7 @@ end
 247	2	20	169	39	7	// Archer Guard
 241	2	0	215	45	1	// Royal Guard Captain Lorence
 240	2	0	218	63	2	// Safety Guardian
+243	2	0	212	63	2	// Yoda Jewel Bank
 end
 
 //=========================================================================================================================================
@@ -52,7 +53,7 @@ end
 //Mob	MapNum	Range	PosX	PosY	Direct	Name
 237	3	0	171	105	3	// Charon
 242	3	0	173	125	1	// Elf Lala
-243	3	0	195	124	2	// Eo the Craftsman
+243	3	0	172	100	2	// Yoda Jewel Bank
 240	3	0	172	96	3	// Safety Guardian
 238	3	0	180	103	1	// Chaos Goblin
 236	3	0	169	109	3	// Golden Archer
