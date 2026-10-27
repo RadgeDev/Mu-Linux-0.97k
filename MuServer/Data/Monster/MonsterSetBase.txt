@@ -1008,6 +1008,127 @@ end
 130	6	5	68	77	-1	// Magic Skeleton
 130	6	5	68	77	-1	// Magic Skeleton
 
+//=========================================================================================================================================
+// Icarus (18 Spots)
+//=========================================================================================================================================
+//Mob	MapNum	Range	PosX	PosY	Direct	Name
+
+// --- Icarus Zona 1: Entrada (Alquamos) ---
+// Spot BK - 5 Alquamos en (42, 35)
+69	10	5	42	35	-1	// Alquamos
+69	10	5	42	35	-1	// Alquamos
+69	10	5	42	35	-1	// Alquamos
+69	10	5	42	35	-1	// Alquamos
+69	10	5	42	35	-1	// Alquamos
+// Spot Abierto - 5 Alquamos en (56, 40)
+69	10	8	56	40	-1	// Alquamos
+69	10	8	56	40	-1	// Alquamos
+69	10	8	56	40	-1	// Alquamos
+69	10	8	56	40	-1	// Alquamos
+69	10	8	56	40	-1	// Alquamos
+
+// --- Icarus Zona 2: Sureste (Mega Crust) ---
+// Spot BK - 5 Mega Crust en (75, 38)
+71	10	5	75	38	-1	// Mega Crust
+71	10	5	75	38	-1	// Mega Crust
+71	10	5	75	38	-1	// Mega Crust
+71	10	5	75	38	-1	// Mega Crust
+71	10	5	75	38	-1	// Mega Crust
+// Spot Abierto - 5 Mega Crust en (88, 48)
+71	10	8	88	48	-1	// Mega Crust
+71	10	8	88	48	-1	// Mega Crust
+71	10	8	88	48	-1	// Mega Crust
+71	10	8	88	48	-1	// Mega Crust
+71	10	8	88	48	-1	// Mega Crust
+
+// --- Icarus Zona 3: Este (Queen Rainier) ---
+// Spot BK - 5 Queen Rainier en (72, 70)
+70	10	5	72	70	-1	// Queen Rainier
+70	10	5	72	70	-1	// Queen Rainier
+70	10	5	72	70	-1	// Queen Rainier
+70	10	5	72	70	-1	// Queen Rainier
+70	10	5	72	70	-1	// Queen Rainier
+// Spot Abierto - 5 Queen Rainier en (85, 78)
+70	10	8	85	78	-1	// Queen Rainier
+70	10	8	85	78	-1	// Queen Rainier
+70	10	8	85	78	-1	// Queen Rainier
+70	10	8	85	78	-1	// Queen Rainier
+70	10	8	85	78	-1	// Queen Rainier
+
+// --- Icarus Zona 4: Centro (Drakan) ---
+// Spot BK - 5 Drakan en (48, 70)
+73	10	5	48	70	-1	// Drakan
+73	10	5	48	70	-1	// Drakan
+73	10	5	48	70	-1	// Drakan
+73	10	5	48	70	-1	// Drakan
+73	10	5	48	70	-1	// Drakan
+// Spot Abierto - 5 Drakan en (34, 70)
+73	10	8	34	70	-1	// Drakan
+73	10	8	34	70	-1	// Drakan
+73	10	8	34	70	-1	// Drakan
+73	10	8	34	70	-1	// Drakan
+73	10	8	34	70	-1	// Drakan
+
+// --- Icarus Zona 5: Pasaje Superior (Alpha Crust) ---
+// Spot BK - 5 Alpha Crust en (38, 95)
+74	10	5	38	95	-1	// Alpha Crust
+74	10	5	38	95	-1	// Alpha Crust
+74	10	5	38	95	-1	// Alpha Crust
+74	10	5	38	95	-1	// Alpha Crust
+74	10	5	38	95	-1	// Alpha Crust
+// Spot Abierto - 5 Alpha Crust en (36, 110)
+74	10	8	36	110	-1	// Alpha Crust
+74	10	8	36	110	-1	// Alpha Crust
+74	10	8	36	110	-1	// Alpha Crust
+74	10	8	36	110	-1	// Alpha Crust
+74	10	8	36	110	-1	// Alpha Crust
+
+// --- Icarus Zona 6: Plataforma Media Alta (Phantom Knight) ---
+// Spot BK - 5 Phantom Knight en (50, 132)
+72	10	5	50	132	-1	// Phantom Knight
+72	10	5	50	132	-1	// Phantom Knight
+72	10	5	50	132	-1	// Phantom Knight
+72	10	5	50	132	-1	// Phantom Knight
+72	10	5	50	132	-1	// Phantom Knight
+// Spot Abierto - 5 Phantom Knight en (52, 145)
+72	10	8	52	145	-1	// Phantom Knight
+72	10	8	52	145	-1	// Phantom Knight
+72	10	8	52	145	-1	// Phantom Knight
+72	10	8	52	145	-1	// Phantom Knight
+72	10	8	52	145	-1	// Phantom Knight
+
+// --- Icarus Zona 7: Antesala Final (Great Drakan) ---
+// Spot BK - 5 Great Drakan en (47, 175)
+75	10	5	47	175	-1	// Great Drakan
+75	10	5	47	175	-1	// Great Drakan
+75	10	5	47	175	-1	// Great Drakan
+75	10	5	47	175	-1	// Great Drakan
+75	10	5	47	175	-1	// Great Drakan
+// Spot Abierto - 5 Great Drakan en (48, 192)
+75	10	8	48	192	-1	// Great Drakan
+75	10	8	48	192	-1	// Great Drakan
+75	10	8	48	192	-1	// Great Drakan
+75	10	8	48	192	-1	// Great Drakan
+75	10	8	48	192	-1	// Great Drakan
+
+// --- Icarus Zona 8: Sector Final (Phoenix of Darkness) ---
+// Spot F?nix 1 (Centro/Sur) - 3 Phoenix of Darkness en (39, 222)
+77	10	5	39	222	-1	// Phoenix of Darkness
+77	10	5	39	222	-1	// Phoenix of Darkness
+77	10	5	39	222	-1	// Phoenix of Darkness
+// Spot F?nix 2 (Norte/Fondo) - 3 Phoenix of Darkness en (39, 235)
+77	10	5	39	235	-1	// Phoenix of Darkness
+77	10	5	39	235	-1	// Phoenix of Darkness
+77	10	5	39	235	-1	// Phoenix of Darkness
+// Spot F?nix 3 (Oeste) - 3 Phoenix of Darkness en (27, 225)
+77	10	5	27	225	-1	// Phoenix of Darkness
+77	10	5	27	225	-1	// Phoenix of Darkness
+77	10	5	27	225	-1	// Phoenix of Darkness
+// Spot F?nix 4 (Este) - 3 Phoenix of Darkness en (49, 225)
+77	10	5	49	225	-1	// Phoenix of Darkness
+77	10	5	49	225	-1	// Phoenix of Darkness
+77	10	5	49	225	-1	// Phoenix of Darkness
+
 end
 //		TRAPS			//
 //======================================//
@@ -1503,14 +1624,14 @@ end
 //=========================================================================================================================================
 1
 //Mob	Map	Radio	CordX	CordY	CordX2	CordY2	Dir 	Quant	Name
-69	10	10	30	23	65	45	-1	6	// Alquamos
-70	10	10	30	23	65	45	-1	7	// Queen Rainier
-71	10	10	87	28	97	67	-1	6	// Mega Crust
-72	10	10	60	66	80	88	-1	7	// Phantom Knight
-73	10	10	28	95	46	117	-1	6	// Drakan
-75	10	10	37	140	62	171	-1	7	// Great Drakan
-74	10	10	40	197	54	219	-1	5	// Alpha Crust
-77	10	10	35	226	45	236	-1	3	// Phoenix of Darkness
+// [REPLACED BY S0 ICARUS SPOTS] 69	10	10	30	23	65	45	-1	6	// Alquamos
+// [REPLACED BY S0 ICARUS SPOTS] 70	10	10	30	23	65	45	-1	7	// Queen Rainier
+// [REPLACED BY S0 ICARUS SPOTS] 71	10	10	87	28	97	67	-1	6	// Mega Crust
+// [REPLACED BY S0 ICARUS SPOTS] 72	10	10	60	66	80	88	-1	7	// Phantom Knight
+// [REPLACED BY S0 ICARUS SPOTS] 73	10	10	28	95	46	117	-1	6	// Drakan
+// [REPLACED BY S0 ICARUS SPOTS] 75	10	10	37	140	62	171	-1	7	// Great Drakan
+// [REPLACED BY S0 ICARUS SPOTS] 74	10	10	40	197	54	219	-1	5	// Alpha Crust
+// [REPLACED BY S0 ICARUS SPOTS] 77	10	10	35	226	45	236	-1	3	// Phoenix of Darkness
 end
 
 //======================================//
@@ -2673,121 +2794,121 @@ end
 
 // Icarus
 2
-69	10	30	53	26	-1
-69	10	30	53	26	-1
-69	10	30	42	36	-1
-69	10	30	42	36	-1
-69	10	30	56	41	-1
-69	10	30	56	41	-1
-69	10	30	31	28	-1
-69	10	30	31	28	-1
-69	10	30	57	37	-1
-69	10	30	57	37	-1
-69	10	30	44	27	-1
-69	10	30	44	27	-1
-69	10	30	31	40	-1
-69	10	30	31	40	-1
-69	10	30	32	28	-1
-69	10	30	32	28	-1
-71	10	30	66	48	-1
-71	10	30	77	40	-1
-71	10	30	82	53	-1
-71	10	30	77	41	-1
+// [CLEANED NEAR ICARUS SPOT D<=11] 69	10	30	53	26	-1
+// [CLEANED NEAR ICARUS SPOT D<=11] 69	10	30	53	26	-1
+// [CLEANED NEAR ICARUS SPOT D<=1] 69	10	30	42	36	-1
+// [CLEANED NEAR ICARUS SPOT D<=1] 69	10	30	42	36	-1
+// [CLEANED NEAR ICARUS SPOT D<=1] 69	10	30	56	41	-1
+// [CLEANED NEAR ICARUS SPOT D<=1] 69	10	30	56	41	-1
+// [CLEANED NEAR ICARUS SPOT D<=11] 69	10	30	31	28	-1
+// [CLEANED NEAR ICARUS SPOT D<=11] 69	10	30	31	28	-1
+// [CLEANED NEAR ICARUS SPOT D<=3] 69	10	30	57	37	-1
+// [CLEANED NEAR ICARUS SPOT D<=3] 69	10	30	57	37	-1
+// [CLEANED NEAR ICARUS SPOT D<=8] 69	10	30	44	27	-1
+// [CLEANED NEAR ICARUS SPOT D<=8] 69	10	30	44	27	-1
+// [CLEANED NEAR ICARUS SPOT D<=11] 69	10	30	31	40	-1
+// [CLEANED NEAR ICARUS SPOT D<=11] 69	10	30	31	40	-1
+// [CLEANED NEAR ICARUS SPOT D<=10] 69	10	30	32	28	-1
+// [CLEANED NEAR ICARUS SPOT D<=10] 69	10	30	32	28	-1
+// [CLEANED NEAR ICARUS SPOT D<=10] 71	10	30	66	48	-1
+// [CLEANED NEAR ICARUS SPOT D<=2] 71	10	30	77	40	-1
+// [CLEANED NEAR ICARUS SPOT D<=6] 71	10	30	82	53	-1
+// [CLEANED NEAR ICARUS SPOT D<=3] 71	10	30	77	41	-1
 71	10	30	94	32	-1
-71	10	30	87	44	-1
-71	10	30	90	40	-1
-71	10	30	74	44	-1
-71	10	30	66	48	-1
-71	10	30	77	40	-1
-71	10	30	82	53	-1
-71	10	30	77	41	-1
+// [CLEANED NEAR ICARUS SPOT D<=4] 71	10	30	87	44	-1
+// [CLEANED NEAR ICARUS SPOT D<=8] 71	10	30	90	40	-1
+// [CLEANED NEAR ICARUS SPOT D<=6] 71	10	30	74	44	-1
+// [CLEANED NEAR ICARUS SPOT D<=10] 71	10	30	66	48	-1
+// [CLEANED NEAR ICARUS SPOT D<=2] 71	10	30	77	40	-1
+// [CLEANED NEAR ICARUS SPOT D<=6] 71	10	30	82	53	-1
+// [CLEANED NEAR ICARUS SPOT D<=3] 71	10	30	77	41	-1
 71	10	30	94	32	-1
-71	10	30	87	44	-1
-71	10	30	90	40	-1
-71	10	30	74	44	-1
-70	10	30	89	60	-1
-70	10	30	88	65	-1
-70	10	30	92	70	-1
-70	10	30	68	75	-1
-70	10	30	77	79	-1
-70	10	30	72	71	-1
-70	10	30	74	84	-1
-70	10	30	65	74	-1
-70	10	30	89	60	-1
-70	10	30	88	65	-1
-70	10	30	92	70	-1
-70	10	30	68	75	-1
-70	10	30	77	79	-1
-70	10	30	72	71	-1
-70	10	30	74	84	-1
-70	10	30	65	74	-1
-73	10	30	49	74	-1
-73	10	30	30	74	-1
-73	10	30	39	65	-1
-73	10	30	41	67	-1
-73	10	30	37	68	-1
-73	10	30	53	69	-1
-73	10	30	50	73	-1
-70	10	30	89	60	-1
-70	10	30	88	65	-1
-70	10	30	92	70	-1
-70	10	30	68	75	-1
-70	10	30	77	79	-1
-70	10	30	72	71	-1
-70	10	30	74	84	-1
-70	10	30	65	74	-1
-73	10	30	49	74	-1
-73	10	30	30	74	-1
-73	10	30	39	65	-1
-73	10	30	41	67	-1
-73	10	30	37	68	-1
-73	10	30	53	69	-1
-73	10	30	50	73	-1
-70	10	30	89	60	-1
-70	10	30	88	65	-1
-70	10	30	92	70	-1
-70	10	30	68	75	-1
-70	10	30	77	79	-1
-70	10	30	72	71	-1
-70	10	30	74	84	-1
-70	10	30	65	74	-1
-74	10	30	38	92	-1
-74	10	30	32	94	-1
-74	10	30	44	101	-1
-74	10	30	44	88	-1
-74	10	30	34	91	-1
-74	10	30	44	109	-1
-74	10	30	38	92	-1
-74	10	30	32	94	-1
-74	10	30	44	101	-1
-74	10	30	44	88	-1
-74	10	30	34	91	-1
-74	10	30	44	109	-1
-72	10	30	55	137	-1
-72	10	30	43	127	-1
-72	10	30	50	132	-1
-72	10	30	57	145	-1
-72	10	30	50	141	-1
-72	10	30	45	137	-1
-72	10	30	55	137	-1
-72	10	30	43	127	-1
-72	10	30	50	132	-1
-72	10	30	57	145	-1
-72	10	30	50	141	-1
-72	10	30	45	137	-1
-75	10	30	52	180	-1
-75	10	30	52	195	-1
-75	10	30	45	169	-1
-75	10	30	48	179	-1
-75	10	30	45	193	-1
-75	10	30	43	175	-1
-75	10	30	52	180	-1
-75	10	30	52	195	-1
-75	10	30	45	169	-1
-75	10	30	48	179	-1
-75	10	30	45	193	-1
-75	10	30	43	175	-1
-77	10	30	40	227	-1
+// [CLEANED NEAR ICARUS SPOT D<=4] 71	10	30	87	44	-1
+// [CLEANED NEAR ICARUS SPOT D<=8] 71	10	30	90	40	-1
+// [CLEANED NEAR ICARUS SPOT D<=6] 71	10	30	74	44	-1
+// [CLEANED NEAR ICARUS SPOT D<=12] 70	10	30	89	60	-1
+// [CLEANED NEAR ICARUS SPOT D<=13] 70	10	30	88	65	-1
+// [CLEANED NEAR ICARUS SPOT D<=8] 70	10	30	92	70	-1
+// [CLEANED NEAR ICARUS SPOT D<=5] 70	10	30	68	75	-1
+// [CLEANED NEAR ICARUS SPOT D<=8] 70	10	30	77	79	-1
+// [CLEANED NEAR ICARUS SPOT D<=1] 70	10	30	72	71	-1
+// [CLEANED NEAR ICARUS SPOT D<=11] 70	10	30	74	84	-1
+// [CLEANED NEAR ICARUS SPOT D<=7] 70	10	30	65	74	-1
+// [CLEANED NEAR ICARUS SPOT D<=12] 70	10	30	89	60	-1
+// [CLEANED NEAR ICARUS SPOT D<=13] 70	10	30	88	65	-1
+// [CLEANED NEAR ICARUS SPOT D<=8] 70	10	30	92	70	-1
+// [CLEANED NEAR ICARUS SPOT D<=5] 70	10	30	68	75	-1
+// [CLEANED NEAR ICARUS SPOT D<=8] 70	10	30	77	79	-1
+// [CLEANED NEAR ICARUS SPOT D<=1] 70	10	30	72	71	-1
+// [CLEANED NEAR ICARUS SPOT D<=11] 70	10	30	74	84	-1
+// [CLEANED NEAR ICARUS SPOT D<=7] 70	10	30	65	74	-1
+// [CLEANED NEAR ICARUS SPOT D<=4] 73	10	30	49	74	-1
+// [CLEANED NEAR ICARUS SPOT D<=4] 73	10	30	30	74	-1
+// [CLEANED NEAR ICARUS SPOT D<=5] 73	10	30	39	65	-1
+// [CLEANED NEAR ICARUS SPOT D<=7] 73	10	30	41	67	-1
+// [CLEANED NEAR ICARUS SPOT D<=3] 73	10	30	37	68	-1
+// [CLEANED NEAR ICARUS SPOT D<=5] 73	10	30	53	69	-1
+// [CLEANED NEAR ICARUS SPOT D<=3] 73	10	30	50	73	-1
+// [CLEANED NEAR ICARUS SPOT D<=12] 70	10	30	89	60	-1
+// [CLEANED NEAR ICARUS SPOT D<=13] 70	10	30	88	65	-1
+// [CLEANED NEAR ICARUS SPOT D<=8] 70	10	30	92	70	-1
+// [CLEANED NEAR ICARUS SPOT D<=5] 70	10	30	68	75	-1
+// [CLEANED NEAR ICARUS SPOT D<=8] 70	10	30	77	79	-1
+// [CLEANED NEAR ICARUS SPOT D<=1] 70	10	30	72	71	-1
+// [CLEANED NEAR ICARUS SPOT D<=11] 70	10	30	74	84	-1
+// [CLEANED NEAR ICARUS SPOT D<=7] 70	10	30	65	74	-1
+// [CLEANED NEAR ICARUS SPOT D<=4] 73	10	30	49	74	-1
+// [CLEANED NEAR ICARUS SPOT D<=4] 73	10	30	30	74	-1
+// [CLEANED NEAR ICARUS SPOT D<=5] 73	10	30	39	65	-1
+// [CLEANED NEAR ICARUS SPOT D<=7] 73	10	30	41	67	-1
+// [CLEANED NEAR ICARUS SPOT D<=3] 73	10	30	37	68	-1
+// [CLEANED NEAR ICARUS SPOT D<=5] 73	10	30	53	69	-1
+// [CLEANED NEAR ICARUS SPOT D<=3] 73	10	30	50	73	-1
+// [CLEANED NEAR ICARUS SPOT D<=12] 70	10	30	89	60	-1
+// [CLEANED NEAR ICARUS SPOT D<=13] 70	10	30	88	65	-1
+// [CLEANED NEAR ICARUS SPOT D<=8] 70	10	30	92	70	-1
+// [CLEANED NEAR ICARUS SPOT D<=5] 70	10	30	68	75	-1
+// [CLEANED NEAR ICARUS SPOT D<=8] 70	10	30	77	79	-1
+// [CLEANED NEAR ICARUS SPOT D<=1] 70	10	30	72	71	-1
+// [CLEANED NEAR ICARUS SPOT D<=11] 70	10	30	74	84	-1
+// [CLEANED NEAR ICARUS SPOT D<=7] 70	10	30	65	74	-1
+// [CLEANED NEAR ICARUS SPOT D<=3] 74	10	30	38	92	-1
+// [CLEANED NEAR ICARUS SPOT D<=6] 74	10	30	32	94	-1
+// [CLEANED NEAR ICARUS SPOT D<=6] 74	10	30	44	101	-1
+// [CLEANED NEAR ICARUS SPOT D<=7] 74	10	30	44	88	-1
+// [CLEANED NEAR ICARUS SPOT D<=4] 74	10	30	34	91	-1
+// [CLEANED NEAR ICARUS SPOT D<=8] 74	10	30	44	109	-1
+// [CLEANED NEAR ICARUS SPOT D<=3] 74	10	30	38	92	-1
+// [CLEANED NEAR ICARUS SPOT D<=6] 74	10	30	32	94	-1
+// [CLEANED NEAR ICARUS SPOT D<=6] 74	10	30	44	101	-1
+// [CLEANED NEAR ICARUS SPOT D<=7] 74	10	30	44	88	-1
+// [CLEANED NEAR ICARUS SPOT D<=4] 74	10	30	34	91	-1
+// [CLEANED NEAR ICARUS SPOT D<=8] 74	10	30	44	109	-1
+// [CLEANED NEAR ICARUS SPOT D<=5] 72	10	30	55	137	-1
+// [CLEANED NEAR ICARUS SPOT D<=7] 72	10	30	43	127	-1
+// [CLEANED NEAR ICARUS SPOT D<=0] 72	10	30	50	132	-1
+// [CLEANED NEAR ICARUS SPOT D<=5] 72	10	30	57	145	-1
+// [CLEANED NEAR ICARUS SPOT D<=4] 72	10	30	50	141	-1
+// [CLEANED NEAR ICARUS SPOT D<=5] 72	10	30	45	137	-1
+// [CLEANED NEAR ICARUS SPOT D<=5] 72	10	30	55	137	-1
+// [CLEANED NEAR ICARUS SPOT D<=7] 72	10	30	43	127	-1
+// [CLEANED NEAR ICARUS SPOT D<=0] 72	10	30	50	132	-1
+// [CLEANED NEAR ICARUS SPOT D<=5] 72	10	30	57	145	-1
+// [CLEANED NEAR ICARUS SPOT D<=4] 72	10	30	50	141	-1
+// [CLEANED NEAR ICARUS SPOT D<=5] 72	10	30	45	137	-1
+// [CLEANED NEAR ICARUS SPOT D<=5] 75	10	30	52	180	-1
+// [CLEANED NEAR ICARUS SPOT D<=4] 75	10	30	52	195	-1
+// [CLEANED NEAR ICARUS SPOT D<=6] 75	10	30	45	169	-1
+// [CLEANED NEAR ICARUS SPOT D<=4] 75	10	30	48	179	-1
+// [CLEANED NEAR ICARUS SPOT D<=3] 75	10	30	45	193	-1
+// [CLEANED NEAR ICARUS SPOT D<=4] 75	10	30	43	175	-1
+// [CLEANED NEAR ICARUS SPOT D<=5] 75	10	30	52	180	-1
+// [CLEANED NEAR ICARUS SPOT D<=4] 75	10	30	52	195	-1
+// [CLEANED NEAR ICARUS SPOT D<=6] 75	10	30	45	169	-1
+// [CLEANED NEAR ICARUS SPOT D<=4] 75	10	30	48	179	-1
+// [CLEANED NEAR ICARUS SPOT D<=3] 75	10	30	45	193	-1
+// [CLEANED NEAR ICARUS SPOT D<=4] 75	10	30	43	175	-1
+// [CLEANED NEAR ICARUS SPOT D<=5] 77	10	30	40	227	-1
 end
 
 //		INVASIONS		//
