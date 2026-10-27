@@ -85,97 +85,230 @@ end
 237	2	0	205	44	2	// Charon (Devil Square)
 
 // =========================================================================
-// NUEVOS SPOTS REORGANIZADOS: DEVIAS 1, DEVIAS 2, DEVIAS 3
+// REORGANIZACION DEVIAS 1, 2, 3, 4 (SPOTS COMPACTOS EXACT TILE)
 // =========================================================================
+// --- DEVIAS 1 ---
+// SPOT 1: 8 Worm en (223, 84)
+24	2	0	223	84	-1	// Worm
+24	2	0	223	84	-1	// Worm
+24	2	0	223	84	-1	// Worm
+24	2	0	223	84	-1	// Worm
+24	2	0	223	84	-1	// Worm
+24	2	0	223	84	-1	// Worm
+24	2	0	223	84	-1	// Worm
+24	2	0	223	84	-1	// Worm
+// SPOT 2: 8 Ice Monster en (236, 84)
+22	2	0	236	84	-1	// Ice Monster
+22	2	0	236	84	-1	// Ice Monster
+22	2	0	236	84	-1	// Ice Monster
+22	2	0	236	84	-1	// Ice Monster
+22	2	0	236	84	-1	// Ice Monster
+22	2	0	236	84	-1	// Ice Monster
+22	2	0	236	84	-1	// Ice Monster
+22	2	0	236	84	-1	// Ice Monster
 
-// --- DEVIAS 1: Salidas de Ciudad (Zona segura 210,40 / Salidas 224,75 y 168,42) ---
-// Spot BK 1 (Worm): 8 Worms exact tile en (235, 95)
-24	2	0	235	95	-1	// Worm
-24	2	0	235	95	-1	// Worm
-24	2	0	235	95	-1	// Worm
-24	2	0	235	95	-1	// Worm
-24	2	0	235	95	-1	// Worm
-24	2	0	235	95	-1	// Worm
-24	2	0	235	95	-1	// Worm
-24	2	0	235	95	-1	// Worm
+// --- DEVIAS 2 ---
+// SPOT 1: 8 Elite Yeti en (36, 14)
+20	2	0	36	14	-1	// Elite Yeti
+20	2	0	36	14	-1	// Elite Yeti
+20	2	0	36	14	-1	// Elite Yeti
+20	2	0	36	14	-1	// Elite Yeti
+20	2	0	36	14	-1	// Elite Yeti
+20	2	0	36	14	-1	// Elite Yeti
+20	2	0	36	14	-1	// Elite Yeti
+20	2	0	36	14	-1	// Elite Yeti
+// SPOT 2: 8 Elite Yeti en (36, 26)
+20	2	0	36	26	-1	// Elite Yeti
+20	2	0	36	26	-1	// Elite Yeti
+20	2	0	36	26	-1	// Elite Yeti
+20	2	0	36	26	-1	// Elite Yeti
+20	2	0	36	26	-1	// Elite Yeti
+20	2	0	36	26	-1	// Elite Yeti
+20	2	0	36	26	-1	// Elite Yeti
+20	2	0	36	26	-1	// Elite Yeti
+// SPOT 3: 8 Assassin en (36, 38)
+21	2	0	36	38	-1	// Assassin
+21	2	0	36	38	-1	// Assassin
+21	2	0	36	38	-1	// Assassin
+21	2	0	36	38	-1	// Assassin
+21	2	0	36	38	-1	// Assassin
+21	2	0	36	38	-1	// Assassin
+21	2	0	36	38	-1	// Assassin
+21	2	0	36	38	-1	// Assassin
 
-// Spot BK 2 (Ice Monster): 8 Ice Monsters exact tile en (155, 52)
-22	2	0	155	52	-1	// Ice Monster
-22	2	0	155	52	-1	// Ice Monster
-22	2	0	155	52	-1	// Ice Monster
-22	2	0	155	52	-1	// Ice Monster
-22	2	0	155	52	-1	// Ice Monster
-22	2	0	155	52	-1	// Ice Monster
-22	2	0	155	52	-1	// Ice Monster
-22	2	0	155	52	-1	// Ice Monster
+// --- DEVIAS 3 ---
+// SPOT 1: 8 Elite Yeti en (218, 215)
+20	2	0	218	215	-1	// Elite Yeti
+20	2	0	218	215	-1	// Elite Yeti
+20	2	0	218	215	-1	// Elite Yeti
+20	2	0	218	215	-1	// Elite Yeti
+20	2	0	218	215	-1	// Elite Yeti
+20	2	0	218	215	-1	// Elite Yeti
+20	2	0	218	215	-1	// Elite Yeti
+20	2	0	218	215	-1	// Elite Yeti
+// SPOT 2: 8 Elite Yeti en (216, 200)
+20	2	0	216	200	-1	// Elite Yeti
+20	2	0	216	200	-1	// Elite Yeti
+20	2	0	216	200	-1	// Elite Yeti
+20	2	0	216	200	-1	// Elite Yeti
+20	2	0	216	200	-1	// Elite Yeti
+20	2	0	216	200	-1	// Elite Yeti
+20	2	0	216	200	-1	// Elite Yeti
+20	2	0	216	200	-1	// Elite Yeti
 
-// Monstruos sueltos camino de Devias 1
-24	2	0	230	90	-1	// Worm
-24	2	0	240	92	-1	// Worm
-22	2	0	228	102	-1	// Ice Monster
-22	2	0	238	105	-1	// Ice Monster
-23	2	0	242	112	-1	// Hommerd
-24	2	0	160	48	-1	// Worm
-22	2	0	152	42	-1	// Ice Monster
-23	2	0	148	58	-1	// Hommerd
+// --- DEVIAS 4 ---
+// SPOT 1: 8 Ice Queen en (77, 173)
+25	2	0	77	173	-1	// Ice Queen
+25	2	0	77	173	-1	// Ice Queen
+25	2	0	77	173	-1	// Ice Queen
+25	2	0	77	173	-1	// Ice Queen
+25	2	0	77	173	-1	// Ice Queen
+25	2	0	77	173	-1	// Ice Queen
+25	2	0	77	173	-1	// Ice Queen
+25	2	0	77	173	-1	// Ice Queen
+// SPOT 2: 8 Hommerd en (84, 167)
+23	2	0	84	167	-1	// Hommerd
+23	2	0	84	167	-1	// Hommerd
+23	2	0	84	167	-1	// Hommerd
+23	2	0	84	167	-1	// Hommerd
+23	2	0	84	167	-1	// Hommerd
+23	2	0	84	167	-1	// Hommerd
+23	2	0	84	167	-1	// Hommerd
+23	2	0	84	167	-1	// Hommerd
+// =========================================================================
+// REORGANIZACION DUNGEON 1, 2, 3 (SPOTS COMPACTOS EXACT TILE)
+// =========================================================================
+// --- DUNGEON 1 ---
+// SPOT 1: 8 Hell Hound en (108, 233)
+5	1	0	108	233	-1	// Hell Hound
+5	1	0	108	233	-1	// Hell Hound
+5	1	0	108	233	-1	// Hell Hound
+5	1	0	108	233	-1	// Hell Hound
+5	1	0	108	233	-1	// Hell Hound
+5	1	0	108	233	-1	// Hell Hound
+5	1	0	108	233	-1	// Hell Hound
+5	1	0	108	233	-1	// Hell Hound
+// SPOT 2: 8 Skeleton en (100, 219)
+14	1	0	100	219	-1	// Skeleton
+14	1	0	100	219	-1	// Skeleton
+14	1	0	100	219	-1	// Skeleton
+14	1	0	100	219	-1	// Skeleton
+14	1	0	100	219	-1	// Skeleton
+14	1	0	100	219	-1	// Skeleton
+14	1	0	100	219	-1	// Skeleton
+14	1	0	100	219	-1	// Skeleton
+// SPOT 3: 8 Thunder Lich en (83, 208)
+9	1	0	83	208	-1	// Thunder Lich
+9	1	0	83	208	-1	// Thunder Lich
+9	1	0	83	208	-1	// Thunder Lich
+9	1	0	83	208	-1	// Thunder Lich
+9	1	0	83	208	-1	// Thunder Lich
+9	1	0	83	208	-1	// Thunder Lich
+9	1	0	83	208	-1	// Thunder Lich
+9	1	0	83	208	-1	// Thunder Lich
+// SPOT 4: 8 Dark Knight en (83, 232)
+10	1	0	83	232	-1	// Dark Knight
+10	1	0	83	232	-1	// Dark Knight
+10	1	0	83	232	-1	// Dark Knight
+10	1	0	83	232	-1	// Dark Knight
+10	1	0	83	232	-1	// Dark Knight
+10	1	0	83	232	-1	// Dark Knight
+10	1	0	83	232	-1	// Dark Knight
+10	1	0	83	232	-1	// Dark Knight
 
-// --- DEVIAS 2: Zona Desierto Helado (Warp 25, 25 - Espacio seguro de salida) ---
-// Spot BK 1 (Assassin): 8 Assassin exact tile en (28, 48)
-21	2	0	28	48	-1	// Assassin
-21	2	0	28	48	-1	// Assassin
-21	2	0	28	48	-1	// Assassin
-21	2	0	28	48	-1	// Assassin
-21	2	0	28	48	-1	// Assassin
-21	2	0	28	48	-1	// Assassin
-21	2	0	28	48	-1	// Assassin
-21	2	0	28	48	-1	// Assassin
+// --- DUNGEON 2 (UNICOS 3 SPOTS EN EL MAPA) ---
+// SPOT 1: 8 Cyclops en (230, 116)
+17	1	0	230	116	-1	// Cyclops
+17	1	0	230	116	-1	// Cyclops
+17	1	0	230	116	-1	// Cyclops
+17	1	0	230	116	-1	// Cyclops
+17	1	0	230	116	-1	// Cyclops
+17	1	0	230	116	-1	// Cyclops
+17	1	0	230	116	-1	// Cyclops
+17	1	0	230	116	-1	// Cyclops
+// SPOT 2: 8 Cyclops en (236, 107)
+17	1	0	236	107	-1	// Cyclops
+17	1	0	236	107	-1	// Cyclops
+17	1	0	236	107	-1	// Cyclops
+17	1	0	236	107	-1	// Cyclops
+17	1	0	236	107	-1	// Cyclops
+17	1	0	236	107	-1	// Cyclops
+17	1	0	236	107	-1	// Cyclops
+17	1	0	236	107	-1	// Cyclops
+// SPOT 3: 8 Skeleton Archer en (172, 119)
+15	1	0	172	119	-1	// Skeleton Archer
+15	1	0	172	119	-1	// Skeleton Archer
+15	1	0	172	119	-1	// Skeleton Archer
+15	1	0	172	119	-1	// Skeleton Archer
+15	1	0	172	119	-1	// Skeleton Archer
+15	1	0	172	119	-1	// Skeleton Archer
+15	1	0	172	119	-1	// Skeleton Archer
+15	1	0	172	119	-1	// Skeleton Archer
 
-// Spot BK 2 (Yeti): 8 Yeti exact tile en (48, 30)
-19	2	0	48	30	-1	// Yeti
-19	2	0	48	30	-1	// Yeti
-19	2	0	48	30	-1	// Yeti
-19	2	0	48	30	-1	// Yeti
-19	2	0	48	30	-1	// Yeti
-19	2	0	48	30	-1	// Yeti
-19	2	0	48	30	-1	// Yeti
-19	2	0	48	30	-1	// Yeti
-
-// Monstruos sueltos camino de Devias 2
-21	2	0	32	36	-1	// Assassin
-21	2	0	38	40	-1	// Assassin
-19	2	0	42	34	-1	// Yeti
-19	2	0	45	42	-1	// Yeti
-23	2	0	35	50	-1	// Hommerd
-20	2	0	55	35	-1	// Elite Yeti
-
-// --- DEVIAS 3: Zona Superior y Castillo (Warp 225, 230 - Espacio seguro de salida) ---
-// Spot BK 1 (Elite Yeti): 8 Elite Yeti exact tile en (208, 218)
-20	2	0	208	218	-1	// Elite Yeti
-20	2	0	208	218	-1	// Elite Yeti
-20	2	0	208	218	-1	// Elite Yeti
-20	2	0	208	218	-1	// Elite Yeti
-20	2	0	208	218	-1	// Elite Yeti
-20	2	0	208	218	-1	// Elite Yeti
-20	2	0	208	218	-1	// Elite Yeti
-20	2	0	208	218	-1	// Elite Yeti
-
-// Spot BK 2 (Elite Yeti): 8 Elite Yeti exact tile en (236, 214)
-20	2	0	236	214	-1	// Elite Yeti
-20	2	0	236	214	-1	// Elite Yeti
-20	2	0	236	214	-1	// Elite Yeti
-20	2	0	236	214	-1	// Elite Yeti
-20	2	0	236	214	-1	// Elite Yeti
-20	2	0	236	214	-1	// Elite Yeti
-20	2	0	236	214	-1	// Elite Yeti
-20	2	0	236	214	-1	// Elite Yeti
-
-// Monstruos sueltos alrededor de Devias 3
-20	2	0	218	224	-1	// Elite Yeti
-20	2	0	228	220	-1	// Elite Yeti
-19	2	0	215	212	-1	// Yeti
-20	2	0	230	208	-1	// Elite Yeti
-20	2	0	202	210	-1	// Elite Yeti
-20	2	0	240	210	-1	// Elite Yeti
+// --- DUNGEON 3 (LIMPIEZA TOTAL - UNICOS 7 SPOTS EN EL MAPA) ---
+// SPOT 1: 8 Cyclops ("Jien gigante") en (10, 86)
+17	1	0	10	86	-1	// Cyclops
+17	1	0	10	86	-1	// Cyclops
+17	1	0	10	86	-1	// Cyclops
+17	1	0	10	86	-1	// Cyclops
+17	1	0	10	86	-1	// Cyclops
+17	1	0	10	86	-1	// Cyclops
+17	1	0	10	86	-1	// Cyclops
+17	1	0	10	86	-1	// Cyclops
+// SPOT 2: 8 Poison Bull Fighter ("toro verde") en (9, 64)
+8	1	0	9	64	-1	// Poison Bull Fighter
+8	1	0	9	64	-1	// Poison Bull Fighter
+8	1	0	9	64	-1	// Poison Bull Fighter
+8	1	0	9	64	-1	// Poison Bull Fighter
+8	1	0	9	64	-1	// Poison Bull Fighter
+8	1	0	9	64	-1	// Poison Bull Fighter
+8	1	0	9	64	-1	// Poison Bull Fighter
+8	1	0	9	64	-1	// Poison Bull Fighter
+// SPOT 3: 8 Thunder Lich ("mago oscuro") en (30, 56)
+9	1	0	30	56	-1	// Thunder Lich
+9	1	0	30	56	-1	// Thunder Lich
+9	1	0	30	56	-1	// Thunder Lich
+9	1	0	30	56	-1	// Thunder Lich
+9	1	0	30	56	-1	// Thunder Lich
+9	1	0	30	56	-1	// Thunder Lich
+9	1	0	30	56	-1	// Thunder Lich
+9	1	0	30	56	-1	// Thunder Lich
+// SPOT 4: 8 Dark Knight en (43, 64)
+10	1	0	43	64	-1	// Dark Knight
+10	1	0	43	64	-1	// Dark Knight
+10	1	0	43	64	-1	// Dark Knight
+10	1	0	43	64	-1	// Dark Knight
+10	1	0	43	64	-1	// Dark Knight
+10	1	0	43	64	-1	// Dark Knight
+10	1	0	43	64	-1	// Dark Knight
+10	1	0	43	64	-1	// Dark Knight
+// SPOT 5: 8 Cyclops ("Jien gigante") en (41, 85)
+17	1	0	41	85	-1	// Cyclops
+17	1	0	41	85	-1	// Cyclops
+17	1	0	41	85	-1	// Cyclops
+17	1	0	41	85	-1	// Cyclops
+17	1	0	41	85	-1	// Cyclops
+17	1	0	41	85	-1	// Cyclops
+17	1	0	41	85	-1	// Cyclops
+17	1	0	41	85	-1	// Cyclops
+// SPOT 6: 8 Poison Bull Fighter ("toro verde") en (40, 108)
+8	1	0	40	108	-1	// Poison Bull Fighter
+8	1	0	40	108	-1	// Poison Bull Fighter
+8	1	0	40	108	-1	// Poison Bull Fighter
+8	1	0	40	108	-1	// Poison Bull Fighter
+8	1	0	40	108	-1	// Poison Bull Fighter
+8	1	0	40	108	-1	// Poison Bull Fighter
+8	1	0	40	108	-1	// Poison Bull Fighter
+8	1	0	40	108	-1	// Poison Bull Fighter
+// SPOT 7: 8 Thunder Lich ("mago oscuro") en (14, 120)
+9	1	0	14	120	-1	// Thunder Lich
+9	1	0	14	120	-1	// Thunder Lich
+9	1	0	14	120	-1	// Thunder Lich
+9	1	0	14	120	-1	// Thunder Lich
+9	1	0	14	120	-1	// Thunder Lich
+9	1	0	14	120	-1	// Thunder Lich
+9	1	0	14	120	-1	// Thunder Lich
+9	1	0	14	120	-1	// Thunder Lich
 end
 
 //=========================================================================================================================================
@@ -476,7 +609,6 @@ end
 17	1	10	107	175	122	190	-1	5	// Cyclops
 15	1	10	125	141	131	157	-1	5	// Skeleton Archer
 14	1	10	112	210	122	224	-1	5	// Skeleton
-13	1	10	115	237	145	249	-1	7	// Hell Spider
 11	1	10	149	238	162	249	-1	7	// Ghost
 13	1	10	187	217	196	242	-1	7	// Hell Spider
 15	1	10	199	221	212	233	-1	5	// Skeleton Archer
@@ -489,61 +621,6 @@ end
 16	1	10	224	168	238	175	-1	5	// Chief Skeleton Warrior
 //=========================================================================================================================================
 // Dungeon 2
-//=========================================================================================================================================
-//Mob	Map	Radio	CordX	CordY	CordX2	CordY2	Dir 	Quant	Name
-17	1	10	228	111	231	121	-1	6	// Cyclops
-16	1	10	198	116	201	123	-1	6	// Chief Skeleton Warrior
-15	1	10	161	124	171	129	-1	6	// Skeleton Archer
-14	1	10	121	116	126	125	-1	6	// Skeleton
-13	1	10	93	109	96	117	-1	6	// Hell Spider
-13	1	10	83	111	106	119	-1	6	// Hell Spider
-17	1	10	62	105	71	113	-1	6	// Cyclops
-16	1	10	93	99	97	106	-1	6	// Chief Skeleton Warrior
-15	1	10	67	47	77	53	-1	6	// Skeleton Archer
-14	1	10	96	46	102	54	-1	6	// Skeleton
-17	1	10	117	70	122	78	-1	6	// Cyclops
-16	1	10	135	84	142	89	-1	6	// Chief Skeleton Warrior
-17	1	10	162	92	175	102	-1	6	// Cyclops
-16	1	10	209	82	222	92	-1	6	// Chief Skeleton Warrior
-14	1	10	241	68	249	80	-1	6	// Skeleton
-15	1	10	233	36	239	50	-1	6	// Skeleton Archer
-15	1	10	240	11	245	23	-1	6	// Skeleton Archer
-15	1	10	217	11	223	15	-1	6	// Skeleton Archer
-17	1	10	194	8	199	21	-1	6	// Cyclops
-16	1	10	155	40	162	45	-1	6	// Chief Skeleton Warrior
-16	1	10	118	42	125	48	-1	6	// Chief Skeleton Warrior
-10	1	10	112	5	122	15	-1	6	// Dark Knight
-10	1	10	75	3	85	13	-1	6	// Dark Knight
-10	1	10	45	7	55	17	-1	6	// Dark Knight
-17	1	10	34	22	44	32	-1	6	// Cyclops
-//=========================================================================================================================================
-// Dungeon 3
-//=========================================================================================================================================
-//Mob	Map	Radio	CordX	CordY	CordX2	CordY2	Dir 	Quant	Name
-15	1	10	20	89	30	99	-1	4	// Skeleton Archer
-16	1	10	20	89	30	99	-1	4	// Chief Skeleton Warrior
-17	1	10	20	89	30	99	-1	4	// Cyclops
-15	1	10	13	69	25	81	-1	4	// Skeleton Archer
-16	1	10	13	69	25	81	-1	4	// Chief Skeleton Warrior
-17	1	10	13	69	25	81	-1	4	// Cyclops
-15	1	10	1	50	13	62	-1	4	// Skeleton Archer
-16	1	10	1	50	13	62	-1	4	// Chief Skeleton Warrior
-17	1	10	1	50	13	62	-1	4	// Cyclops
-15	1	10	20	50	32	62	-1	4	// Skeleton Archer
-16	1	10	20	50	32	62	-1	4	// Chief Skeleton Warrior
-17	1	10	20	50	32	62	-1	4	// Cyclops
-15	1	10	40	50	46	62	-1	4	// Skeleton Archer
-16	1	10	40	50	46	62	-1	4	// Chief Skeleton Warrior
-17	1	10	40	50	46	62	-1	4	// Cyclops
-15	1	10	40	80	46	92	-1	4	// Skeleton Archer
-16	1	10	40	80	46	92	-1	4	// Chief Skeleton Warrior
-17	1	10	40	80	46	92	-1	4	// Cyclops
-15	1	10	40	115	46	128	-1	4	// Skeleton Archer
-16	1	10	40	115	46	128	-1	4	// Chief Skeleton Warrior
-17	1	10	40	115	46	128	-1	4	// Cyclops
-15	1	10	1	118	10	128	-1	4	// Skeleton Archer
-16	1	10	1	118	10	128	-1	4	// Chief Skeleton Warrior
-17	1	10	1	118	10	128	-1	4	// Cyclops
 end
 
 //=========================================================================================================================================
@@ -787,11 +864,6 @@ end
 
 // Dungeon
 2
-8	1	30	50	123	-1
-8	1	30	42	122	-1
-8	1	30	4	73	-1
-8	1	30	12	56	-1
-8	1	30	2	78	-1
 16	1	30	108	9	-1
 14	1	30	120	232	-1
 14	1	30	107	230	-1
@@ -845,79 +917,20 @@ end
 11	1	30	142	218	-1
 12	1	30	134	240	-1
 17	1	30	241	173	-1
-11	1	30	199	116	-1
-5	1	30	170	126	-1
-14	1	30	120	243	-1
 11	1	30	240	247	-1
 11	1	30	242	247	-1
 11	1	30	241	226	-1
 11	1	30	246	220	-1
 11	1	30	243	201	-1
-5	1	30	163	114	-1
 11	1	30	244	192	-1
 11	1	30	213	248	-1
 17	1	30	173	200	-1
 11	1	30	148	149	-1
-5	1	30	163	125	-1
-15	1	30	141	110	-1
-5	1	30	145	118	-1
-13	1	30	112	93	-1
-15	1	30	98	54	-1
-14	1	30	99	49	-1
-13	1	30	104	65	-1
-13	1	30	183	27	-1
-8	1	30	187	15	-1
-8	1	30	158	17	-1
-16	1	30	159	41	-1
 16	1	30	115	8	-1
-5	1	30	123	120	-1
-15	1	30	114	110	-1
-15	1	30	68	110	-1
-15	1	30	76	111	-1
-16	1	30	124	20	-1
 16	1	30	90	6	-1
-13	1	30	114	20	-1
-5	1	30	138	86	-1
-16	1	30	212	83	-1
-16	1	30	211	90	-1
-16	1	30	226	58	-1
-16	1	30	239	56	-1
-16	1	30	235	23	-1
-13	1	30	247	87	-1
 11	1	30	247	7	-1
 11	1	30	240	7	-1
 11	1	30	241	9	-1
-9	1	30	28	18	-1
-9	1	30	22	4	-1
-9	1	30	18	29	-1
-9	1	30	18	23	-1
-9	1	30	34	4	-1
-8	1	30	119	47	-1
-9	1	30	22	90	-1
-9	1	30	33	78	-1
-8	1	30	25	100	-1
-16	1	30	29	80	-1
-9	1	30	42	117	-1
-10	1	30	14	107	-1
-8	1	30	21	82	-1
-10	1	30	22	65	-1
-10	1	30	39	77	-1
-10	1	30	29	66	-1
-8	1	30	16	55	-1
-8	1	30	35	55	-1
-8	1	30	116	47	-1
-8	1	30	122	46	-1
-8	1	30	193	30	-1
-5	1	30	120	75	-1
-13	1	30	149	94	-1
-5	1	30	81	58	-1
-13	1	30	126	94	-1
-5	1	30	71	53	-1
-5	1	30	69	88	-1
-16	1	30	86	105	-1
-16	1	30	88	104	-1
-5	1	30	98	111	-1
-15	1	30	156	125	-1
 17	1	30	165	171	-1
 17	1	30	208	162	-1
 17	1	30	220	161	-1
@@ -993,55 +1006,7 @@ end
 17	1	30	38	234	-1
 17	1	30	16	227	-1
 17	1	30	25	220	-1
-17	1	30	235	108	-1
-17	1	30	228	105	-1
-17	1	30	214	116	-1
-11	1	30	183	128	-1
-15	1	30	175	127	-1
-15	1	30	175	118	-1
-15	1	30	183	123	-1
-5	1	30	87	114	-1
-5	1	30	65	127	-1
-15	1	30	68	125	-1
-15	1	30	80	97	-1
-5	1	30	70	76	-1
-13	1	30	168	96	-1
-13	1	30	196	100	-1
-16	1	30	240	77	-1
-16	1	30	247	77	-1
-16	1	30	248	20	-1
 16	1	30	244	9	-1
-16	1	30	229	11	-1
-8	1	30	205	24	-1
-16	1	30	155	32	-1
-16	1	30	137	33	-1
-16	1	30	122	29	-1
-9	1	30	118	11	-1
-16	1	30	48	11	-1
-9	1	30	38	23	-1
-9	1	30	160	10	-1
-9	1	30	194	18	-1
-9	1	30	213	12	-1
-9	1	30	221	14	-1
-9	1	30	243	16	-1
-9	1	30	233	66	-1
-8	1	30	39	112	-1
-8	1	30	26	111	-1
-8	1	30	15	113	-1
-8	1	30	12	97	-1
-8	1	30	44	56	-1
-10	1	30	41	88	-1
-10	1	30	19	120	-1
-10	1	30	37	98	-1
-9	1	30	30	105	-1
-9	1	30	27	53	-1
-9	1	30	10	68	-1
-9	1	30	33	90	-1
-9	1	30	12	121	-1
-18	1	30	43	111	-1
-18	1	30	8	123	-1
-18	1	30	7	56	-1
-18	1	30	26	67	-1
 end
 
 // Devias
@@ -2190,7 +2155,6 @@ end
 54	2	30	10	10	240	240	-1	15	0	// Golden Soldier
 78	3	30	10	10	240	240	-1	15	0	// Golden Goblin
 79	0	30	10	10	240	240	-1	1	0	// Golden Dragon
-79	1	30	10	10	240	240	-1	1	0	// Golden Dragon
 79	2	30	10	10	240	240	-1	1	0	// Golden Dragon
 79	3	30	10	10	240	240	-1	1	0	// Golden Dragon
 79	4	30	10	10	240	240	-1	1	0	// Golden Dragon
