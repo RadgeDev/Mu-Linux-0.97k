@@ -1515,6 +1515,7 @@ void gObjMonsterProcess(LPOBJ lpObj)
 		return;
 	}
 
+
 	lpObj->CurActionTime = GetTickCount();
 
 	if (BC_MAP_RANGE(lpObj->Map) != false)
@@ -1724,6 +1725,7 @@ BOOL PathFindMoveMsgSend(LPOBJ lpObj)
 	PATH_INFO path;
 
 	BOOL bPathFound = gMap[lpObj->Map].PathFinding2(lpObj->X, lpObj->Y, lpObj->MTX, lpObj->MTY, &path);
+
 
 	if (bPathFound)
 	{
