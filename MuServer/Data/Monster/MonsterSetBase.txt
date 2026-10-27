@@ -57,7 +57,7 @@ end
 243	3	0	172	100	2	// Yoda Jewel Bank
 240	3	0	172	96	3	// Safety Guardian
 238	3	0	180	103	1	// Chaos Goblin
-236	3	0	169	109	3	// Golden Archer
+233	3	0	169	109	3	// Messenger of Archangel (Blood Castle)
 end
 
 //======================================//
