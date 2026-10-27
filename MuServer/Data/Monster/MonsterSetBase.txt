@@ -18,6 +18,15 @@
 243	0	0	130	118	3	// Yoda Jewel Bank
 233	0	0	130	127	3	// Messenger of Archangel (Blood Castle)
 237	0	0	148	123	2	// Charon (Devil Square)
+// Spot Bull Fighter (BK Leveo - Exact Tile 137,76)
+0	0	0	137	76	-1	// Bull Fighter
+0	0	0	137	76	-1	// Bull Fighter
+0	0	0	137	76	-1	// Bull Fighter
+0	0	0	137	76	-1	// Bull Fighter
+0	0	0	137	76	-1	// Bull Fighter
+0	0	0	137	76	-1	// Bull Fighter
+0	0	0	137	76	-1	// Bull Fighter
+0	0	0	137	76	-1	// Bull Fighter
 249	0	10	131	88	1	// Berdysh Guard
 249	0	20	173	125	3	// Berdysh Guard
 249	0	20	94	125	7	// Berdysh Guard
@@ -650,15 +659,6 @@ end
 
 // Lorencia
 2
-// Spot Bull Fighter (BK Leveo)
-0	0	3	137	76	0
-0	0	3	137	76	0
-0	0	3	137	76	0
-0	0	3	137	76	0
-0	0	3	137	76	0
-0	0	3	137	76	0
-0	0	3	137	76	0
-0	0	3	137	76	0
 3	0	5	179	123	0
 3	0	5	179	123	0
 3	0	5	179	123	0
