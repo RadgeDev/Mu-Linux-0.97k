@@ -391,6 +391,8 @@ void CWarehouse::DGWarehouseItemRecv(SDHP_WAREHOUSE_ITEM_RECV* lpMsg)
 
 	gWarehouse.GCWarehouseStateSend(lpObj->Index, ((lpObj->WarehousePW > 0) ? ((lpObj->WarehouseLock == 0) ? 12 : 1) : 0));
 
+	this->GCWarehouseChangeSend(lpObj->Index, (BYTE)lpObj->WarehouseNumber, 1);
+
 	lpObj->Interface.use = 1;
 
 	lpObj->Interface.type = INTERFACE_WAREHOUSE;
@@ -505,4 +507,74 @@ void CWarehouse::GDWarehouseItemSaveSend(int aIndex)
 	pMsg.WarehouseNumber = lpObj->WarehouseNumber;
 
 	gDataServerConnection.DataSend((BYTE*)&pMsg, sizeof(pMsg));
+}
+void CWarehouse::CGWarehouseChangeRecv(PMSG_WAREHOUSE_CHANGE_RECV* lpMsg, int aIndex)
+{
+	if (gObjIsConnectedGP(aIndex) == 0)
+	{
+		return;
+	}
+
+	LPOBJ lpObj = &gObj[aIndex];
+
+	if (lpObj->Interface.use == 0 || lpObj->Interface.type != INTERFACE_WAREHOUSE || lpObj->Interface.state == 0)
+	{
+		return;
+	}
+
+	if (lpObj->LoadWarehouse == 0)
+	{
+		return;
+	}
+
+	// Baúles válidos: 0 a 3 (Baúl 1, 2, 3, 4)
+	if (lpMsg->warehouseNumber > 3)
+	{
+		this->GCWarehouseChangeSend(aIndex, (BYTE)lpObj->WarehouseNumber, 0);
+		return;
+	}
+
+	// Si ya está en ese baúl, no hacer nada más que confirmar
+	if ((BYTE)lpObj->WarehouseNumber == lpMsg->warehouseNumber)
+	{
+		this->GCWarehouseChangeSend(aIndex, (BYTE)lpObj->WarehouseNumber, 1);
+		return;
+	}
+
+	// 1. Guardar atómicamente el baúl actual en DataServer / DB
+	this->GDWarehouseItemSaveSend(aIndex);
+
+	// 2. Limpiar memoria local de items del baúl para recibir el nuevo
+	memset(lpObj->WarehouseMap, 0xFF, WAREHOUSE_SIZE);
+
+	for (int n = 0; n < WAREHOUSE_SIZE; n++)
+	{
+		lpObj->Warehouse[n].Clear();
+	}
+
+	lpObj->WarehouseMoney = 0;
+	lpObj->LoadWarehouse = 0;
+	lpObj->Interface.state = 0; // en transición de carga
+	lpObj->WarehouseNumber = lpMsg->warehouseNumber;
+
+	// 3. Notificar al cliente el cambio exitoso de pestaña
+	this->GCWarehouseChangeSend(aIndex, (BYTE)lpObj->WarehouseNumber, 1);
+
+	// 4. Solicitar al DataServer los items del nuevo baúl
+	this->GDWarehouseItemSend(aIndex, lpObj->Account);
+}
+
+void CWarehouse::GCWarehouseChangeSend(int aIndex, BYTE warehouseNumber, BYTE result)
+{
+	PMSG_WAREHOUSE_CHANGE_SEND pMsg;
+
+	pMsg.header.set(0xF8, sizeof(pMsg));
+
+	pMsg.subcode = 0x30;
+
+	pMsg.warehouseNumber = warehouseNumber;
+
+	pMsg.result = result;
+
+	DataSend(aIndex, (BYTE*)&pMsg, pMsg.header.size);
 }

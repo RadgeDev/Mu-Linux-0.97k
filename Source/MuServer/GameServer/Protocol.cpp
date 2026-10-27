@@ -484,6 +484,13 @@ void ProtocolCore(BYTE head, BYTE* lpMsg, int size, int aIndex, int encrypt, int
 
 					break;
 				}
+
+				case 0x30:
+				{
+					gWarehouse.CGWarehouseChangeRecv((PMSG_WAREHOUSE_CHANGE_RECV*)lpMsg, aIndex);
+
+					break;
+				}
 			}
 
 			break;

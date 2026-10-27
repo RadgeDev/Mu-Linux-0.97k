@@ -7,6 +7,21 @@
 
 //**********************************************//
 //************ Client -> GameServer ************//
+struct PMSG_WAREHOUSE_CHANGE_RECV
+{
+	PBMSG_HEAD header; // C1:F8:30
+	BYTE subcode;
+	BYTE warehouseNumber;
+};
+
+struct PMSG_WAREHOUSE_CHANGE_SEND
+{
+	PBMSG_HEAD header; // C1:F8:30
+	BYTE subcode;
+	BYTE warehouseNumber;
+	BYTE result;
+};
+
 //**********************************************//
 
 struct PMSG_WAREHOUSE_MONEY_RECV
@@ -99,6 +114,10 @@ public:
 	~CWarehouse();
 
 	int GetWarehouseTaxMoney(int level, int lock);
+
+		void CGWarehouseChangeRecv(PMSG_WAREHOUSE_CHANGE_RECV* lpMsg, int aIndex);
+
+	void GCWarehouseChangeSend(int aIndex, BYTE warehouseNumber, BYTE result);
 
 	void CGWarehouseMoneyRecv(PMSG_WAREHOUSE_MONEY_RECV* lpMsg, int aIndex);
 
