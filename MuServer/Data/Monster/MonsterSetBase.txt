@@ -995,6 +995,19 @@ end
 71	6	5	66	63	-1	// Mega Crust
 71	6	5	66	63	-1	// Mega Crust
 
+// Spot 42 (Blood Castle 6 - Zona Atras) - 5 Red Skeleton Knight en (68, 72)
+129	6	5	68	72	-1	// Red Skeleton Knight
+129	6	5	68	72	-1	// Red Skeleton Knight
+129	6	5	68	72	-1	// Red Skeleton Knight
+129	6	5	68	72	-1	// Red Skeleton Knight
+129	6	5	68	72	-1	// Red Skeleton Knight
+// Spot 43 (Blood Castle 6 - Zona Atras/Altar) - 5 Magic Skeleton en (68, 77)
+130	6	5	68	77	-1	// Magic Skeleton
+130	6	5	68	77	-1	// Magic Skeleton
+130	6	5	68	77	-1	// Magic Skeleton
+130	6	5	68	77	-1	// Magic Skeleton
+130	6	5	68	77	-1	// Magic Skeleton
+
 end
 //		TRAPS			//
 //======================================//
