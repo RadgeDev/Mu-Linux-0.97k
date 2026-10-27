@@ -1249,63 +1249,66 @@ int gObjMonsterGetTargetPos(LPOBJ lpObj)
 
 	int dis = (lpObj->AttackType >= 100) ? (lpObj->AttackRange + 2) : lpObj->AttackRange;
 
-	int tpx = (lpObj->X > lpTarget->X) ? (lpTarget->X + dis) : (lpTarget->X - dis);
+	int tpx = lpTarget->X;
+	int tpy = lpTarget->Y;
 
-	int tpy = (lpObj->Y > lpTarget->Y) ? (lpTarget->Y + dis) : (lpTarget->Y - dis);
-
-	int mtx = lpTarget->X;
-
-	int mty = lpTarget->Y;
-
-	if (gMap[lpObj->Map].CheckStandAttr(tpx, tpy) == 0)
+	if (lpObj->X < lpTarget->X)
 	{
-		int index = GetPathPacketDirPos((mtx - tpx), (mty - tpy)) * 2;
+		tpx -= dis;
+	}
+	else if (lpObj->X > lpTarget->X)
+	{
+		tpx += dis;
+	}
 
-		for (int i = 1; i < (MAX_ROAD_PATH_TABLE / 2); i++)
+	if (lpObj->Y < lpTarget->Y)
+	{
+		tpy -= dis;
+	}
+	else if (lpObj->Y > lpTarget->Y)
+	{
+		tpy += dis;
+	}
+
+	BYTE baseAttr = gMap[lpObj->Map].GetAttr(tpx, tpy);
+
+	if (gObjMonsterMoveCheck(lpObj, tpx, tpy) != 0)
+	{
+		if ((lpObj->Class == 249 && (baseAttr & 2) != 2) || ((baseAttr & 1) != 1 && (baseAttr & 4) != 4 && (baseAttr & 8) != 8))
 		{
-			mtx = lpTarget->X + RoadPathTable[index];
+			lpObj->MTX = tpx;
+			lpObj->MTY = tpy;
+			return 1;
+		}
+	}
 
-			mty = lpTarget->Y + RoadPathTable[1 + index];
+	int searchp = GetPathPacketDirPos(lpTarget->X - tpx, lpTarget->Y - tpy) * 2;
 
-			BYTE attr = gMap[lpObj->Map].GetAttr(mtx, mty);
+	for (int i = 0; i < (MAX_ROAD_PATH_TABLE / 2); i++)
+	{
+		int mtx = lpTarget->X + RoadPathTable[searchp];
+		int mty = lpTarget->Y + RoadPathTable[1 + searchp];
 
-			if (gObjMonsterMoveCheck(lpObj, mtx, mty) != 0)
-			{
-				if ((lpObj->Class == 249 && (attr & 2) != 2) || ((attr & 1) != 1 && (attr & 2) != 2 && (attr & 4) != 4 && (attr & 8) != 8))
-				{
-					lpObj->MTX = mtx;
-
-					lpObj->MTY = mty;
-
-					return 1;
-				}
-			}
-
-			index += 2;
-
-			index = (index > MAX_ROAD_PATH_TABLE - 1) ? 0 : index;
+		searchp += 2;
+		if (searchp > MAX_ROAD_PATH_TABLE - 1)
+		{
+			searchp = 0;
 		}
 
-		return 0;
-	}
-	else
-	{
-		BYTE attr = gMap[lpObj->Map].GetAttr(tpx, tpy);
+		BYTE attr = gMap[lpObj->Map].GetAttr(mtx, mty);
 
-		if (gObjMonsterMoveCheck(lpObj, tpx, tpy) != 0)
+		if (gObjMonsterMoveCheck(lpObj, mtx, mty) != 0)
 		{
-			if ((lpObj->Class == 249 && (attr & 2) != 2) || ((attr & 1) != 1 && (attr & 2) != 2 && (attr & 4) != 4 && (attr & 8) != 8))
+			if ((lpObj->Class == 249 && (attr & 2) != 2) || ((attr & 1) != 1 && (attr & 4) != 4 && (attr & 8) != 8))
 			{
-				lpObj->MTX = tpx;
-
-				lpObj->MTY = tpy;
-
+				lpObj->MTX = mtx;
+				lpObj->MTY = mty;
 				return 1;
 			}
 		}
-
-		return 0;
 	}
+
+	return 0;
 }
 
 BOOL gObjGetTargetPos(LPOBJ lpObj, int sx, int sy, int& tx, int& ty)
@@ -1359,7 +1362,7 @@ BOOL gObjGetTargetPos(LPOBJ lpObj, int sx, int sy, int& tx, int& ty)
 			mty = sy + RoadPathTable[1 + searchp];
 			attr = gMap[lpObj->Map].GetAttr(mtx, mty);
 
-			if ((attr & 1) != 1 && (attr & 2) != 2 && (attr & 4) != 4 && (attr & 8) != 8)
+			if ((attr & 1) != 1 && (attr & 4) != 4 && (attr & 8) != 8)
 			{
 				tx = mtx;
 				ty = mty;
@@ -1388,7 +1391,7 @@ BOOL gObjGetTargetPos(LPOBJ lpObj, int sx, int sy, int& tx, int& ty)
 			return TRUE;
 		}
 	}
-	else if ((attr & 1) != 1 && (attr & 2) != 2 && (attr & 4) != 4 && (attr & 8) != 8)
+	else if ((attr & 1) != 1 && (attr & 4) != 4 && (attr & 8) != 8)
 	{
 		tx = tpx;
 		ty = tpy;
@@ -1821,7 +1824,7 @@ void gObjMonsterMoveAction(LPOBJ lpObj)
 		}
 		else
 		{
-			if ((attr & 1) != 1 && (attr & 2) != 2 && (attr & 4) != 4 && (attr & 8) != 8 && mchk)
+			if ((attr & 1) != 1 && (attr & 4) != 4 && (attr & 8) != 8 && mchk)
 			{
 				lpObj->TargetNumber = -1;
 
