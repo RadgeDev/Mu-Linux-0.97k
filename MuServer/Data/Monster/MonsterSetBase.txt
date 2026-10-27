@@ -18,6 +18,46 @@
 243	0	0	130	118	3	// Yoda Jewel Bank
 233	0	0	130	127	3	// Messenger of Archangel (Blood Castle)
 237	0	0	148	123	2	// Charon (Devil Square)
+// Spot Bull Fighter (8 superpuestos en tile exacto 137,76 - Movimiento y ataque libre)
+0	0	5	137	76	-1	// Bull Fighter
+0	0	5	137	76	-1	// Bull Fighter
+0	0	5	137	76	-1	// Bull Fighter
+0	0	5	137	76	-1	// Bull Fighter
+0	0	5	137	76	-1	// Bull Fighter
+0	0	5	137	76	-1	// Bull Fighter
+0	0	5	137	76	-1	// Bull Fighter
+0	0	5	137	76	-1	// Bull Fighter
+
+// Spot Bull Fighter (8 superpuestos en tile exacto 162,82 - Movimiento y ataque libre)
+0	0	5	162	82	-1	// Bull Fighter
+0	0	5	162	82	-1	// Bull Fighter
+0	0	5	162	82	-1	// Bull Fighter
+0	0	5	162	82	-1	// Bull Fighter
+0	0	5	162	82	-1	// Bull Fighter
+0	0	5	162	82	-1	// Bull Fighter
+0	0	5	162	82	-1	// Bull Fighter
+0	0	5	162	82	-1	// Bull Fighter
+
+// Spot Skeleton (8 superpuestos en tile exacto 134,180 - Movimiento y ataque libre)
+14	0	5	134	180	-1	// Skeleton
+14	0	5	134	180	-1	// Skeleton
+14	0	5	134	180	-1	// Skeleton
+14	0	5	134	180	-1	// Skeleton
+14	0	5	134	180	-1	// Skeleton
+14	0	5	134	180	-1	// Skeleton
+14	0	5	134	180	-1	// Skeleton
+14	0	5	134	180	-1	// Skeleton
+
+// Spot Hound (8 superpuestos en tile exacto 90,127 - Movimiento y ataque libre)
+1	0	5	90	127	-1	// Hound
+1	0	5	90	127	-1	// Hound
+1	0	5	90	127	-1	// Hound
+1	0	5	90	127	-1	// Hound
+1	0	5	90	127	-1	// Hound
+1	0	5	90	127	-1	// Hound
+1	0	5	90	127	-1	// Hound
+1	0	5	90	127	-1	// Hound
+
 249	0	10	131	88	1	// Berdysh Guard
 249	0	20	173	125	3	// Berdysh Guard
 249	0	20	94	125	7	// Berdysh Guard
@@ -536,12 +576,6 @@ end
 // Lorencia
 //=========================================================================================================================================
 1
-// Spots compactos BK (Formato Dungeon 3 nativo - spawns dinamicos en bounding box)
-//Mob	Map	Radio	CordX	CordY	CordX2	CordY2	Dir	Quant	Name
-0	0	5	135	74	139	78	-1	8	// Bull Fighter (Centro 137, 76)
-0	0	5	160	80	164	84	-1	8	// Bull Fighter (Centro 162, 82)
-14	0	5	132	178	136	182	-1	8	// Skeleton (Centro 134, 180)
-1	0	5	88	125	92	129	-1	8	// Hound (Centro 90, 127)
 3	0	30	183	105	189	99	-1	10	// Spider
 3	0	30	180	90	226	244	-1	35	// Spider
 2	0	30	180	90	226	244	-1	35	// Budge Dragon

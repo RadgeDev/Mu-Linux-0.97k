@@ -1289,7 +1289,7 @@ int gObjMonsterGetTargetPos(LPOBJ lpObj)
 	{
 		BYTE attr = gMap[lpObj->Map].GetAttr(tpx, tpy);
 
-		if (gObjMonsterMoveCheck(lpObj, mtx, mty) != 0)
+		if (gObjMonsterMoveCheck(lpObj, tpx, tpy) != 0)
 		{
 			if ((lpObj->Class == 249 && (attr & 2) != 2) || ((attr & 1) != 1 && (attr & 2) != 2 && (attr & 4) != 4 && (attr & 8) != 8))
 			{
