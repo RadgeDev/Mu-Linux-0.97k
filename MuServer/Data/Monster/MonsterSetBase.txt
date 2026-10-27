@@ -17,7 +17,7 @@
 236	0	0	152	138	1	// Golden Archer
 243	0	0	130	118	3	// Yoda Jewel Bank
 233	0	0	130	127	3	// Messenger of Archangel (Blood Castle)
-237	0	0	148	123	7	// Charon (Devil Square)
+237	0	0	148	123	2	// Charon (Devil Square)
 249	0	10	131	88	1	// Berdysh Guard
 249	0	20	173	125	3	// Berdysh Guard
 249	0	20	94	125	7	// Berdysh Guard
@@ -46,7 +46,7 @@ end
 241	2	0	215	45	1	// Royal Guard Captain Lorence
 240	2	0	218	63	2	// Safety Guardian
 243	2	0	212	63	2	// Yoda Jewel Bank
-237	2	0	205	44	7	// Charon (Devil Square)
+237	2	0	205	44	2	// Charon (Devil Square)
 end
 
 //=========================================================================================================================================
