@@ -1286,8 +1286,8 @@ int gObjMonsterGetTargetPos(LPOBJ lpObj)
 
 	for (int i = 0; i < (MAX_ROAD_PATH_TABLE / 2); i++)
 	{
-		int mtx = lpTarget->X + RoadPathTable[searchp];
-		int mty = lpTarget->Y + RoadPathTable[1 + searchp];
+		int mtx = lpTarget->X + (RoadPathTable[searchp] * dis);
+		int mty = lpTarget->Y + (RoadPathTable[1 + searchp] * dis);
 
 		searchp += 2;
 		if (searchp > MAX_ROAD_PATH_TABLE - 1)
@@ -1590,7 +1590,8 @@ void gObjMonsterProcess(LPOBJ lpObj)
 		}
 		else
 		{
-			lpObj->ActionState.Move = (DWORD)1;
+			lpObj->ActionState.Move = (DWORD)0;
+			lpObj->NextActionTime = 500;
 
 			return;
 		}
@@ -1703,6 +1704,11 @@ BOOL PathFindMoveMsgSend(LPOBJ lpObj)
 		return 0;
 	}
 
+	if (lpObj->X == lpObj->MTX && lpObj->Y == lpObj->MTY)
+	{
+		return FALSE;
+	}
+
 	PMSG_MOVE_RECV pMove;
 
 	pMove.header.type = 0xC1;
@@ -1802,6 +1808,11 @@ void gObjMonsterMoveAction(LPOBJ lpObj)
 
 		tpy = (lpObj->Y - lpObj->MoveRange) + (BYTE)(GetLargeRand() % maxmoverange);
 #endif
+
+		if (tpx == lpObj->X && tpy == lpObj->Y)
+		{
+			continue;
+		}
 
 		int mchk = gObjMonsterMoveCheck(lpObj, tpx, tpy);
 

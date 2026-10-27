@@ -1034,7 +1034,7 @@ void CGMoveRecv(PMSG_MOVE_RECV* lpMsg, int aIndex)
 		return;
 	}
 
-	if ((GetTickCount() - lpObj->LastMoveTime) < 100)
+	if (lpObj->Type == OBJECT_USER && (GetTickCount() - lpObj->LastMoveTime) < 100)
 	{
 		return;
 	}
@@ -1146,7 +1146,10 @@ void CGMoveRecv(PMSG_MOVE_RECV* lpMsg, int aIndex)
 		return;
 	}
 
-	gMap[lpObj->Map].DelStandAttr(lpObj->OldX, lpObj->OldY);
+	if (lpObj->Type == OBJECT_USER)
+	{
+		gMap[lpObj->Map].DelStandAttr(lpObj->OldX, lpObj->OldY);
+	}
 
 	lpObj->X = lpMsg->x;
 
@@ -1162,7 +1165,10 @@ void CGMoveRecv(PMSG_MOVE_RECV* lpMsg, int aIndex)
 
 	lpObj->ViewState = 0;
 
-	gMap[lpObj->Map].SetStandAttr(lpObj->TX, lpObj->TY);
+	if (lpObj->Type == OBJECT_USER)
+	{
+		gMap[lpObj->Map].SetStandAttr(lpObj->TX, lpObj->TY);
+	}
 
 	PMSG_MOVE_SEND pMsg;
 
