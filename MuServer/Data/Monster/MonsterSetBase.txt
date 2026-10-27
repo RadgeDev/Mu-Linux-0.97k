@@ -27,6 +27,15 @@
 0	0	0	137	76	-1	// Bull Fighter
 0	0	0	137	76	-1	// Bull Fighter
 0	0	0	137	76	-1	// Bull Fighter
+// Spot Bull Fighter (Exact Tile 162,82)
+0	0	0	162	82	-1	// Bull Fighter
+0	0	0	162	82	-1	// Bull Fighter
+0	0	0	162	82	-1	// Bull Fighter
+0	0	0	162	82	-1	// Bull Fighter
+0	0	0	162	82	-1	// Bull Fighter
+0	0	0	162	82	-1	// Bull Fighter
+0	0	0	162	82	-1	// Bull Fighter
+0	0	0	162	82	-1	// Bull Fighter
 249	0	10	131	88	1	// Berdysh Guard
 249	0	20	173	125	3	// Berdysh Guard
 249	0	20	94	125	7	// Berdysh Guard
@@ -677,18 +686,6 @@ end
 1	0	5	90	128	0
 1	0	5	90	128	0
 1	0	5	90	128	0
-0	0	5	164	84	0
-0	0	5	164	84	0
-0	0	5	164	84	0
-0	0	5	164	84	0
-0	0	5	164	84	0
-0	0	5	164	84	0
-0	0	5	164	84	0
-0	0	5	164	84	0
-0	0	5	164	84	0
-0	0	5	164	84	0
-0	0	5	164	84	0
-0	0	5	164	84	0
 end
 
 // Dungeon
