@@ -748,247 +748,247 @@ end
 // Stadium Arena (41 Spots - 205 Mobs)
 //=========================================================================================================================================
 //Mob	MapNum	Range	PosX	PosY	Direct	Name
-// Spot  1 (Grupo A) - 5 Forest Monster en (51, 113)
+// Spot  1 (Grupo A: Leveleo Inicial) - 5 Forest Monster en (51, 113)
 30	6	5	51	113	-1	// Forest Monster
 30	6	5	51	113	-1	// Forest Monster
 30	6	5	51	113	-1	// Forest Monster
 30	6	5	51	113	-1	// Forest Monster
 30	6	5	51	113	-1	// Forest Monster
-// Spot  2 (Grupo A) - 5 Agon en (38, 113)
+// Spot  2 (Grupo A: Leveleo Inicial) - 5 Agon en (38, 113)
 31	6	5	38	113	-1	// Agon
 31	6	5	38	113	-1	// Agon
 31	6	5	38	113	-1	// Agon
 31	6	5	38	113	-1	// Agon
 31	6	5	38	113	-1	// Agon
-// Spot  3 (Grupo A) - 5 Giant en (25, 113)
+// Spot  3 (Grupo A: Leveleo Inicial) - 5 Giant en (25, 113)
 7	6	5	25	113	-1	// Giant
 7	6	5	25	113	-1	// Giant
 7	6	5	25	113	-1	// Giant
 7	6	5	25	113	-1	// Giant
 7	6	5	25	113	-1	// Giant
-// Spot  4 (Grupo A) - 5 Stone Golem en (14, 113)
+// Spot  4 (Grupo A: Leveleo Inicial) - 5 Stone Golem en (14, 113)
 32	6	5	14	113	-1	// Stone Golem
 32	6	5	14	113	-1	// Stone Golem
 32	6	5	14	113	-1	// Stone Golem
 32	6	5	14	113	-1	// Stone Golem
 32	6	5	14	113	-1	// Stone Golem
-// Spot  5 (Grupo A) - 5 Cyclops en (77, 111)
+// Spot  5 (Grupo A: Leveleo Inicial) - 5 Cyclops en (77, 111)
 17	6	5	77	111	-1	// Cyclops
 17	6	5	77	111	-1	// Cyclops
 17	6	5	77	111	-1	// Cyclops
 17	6	5	77	111	-1	// Cyclops
 17	6	5	77	111	-1	// Cyclops
-// Spot  6 (Grupo A) - 5 Yeti en (90, 114)
+// Spot  6 (Grupo A: Leveleo Inicial) - 5 Yeti en (90, 114)
 19	6	5	90	114	-1	// Yeti
 19	6	5	90	114	-1	// Yeti
 19	6	5	90	114	-1	// Yeti
 19	6	5	90	114	-1	// Yeti
 19	6	5	90	114	-1	// Yeti
-// Spot  7 (Grupo A) - 5 Chief Skeleton Warrior en (98, 105)
+// Spot  7 (Grupo A: Leveleo Inicial) - 5 Chief Skeleton Warrior en (98, 105)
 84	6	5	98	105	-1	// Chief Skeleton Warrior
 84	6	5	98	105	-1	// Chief Skeleton Warrior
 84	6	5	98	105	-1	// Chief Skeleton Warrior
 84	6	5	98	105	-1	// Chief Skeleton Warrior
 84	6	5	98	105	-1	// Chief Skeleton Warrior
-// Spot  8 (Grupo A) - 5 Skeleton Archer en (97, 93)
+// Spot  8 (Grupo A: Leveleo Inicial) - 5 Skeleton Archer en (97, 93)
 15	6	5	97	93	-1	// Skeleton Archer
 15	6	5	97	93	-1	// Skeleton Archer
 15	6	5	97	93	-1	// Skeleton Archer
 15	6	5	97	93	-1	// Skeleton Archer
 15	6	5	97	93	-1	// Skeleton Archer
-// Spot  9 (Grupo A) - 5 Forest Monster en (97, 80)
+// Spot  9 (Grupo A: Leveleo Inicial) - 5 Forest Monster en (97, 80)
 30	6	5	97	80	-1	// Forest Monster
 30	6	5	97	80	-1	// Forest Monster
 30	6	5	97	80	-1	// Forest Monster
 30	6	5	97	80	-1	// Forest Monster
 30	6	5	97	80	-1	// Forest Monster
-// Spot 10 (Grupo A) - 5 Agon en (97, 62)
+// Spot 10 (Grupo A: Leveleo Inicial) - 5 Agon en (97, 62)
 31	6	5	97	62	-1	// Agon
 31	6	5	97	62	-1	// Agon
 31	6	5	97	62	-1	// Agon
 31	6	5	97	62	-1	// Agon
 31	6	5	97	62	-1	// Agon
-// Spot 11 (Grupo A) - 5 Giant en (97, 45)
+// Spot 11 (Grupo A: Leveleo Inicial) - 5 Giant en (97, 45)
 7	6	5	97	45	-1	// Giant
 7	6	5	97	45	-1	// Giant
 7	6	5	97	45	-1	// Giant
 7	6	5	97	45	-1	// Giant
 7	6	5	97	45	-1	// Giant
-// Spot 12 (Grupo A) - 5 Stone Golem en (97, 23)
-32	6	5	97	23	-1	// Stone Golem
-32	6	5	97	23	-1	// Stone Golem
-32	6	5	97	23	-1	// Stone Golem
-32	6	5	97	23	-1	// Stone Golem
-32	6	5	97	23	-1	// Stone Golem
-// Spot 13 (Grupo A) - 5 Cyclops en (98, 5)
-17	6	5	98	5	-1	// Cyclops
-17	6	5	98	5	-1	// Cyclops
-17	6	5	98	5	-1	// Cyclops
-17	6	5	98	5	-1	// Cyclops
-17	6	5	98	5	-1	// Cyclops
-// Spot 14 (Grupo A) - 5 Yeti en (82, 16)
-19	6	5	82	16	-1	// Yeti
-19	6	5	82	16	-1	// Yeti
-19	6	5	82	16	-1	// Yeti
-19	6	5	82	16	-1	// Yeti
-19	6	5	82	16	-1	// Yeti
-// Spot 15 (Grupo A) - 5 Chief Skeleton Warrior en (82, 33)
-84	6	5	82	33	-1	// Chief Skeleton Warrior
-84	6	5	82	33	-1	// Chief Skeleton Warrior
-84	6	5	82	33	-1	// Chief Skeleton Warrior
-84	6	5	82	33	-1	// Chief Skeleton Warrior
-84	6	5	82	33	-1	// Chief Skeleton Warrior
-// Spot 16 (Grupo A) - 5 Skeleton Archer en (84, 46)
-15	6	5	84	46	-1	// Skeleton Archer
-15	6	5	84	46	-1	// Skeleton Archer
-15	6	5	84	46	-1	// Skeleton Archer
-15	6	5	84	46	-1	// Skeleton Archer
-15	6	5	84	46	-1	// Skeleton Archer
-// Spot 17 (Grupo A) - 5 Forest Monster en (83, 67)
-30	6	5	83	67	-1	// Forest Monster
-30	6	5	83	67	-1	// Forest Monster
-30	6	5	83	67	-1	// Forest Monster
-30	6	5	83	67	-1	// Forest Monster
-30	6	5	83	67	-1	// Forest Monster
-// Spot 18 (Grupo A) - 5 Agon en (83, 80)
-31	6	5	83	80	-1	// Agon
-31	6	5	83	80	-1	// Agon
-31	6	5	83	80	-1	// Agon
-31	6	5	83	80	-1	// Agon
-31	6	5	83	80	-1	// Agon
-// Spot 19 (Grupo A) - 5 Giant en (83, 94)
-7	6	5	83	94	-1	// Giant
-7	6	5	83	94	-1	// Giant
-7	6	5	83	94	-1	// Giant
-7	6	5	83	94	-1	// Giant
-7	6	5	83	94	-1	// Giant
-// Spot 20 (Grupo A) - 5 Stone Golem en (66, 56)
-32	6	5	66	56	-1	// Stone Golem
-32	6	5	66	56	-1	// Stone Golem
-32	6	5	66	56	-1	// Stone Golem
-32	6	5	66	56	-1	// Stone Golem
-32	6	5	66	56	-1	// Stone Golem
-// Spot 21 (Grupo A) - 5 Cyclops en (67, 41)
-17	6	5	67	41	-1	// Cyclops
-17	6	5	67	41	-1	// Cyclops
-17	6	5	67	41	-1	// Cyclops
-17	6	5	67	41	-1	// Cyclops
-17	6	5	67	41	-1	// Cyclops
-// Spot 22 (Grupo A) - 5 Yeti en (65, 28)
-19	6	5	65	28	-1	// Yeti
-19	6	5	65	28	-1	// Yeti
-19	6	5	65	28	-1	// Yeti
-19	6	5	65	28	-1	// Yeti
-19	6	5	65	28	-1	// Yeti
-// Spot 23 (Grupo A) - 5 Chief Skeleton Warrior en (54, 26)
-84	6	5	54	26	-1	// Chief Skeleton Warrior
-84	6	5	54	26	-1	// Chief Skeleton Warrior
-84	6	5	54	26	-1	// Chief Skeleton Warrior
-84	6	5	54	26	-1	// Chief Skeleton Warrior
-84	6	5	54	26	-1	// Chief Skeleton Warrior
-// Spot 24 (Grupo A) - 5 Skeleton Archer en (44, 26)
-15	6	5	44	26	-1	// Skeleton Archer
-15	6	5	44	26	-1	// Skeleton Archer
-15	6	5	44	26	-1	// Skeleton Archer
-15	6	5	44	26	-1	// Skeleton Archer
-15	6	5	44	26	-1	// Skeleton Archer
-// Spot 25 (Grupo A) - 5 Forest Monster en (29, 27)
-30	6	5	29	27	-1	// Forest Monster
-30	6	5	29	27	-1	// Forest Monster
-30	6	5	29	27	-1	// Forest Monster
-30	6	5	29	27	-1	// Forest Monster
-30	6	5	29	27	-1	// Forest Monster
-// Spot 26 (Grupo A) - 5 Agon en (11, 27)
-31	6	5	11	27	-1	// Agon
-31	6	5	11	27	-1	// Agon
-31	6	5	11	27	-1	// Agon
-31	6	5	11	27	-1	// Agon
-31	6	5	11	27	-1	// Agon
-// Spot 27 (Grupo A) - 5 Giant en (11, 39)
-7	6	5	11	39	-1	// Giant
-7	6	5	11	39	-1	// Giant
-7	6	5	11	39	-1	// Giant
-7	6	5	11	39	-1	// Giant
-7	6	5	11	39	-1	// Giant
-// Spot 28 (Grupo A) - 5 Stone Golem en (12, 56)
-32	6	5	12	56	-1	// Stone Golem
-32	6	5	12	56	-1	// Stone Golem
-32	6	5	12	56	-1	// Stone Golem
-32	6	5	12	56	-1	// Stone Golem
-32	6	5	12	56	-1	// Stone Golem
-// Spot 29 (Grupo B) - 5 Phantom Knight en (12, 75)
+// Spot 12 (Grupo Intermedio Alto: Tarkan) - 5 Mutant en (97, 23)
+62	6	5	97	23	-1	// Mutant
+62	6	5	97	23	-1	// Mutant
+62	6	5	97	23	-1	// Mutant
+62	6	5	97	23	-1	// Mutant
+62	6	5	97	23	-1	// Mutant
+// Spot 13 (Grupo Intermedio Alto: Tarkan) - 5 Bloody Wolf en (98, 5)
+60	6	5	98	5	-1	// Bloody Wolf
+60	6	5	98	5	-1	// Bloody Wolf
+60	6	5	98	5	-1	// Bloody Wolf
+60	6	5	98	5	-1	// Bloody Wolf
+60	6	5	98	5	-1	// Bloody Wolf
+// Spot 14 (Grupo Intermedio Alto: Tarkan) - 5 Iron Wheel en (82, 16)
+57	6	5	82	16	-1	// Iron Wheel
+57	6	5	82	16	-1	// Iron Wheel
+57	6	5	82	16	-1	// Iron Wheel
+57	6	5	82	16	-1	// Iron Wheel
+57	6	5	82	16	-1	// Iron Wheel
+// Spot 15 (Grupo Intermedio Alto: Tarkan) - 5 Tantalos en (82, 33)
+58	6	5	82	33	-1	// Tantalos
+58	6	5	82	33	-1	// Tantalos
+58	6	5	82	33	-1	// Tantalos
+58	6	5	82	33	-1	// Tantalos
+58	6	5	82	33	-1	// Tantalos
+// Spot 16 (Grupo Intermedio Alto: Tarkan) - 5 Beam Knight en (84, 46)
+61	6	5	84	46	-1	// Beam Knight
+61	6	5	84	46	-1	// Beam Knight
+61	6	5	84	46	-1	// Beam Knight
+61	6	5	84	46	-1	// Beam Knight
+61	6	5	84	46	-1	// Beam Knight
+// Spot 17 (Grupo Intermedio Alto: Tarkan) - 5 Mutant en (83, 67)
+62	6	5	83	67	-1	// Mutant
+62	6	5	83	67	-1	// Mutant
+62	6	5	83	67	-1	// Mutant
+62	6	5	83	67	-1	// Mutant
+62	6	5	83	67	-1	// Mutant
+// Spot 18 (Grupo Intermedio Alto: Tarkan) - 5 Bloody Wolf en (83, 80)
+60	6	5	83	80	-1	// Bloody Wolf
+60	6	5	83	80	-1	// Bloody Wolf
+60	6	5	83	80	-1	// Bloody Wolf
+60	6	5	83	80	-1	// Bloody Wolf
+60	6	5	83	80	-1	// Bloody Wolf
+// Spot 19 (Grupo Intermedio Alto: Tarkan) - 5 Iron Wheel en (83, 94)
+57	6	5	83	94	-1	// Iron Wheel
+57	6	5	83	94	-1	// Iron Wheel
+57	6	5	83	94	-1	// Iron Wheel
+57	6	5	83	94	-1	// Iron Wheel
+57	6	5	83	94	-1	// Iron Wheel
+// Spot 20 (Grupo Intermedio Alto: Tarkan) - 5 Tantalos en (66, 56)
+58	6	5	66	56	-1	// Tantalos
+58	6	5	66	56	-1	// Tantalos
+58	6	5	66	56	-1	// Tantalos
+58	6	5	66	56	-1	// Tantalos
+58	6	5	66	56	-1	// Tantalos
+// Spot 21 (Grupo Intermedio Alto: Tarkan) - 5 Beam Knight en (67, 41)
+61	6	5	67	41	-1	// Beam Knight
+61	6	5	67	41	-1	// Beam Knight
+61	6	5	67	41	-1	// Beam Knight
+61	6	5	67	41	-1	// Beam Knight
+61	6	5	67	41	-1	// Beam Knight
+// Spot 22 (Grupo Intermedio Alto: Tarkan) - 5 Mutant en (65, 28)
+62	6	5	65	28	-1	// Mutant
+62	6	5	65	28	-1	// Mutant
+62	6	5	65	28	-1	// Mutant
+62	6	5	65	28	-1	// Mutant
+62	6	5	65	28	-1	// Mutant
+// Spot 23 (Grupo Intermedio Alto: Tarkan) - 5 Bloody Wolf en (54, 26)
+60	6	5	54	26	-1	// Bloody Wolf
+60	6	5	54	26	-1	// Bloody Wolf
+60	6	5	54	26	-1	// Bloody Wolf
+60	6	5	54	26	-1	// Bloody Wolf
+60	6	5	54	26	-1	// Bloody Wolf
+// Spot 24 (Grupo Intermedio Alto: Tarkan) - 5 Iron Wheel en (44, 26)
+57	6	5	44	26	-1	// Iron Wheel
+57	6	5	44	26	-1	// Iron Wheel
+57	6	5	44	26	-1	// Iron Wheel
+57	6	5	44	26	-1	// Iron Wheel
+57	6	5	44	26	-1	// Iron Wheel
+// Spot 25 (Grupo Intermedio Alto: Tarkan) - 5 Tantalos en (29, 27)
+58	6	5	29	27	-1	// Tantalos
+58	6	5	29	27	-1	// Tantalos
+58	6	5	29	27	-1	// Tantalos
+58	6	5	29	27	-1	// Tantalos
+58	6	5	29	27	-1	// Tantalos
+// Spot 26 (Grupo Intermedio Alto: Tarkan) - 5 Beam Knight en (11, 27)
+61	6	5	11	27	-1	// Beam Knight
+61	6	5	11	27	-1	// Beam Knight
+61	6	5	11	27	-1	// Beam Knight
+61	6	5	11	27	-1	// Beam Knight
+61	6	5	11	27	-1	// Beam Knight
+// Spot 27 (Grupo Intermedio Alto: Tarkan) - 5 Mutant en (11, 39)
+62	6	5	11	39	-1	// Mutant
+62	6	5	11	39	-1	// Mutant
+62	6	5	11	39	-1	// Mutant
+62	6	5	11	39	-1	// Mutant
+62	6	5	11	39	-1	// Mutant
+// Spot 28 (Grupo Intermedio Alto: Tarkan) - 5 Bloody Wolf en (12, 56)
+60	6	5	12	56	-1	// Bloody Wolf
+60	6	5	12	56	-1	// Bloody Wolf
+60	6	5	12	56	-1	// Bloody Wolf
+60	6	5	12	56	-1	// Bloody Wolf
+60	6	5	12	56	-1	// Bloody Wolf
+// Spot 29 (Grupo B: Maxima Dificultad) - 5 Phantom Knight en (12, 75)
 72	6	5	12	75	-1	// Phantom Knight
 72	6	5	12	75	-1	// Phantom Knight
 72	6	5	12	75	-1	// Phantom Knight
 72	6	5	12	75	-1	// Phantom Knight
 72	6	5	12	75	-1	// Phantom Knight
-// Spot 30 (Grupo B) - 5 Alpha Crust en (12, 92)
+// Spot 30 (Grupo B: Maxima Dificultad) - 5 Alpha Crust en (12, 92)
 74	6	5	12	92	-1	// Alpha Crust
 74	6	5	12	92	-1	// Alpha Crust
 74	6	5	12	92	-1	// Alpha Crust
 74	6	5	12	92	-1	// Alpha Crust
 74	6	5	12	92	-1	// Alpha Crust
-// Spot 31 (Grupo B) - 5 Drakan en (30, 92)
+// Spot 31 (Grupo B: Maxima Dificultad) - 5 Drakan en (30, 92)
 73	6	5	30	92	-1	// Drakan
 73	6	5	30	92	-1	// Drakan
 73	6	5	30	92	-1	// Drakan
 73	6	5	30	92	-1	// Drakan
 73	6	5	30	92	-1	// Drakan
-// Spot 32 (Grupo B) - 5 Great Drakan en (30, 75)
+// Spot 32 (Grupo B: Maxima Dificultad) - 5 Great Drakan en (30, 75)
 75	6	5	30	75	-1	// Great Drakan
 75	6	5	30	75	-1	// Great Drakan
 75	6	5	30	75	-1	// Great Drakan
 75	6	5	30	75	-1	// Great Drakan
 75	6	5	30	75	-1	// Great Drakan
-// Spot 33 (Grupo B) - 5 Death Beam Knight en (30, 57)
+// Spot 33 (Grupo B: Maxima Dificultad) - 5 Death Beam Knight en (30, 57)
 63	6	5	30	57	-1	// Death Beam Knight
 63	6	5	30	57	-1	// Death Beam Knight
 63	6	5	30	57	-1	// Death Beam Knight
 63	6	5	30	57	-1	// Death Beam Knight
 63	6	5	30	57	-1	// Death Beam Knight
-// Spot 34 (Grupo B) - 5 Mega Crust en (30, 39)
+// Spot 34 (Grupo B: Maxima Dificultad) - 5 Mega Crust en (30, 39)
 71	6	5	30	39	-1	// Mega Crust
 71	6	5	30	39	-1	// Mega Crust
 71	6	5	30	39	-1	// Mega Crust
 71	6	5	30	39	-1	// Mega Crust
 71	6	5	30	39	-1	// Mega Crust
-// Spot 35 (Grupo B) - 5 Phoenix of Darkness en (47, 39)
+// Spot 35 (Grupo B: Maxima Dificultad) - 5 Phoenix of Darkness en (47, 39)
 77	6	5	47	39	-1	// Phoenix of Darkness
 77	6	5	47	39	-1	// Phoenix of Darkness
 77	6	5	47	39	-1	// Phoenix of Darkness
 77	6	5	47	39	-1	// Phoenix of Darkness
 77	6	5	47	39	-1	// Phoenix of Darkness
-// Spot 36 (Grupo B) - 5 Phantom Knight en (48, 57)
+// Spot 36 (Grupo B: Maxima Dificultad) - 5 Phantom Knight en (48, 57)
 72	6	5	48	57	-1	// Phantom Knight
 72	6	5	48	57	-1	// Phantom Knight
 72	6	5	48	57	-1	// Phantom Knight
 72	6	5	48	57	-1	// Phantom Knight
 72	6	5	48	57	-1	// Phantom Knight
-// Spot 37 (Grupo B) - 5 Alpha Crust en (47, 82)
+// Spot 37 (Grupo B: Maxima Dificultad) - 5 Alpha Crust en (47, 82)
 74	6	5	47	82	-1	// Alpha Crust
 74	6	5	47	82	-1	// Alpha Crust
 74	6	5	47	82	-1	// Alpha Crust
 74	6	5	47	82	-1	// Alpha Crust
 74	6	5	47	82	-1	// Alpha Crust
-// Spot 38 (Grupo B) - 5 Drakan en (47, 71)
+// Spot 38 (Grupo B: Maxima Dificultad) - 5 Drakan en (47, 71)
 73	6	5	47	71	-1	// Drakan
 73	6	5	47	71	-1	// Drakan
 73	6	5	47	71	-1	// Drakan
 73	6	5	47	71	-1	// Drakan
 73	6	5	47	71	-1	// Drakan
-// Spot 39 (Grupo B) - 5 Great Drakan en (48, 95)
+// Spot 39 (Grupo B: Maxima Dificultad) - 5 Great Drakan en (48, 95)
 75	6	5	48	95	-1	// Great Drakan
 75	6	5	48	95	-1	// Great Drakan
 75	6	5	48	95	-1	// Great Drakan
 75	6	5	48	95	-1	// Great Drakan
 75	6	5	48	95	-1	// Great Drakan
-// Spot 40 (Grupo B) - 5 Death Beam Knight en (69, 94)
+// Spot 40 (Grupo B: Maxima Dificultad) - 5 Death Beam Knight en (69, 94)
 63	6	5	69	94	-1	// Death Beam Knight
 63	6	5	69	94	-1	// Death Beam Knight
 63	6	5	69	94	-1	// Death Beam Knight
 63	6	5	69	94	-1	// Death Beam Knight
 63	6	5	69	94	-1	// Death Beam Knight
-// Spot 41 (Grupo B) - 5 Mega Crust en (66, 63)
+// Spot 41 (Grupo B: Maxima Dificultad) - 5 Mega Crust en (66, 63)
 71	6	5	66	63	-1	// Mega Crust
 71	6	5	66	63	-1	// Mega Crust
 71	6	5	66	63	-1	// Mega Crust
