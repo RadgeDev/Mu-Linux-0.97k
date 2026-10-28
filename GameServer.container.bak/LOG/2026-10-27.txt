@@ -1,0 +1,2573 @@
+00:54:48 [ServerInfo] ChaosMix loaded successfully
+00:54:48 [ServerInfo] Character loaded successfully
+00:54:48 [ServerInfo] Command loaded successfully
+00:54:48 [ServerInfo] Common loaded successfully
+00:54:48 [ServerInfo] Custom loaded successfully
+00:54:48 [ServerInfo] Event loaded successfully
+00:54:48 [ServerInfo] EventItemBag loaded successfully
+00:54:48 [ServerInfo] Hack loaded successfully
+00:54:48 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/CustomItem.txt
+00:54:48 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/CustomGlow.txt
+00:54:48 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/CustomBow.txt
+00:54:48 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/ItemPosition.txt
+00:54:48 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/MapFog.txt
+00:54:48 [ContentCatalog] 03_000.json: item 96, 0 efectos, 0 líneas de tooltip, pose de inventario
+00:54:48 [ContentCatalog] 13_400.json: item 7120, 0 efectos, 1 líneas de tooltip, pose de inventario
+00:54:48 [CustomPet] 13_400.json: pet del item 7120, levanta zen
+00:54:48 [ServerInfo] Item loaded successfully
+00:54:48 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/CustomMonster.txt
+00:54:48 [ServerInfo] Monster loaded successfully
+00:54:48 [ServerInfo] Move loaded successfully
+00:54:48 [ServerInfo] Quest loaded successfully
+00:54:48 [ServerInfo] Shop loaded successfully
+00:54:48 [ServerInfo] Skill loaded successfully
+00:54:48 [ServerInfo] Util loaded successfully
+00:54:48 [Blood Castle] (1) Sync Start Time. [65] min remain
+00:54:48 [Blood Castle] (1) SetState EMPTY
+00:54:48 [Blood Castle] (2) Sync Start Time. [65] min remain
+00:54:48 [Blood Castle] (2) SetState EMPTY
+00:54:48 [Blood Castle] (3) Sync Start Time. [65] min remain
+00:54:48 [Blood Castle] (3) SetState EMPTY
+00:54:48 [Blood Castle] (4) Sync Start Time. [65] min remain
+00:54:48 [Blood Castle] (4) SetState EMPTY
+00:54:48 [Blood Castle] (5) Sync Start Time. [65] min remain
+00:54:48 [Blood Castle] (5) SetState EMPTY
+00:54:48 [Blood Castle] (6) Sync Start Time. [65] min remain
+00:54:48 [Blood Castle] (6) SetState EMPTY
+00:54:48 [Devil Square] (1) Sync Start Time. [215] min remain
+00:54:48 [Devil Square] (1) SetState EMPTY
+00:54:48 [Devil Square] (2) Sync Start Time. [215] min remain
+00:54:48 [Devil Square] (2) SetState EMPTY
+00:54:48 [Devil Square] (3) Sync Start Time. [215] min remain
+00:54:48 [Devil Square] (3) SetState EMPTY
+00:54:48 [Devil Square] (4) Sync Start Time. [215] min remain
+00:54:48 [Devil Square] (4) SetState EMPTY
+00:54:48 [Bingo] Sync Start Time. [1296] min remain
+00:54:48 [Bingo] SetState EMPTY
+00:54:48 [JoinServerConnection] Connected
+00:54:48 [DataServerConnection] Connected
+01:42:50 [ContentCatalog] 285 items, 159 monstruos, 17 fog, 0 efectos, 28 paquetes
+02:00:00 [Blood Castle] (1) SetState STAND
+02:00:00 [Blood Castle] (2) SetState STAND
+02:00:00 [Blood Castle] (3) SetState STAND
+02:00:00 [Blood Castle] (4) SetState STAND
+02:00:00 [Blood Castle] (5) SetState STAND
+02:00:00 [Blood Castle] (6) SetState STAND
+02:00:01 [Blood Castle] (1) Not enough users
+02:00:01 [Blood Castle] (1) Sync Start Time. [119] min remain
+02:00:01 [Blood Castle] (1) SetState EMPTY
+02:00:01 [Blood Castle] (2) Not enough users
+02:00:01 [Blood Castle] (2) Sync Start Time. [119] min remain
+02:00:01 [Blood Castle] (2) SetState EMPTY
+02:00:01 [Blood Castle] (3) Not enough users
+02:00:01 [Blood Castle] (3) Sync Start Time. [119] min remain
+02:00:01 [Blood Castle] (3) SetState EMPTY
+02:00:01 [Blood Castle] (4) Not enough users
+02:00:01 [Blood Castle] (4) Sync Start Time. [119] min remain
+02:00:01 [Blood Castle] (4) SetState EMPTY
+02:00:01 [Blood Castle] (5) Not enough users
+02:00:01 [Blood Castle] (5) Sync Start Time. [119] min remain
+02:00:01 [Blood Castle] (5) SetState EMPTY
+02:00:01 [Blood Castle] (6) Not enough users
+02:00:01 [Blood Castle] (6) Sync Start Time. [119] min remain
+02:00:01 [Blood Castle] (6) SetState EMPTY
+03:21:20 [pepe][pepe] Set SelfDefence [radge][MGRadge]
+03:22:52 [pepe][pepe] ReSet SelfDefence [radge][MGRadge]
+03:22:55 [pepe][pepe] Set SelfDefence [radge][MGRadge]
+03:23:19 [pepe][pepe] ReSet SelfDefence [radge][MGRadge]
+03:32:05 [pepe][pepe] Set SelfDefence [radge][MGRadge]
+03:52:00 [pepe][pepe] Set SelfDefence [radge][MGRadge]
+03:53:15 [pepe][pepe] ReSet SelfDefence [radge][MGRadge]
+04:00:00 [Blood Castle] (1) SetState STAND
+04:00:00 [Blood Castle] (2) SetState STAND
+04:00:00 [Blood Castle] (3) SetState STAND
+04:00:00 [Blood Castle] (4) SetState STAND
+04:00:00 [Blood Castle] (5) SetState STAND
+04:00:00 [Blood Castle] (6) SetState STAND
+04:00:01 [Blood Castle] (1) Not enough users
+04:00:01 [Blood Castle] (1) Sync Start Time. [119] min remain
+04:00:01 [Blood Castle] (1) SetState EMPTY
+04:00:01 [Blood Castle] (2) Not enough users
+04:00:01 [Blood Castle] (2) Sync Start Time. [119] min remain
+04:00:01 [Blood Castle] (2) SetState EMPTY
+04:00:01 [Blood Castle] (3) Not enough users
+04:00:01 [Blood Castle] (3) Sync Start Time. [119] min remain
+04:00:01 [Blood Castle] (3) SetState EMPTY
+04:00:01 [Blood Castle] (4) Not enough users
+04:00:01 [Blood Castle] (4) Sync Start Time. [119] min remain
+04:00:01 [Blood Castle] (4) SetState EMPTY
+04:00:01 [Blood Castle] (5) Not enough users
+04:00:01 [Blood Castle] (5) Sync Start Time. [119] min remain
+04:00:01 [Blood Castle] (5) SetState EMPTY
+04:00:01 [Blood Castle] (6) Not enough users
+04:00:01 [Blood Castle] (6) Sync Start Time. [119] min remain
+04:00:01 [Blood Castle] (6) SetState EMPTY
+04:17:11 [ServerInfo] ChaosMix loaded successfully
+04:17:11 [ServerInfo] Character loaded successfully
+04:17:11 [ServerInfo] Command loaded successfully
+04:17:11 [ServerInfo] Common loaded successfully
+04:17:11 [ServerInfo] Custom loaded successfully
+04:17:11 [ServerInfo] Event loaded successfully
+04:17:11 [ServerInfo] EventItemBag loaded successfully
+04:17:11 [ServerInfo] Hack loaded successfully
+04:17:11 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/CustomItem.txt
+04:17:11 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/CustomGlow.txt
+04:17:11 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/CustomBow.txt
+04:17:11 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/ItemPosition.txt
+04:17:11 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/MapFog.txt
+04:17:11 [ContentCatalog] 03_000.json: item 96, 0 efectos, 0 líneas de tooltip, pose de inventario
+04:17:11 [ContentCatalog] 13_400.json: item 7120, 0 efectos, 1 líneas de tooltip, pose de inventario
+04:17:11 [CustomPet] 13_400.json: pet del item 7120, levanta zen
+04:17:11 [ServerInfo] Item loaded successfully
+04:17:11 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/CustomMonster.txt
+04:17:11 [ServerInfo] Monster loaded successfully
+04:17:11 [ServerInfo] Move loaded successfully
+04:17:11 [ServerInfo] Quest loaded successfully
+04:17:11 [ServerInfo] Shop loaded successfully
+04:17:11 [ServerInfo] Skill loaded successfully
+04:17:11 [ServerInfo] Util loaded successfully
+04:17:11 [Blood Castle] (1) Sync Start Time. [102] min remain
+04:17:11 [Blood Castle] (1) SetState EMPTY
+04:17:11 [Blood Castle] (2) Sync Start Time. [102] min remain
+04:17:11 [Blood Castle] (2) SetState EMPTY
+04:17:11 [Blood Castle] (3) Sync Start Time. [102] min remain
+04:17:11 [Blood Castle] (3) SetState EMPTY
+04:17:11 [Blood Castle] (4) Sync Start Time. [102] min remain
+04:17:11 [Blood Castle] (4) SetState EMPTY
+04:17:11 [Blood Castle] (5) Sync Start Time. [102] min remain
+04:17:11 [Blood Castle] (5) SetState EMPTY
+04:17:11 [Blood Castle] (6) Sync Start Time. [102] min remain
+04:17:11 [Blood Castle] (6) SetState EMPTY
+04:17:11 [Devil Square] (1) Sync Start Time. [12] min remain
+04:17:11 [Devil Square] (1) SetState EMPTY
+04:17:11 [Devil Square] (2) Sync Start Time. [12] min remain
+04:17:11 [Devil Square] (2) SetState EMPTY
+04:17:11 [Devil Square] (3) Sync Start Time. [12] min remain
+04:17:11 [Devil Square] (3) SetState EMPTY
+04:17:11 [Devil Square] (4) Sync Start Time. [12] min remain
+04:17:11 [Devil Square] (4) SetState EMPTY
+04:17:11 [Bingo] Sync Start Time. [1093] min remain
+04:17:11 [Bingo] SetState EMPTY
+04:17:11 [JoinServerConnection] Connected
+04:17:11 [DataServerConnection] Connected
+04:28:56 [ContentCatalog] 285 items, 159 monstruos, 17 fog, 0 efectos, 28 paquetes
+04:30:00 [Devil Square] (1) SetState STAND
+04:30:00 [Devil Square] (2) SetState STAND
+04:30:00 [Devil Square] (3) SetState STAND
+04:30:00 [Devil Square] (4) SetState STAND
+04:30:01 [Devil Square] (1) Not enough users
+04:30:01 [Devil Square] (1) Sync Start Time. [239] min remain
+04:30:01 [Devil Square] (1) SetState EMPTY
+04:30:01 [Devil Square] (2) Not enough users
+04:30:01 [Devil Square] (2) Sync Start Time. [239] min remain
+04:30:01 [Devil Square] (2) SetState EMPTY
+04:30:01 [Devil Square] (3) Not enough users
+04:30:01 [Devil Square] (3) Sync Start Time. [239] min remain
+04:30:01 [Devil Square] (3) SetState EMPTY
+04:30:01 [Devil Square] (4) Not enough users
+04:30:01 [Devil Square] (4) Sync Start Time. [239] min remain
+04:30:01 [Devil Square] (4) SetState EMPTY
+04:39:30 [ServerInfo] ChaosMix loaded successfully
+04:39:30 [ServerInfo] Character loaded successfully
+04:39:30 [ServerInfo] Command loaded successfully
+04:39:30 [ServerInfo] Common loaded successfully
+04:39:30 [ServerInfo] Custom loaded successfully
+04:39:30 [ServerInfo] Event loaded successfully
+04:39:30 [ServerInfo] EventItemBag loaded successfully
+04:39:30 [ServerInfo] Hack loaded successfully
+04:39:30 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/CustomItem.txt
+04:39:30 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/CustomGlow.txt
+04:39:30 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/CustomBow.txt
+04:39:30 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/ItemPosition.txt
+04:39:30 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/MapFog.txt
+04:39:30 [ContentCatalog] 03_000.json: item 96, 0 efectos, 0 líneas de tooltip, pose de inventario
+04:39:30 [ContentCatalog] 13_400.json: item 7120, 0 efectos, 1 líneas de tooltip, pose de inventario
+04:39:30 [CustomPet] 13_400.json: pet del item 7120, levanta zen
+04:39:30 [ServerInfo] Item loaded successfully
+04:39:30 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/CustomMonster.txt
+04:39:30 [ServerInfo] Monster loaded successfully
+04:39:30 [ServerInfo] Move loaded successfully
+04:39:30 [ServerInfo] Quest loaded successfully
+04:39:30 [ServerInfo] Shop loaded successfully
+04:39:30 [ServerInfo] Skill loaded successfully
+04:39:30 [ServerInfo] Util loaded successfully
+04:39:30 [Blood Castle] (1) Sync Start Time. [80] min remain
+04:39:30 [Blood Castle] (1) SetState EMPTY
+04:39:30 [Blood Castle] (2) Sync Start Time. [80] min remain
+04:39:30 [Blood Castle] (2) SetState EMPTY
+04:39:30 [Blood Castle] (3) Sync Start Time. [80] min remain
+04:39:30 [Blood Castle] (3) SetState EMPTY
+04:39:30 [Blood Castle] (4) Sync Start Time. [80] min remain
+04:39:30 [Blood Castle] (4) SetState EMPTY
+04:39:30 [Blood Castle] (5) Sync Start Time. [80] min remain
+04:39:30 [Blood Castle] (5) SetState EMPTY
+04:39:30 [Blood Castle] (6) Sync Start Time. [80] min remain
+04:39:30 [Blood Castle] (6) SetState EMPTY
+04:39:30 [Devil Square] (1) Sync Start Time. [230] min remain
+04:39:30 [Devil Square] (1) SetState EMPTY
+04:39:30 [Devil Square] (2) Sync Start Time. [230] min remain
+04:39:30 [Devil Square] (2) SetState EMPTY
+04:39:30 [Devil Square] (3) Sync Start Time. [230] min remain
+04:39:30 [Devil Square] (3) SetState EMPTY
+04:39:30 [Devil Square] (4) Sync Start Time. [230] min remain
+04:39:30 [Devil Square] (4) SetState EMPTY
+04:39:30 [Bingo] Sync Start Time. [1071] min remain
+04:39:30 [Bingo] SetState EMPTY
+04:39:30 [JoinServerConnection] Connected
+04:39:30 [DataServerConnection] Connected
+04:50:59 [ContentCatalog] 285 items, 159 monstruos, 17 fog, 0 efectos, 28 paquetes
+04:56:29 [ServerInfo] ChaosMix loaded successfully
+04:56:29 [ServerInfo] Character loaded successfully
+04:56:29 [ServerInfo] Command loaded successfully
+04:56:29 [ServerInfo] Common loaded successfully
+04:56:29 [ServerInfo] Custom loaded successfully
+04:56:29 [ServerInfo] Event loaded successfully
+04:56:29 [ServerInfo] EventItemBag loaded successfully
+04:56:29 [ServerInfo] Hack loaded successfully
+04:56:29 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/CustomItem.txt
+04:56:29 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/CustomGlow.txt
+04:56:29 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/CustomBow.txt
+04:56:29 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/ItemPosition.txt
+04:56:29 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/MapFog.txt
+04:56:29 [ContentCatalog] 03_000.json: item 96, 0 efectos, 0 líneas de tooltip, pose de inventario
+04:56:29 [ContentCatalog] 13_400.json: item 7120, 0 efectos, 1 líneas de tooltip, pose de inventario
+04:56:29 [CustomPet] 13_400.json: pet del item 7120, levanta zen
+04:56:29 [ServerInfo] Item loaded successfully
+04:56:29 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/CustomMonster.txt
+04:56:29 [ServerInfo] Monster loaded successfully
+04:56:29 [ServerInfo] Move loaded successfully
+04:56:29 [ServerInfo] Quest loaded successfully
+04:56:29 [ServerInfo] Shop loaded successfully
+04:56:29 [ServerInfo] Skill loaded successfully
+04:56:29 [ServerInfo] Util loaded successfully
+04:56:29 [Blood Castle] (1) Sync Start Time. [63] min remain
+04:56:29 [Blood Castle] (1) SetState EMPTY
+04:56:29 [Blood Castle] (2) Sync Start Time. [63] min remain
+04:56:29 [Blood Castle] (2) SetState EMPTY
+04:56:29 [Blood Castle] (3) Sync Start Time. [63] min remain
+04:56:29 [Blood Castle] (3) SetState EMPTY
+04:56:29 [Blood Castle] (4) Sync Start Time. [63] min remain
+04:56:29 [Blood Castle] (4) SetState EMPTY
+04:56:29 [Blood Castle] (5) Sync Start Time. [63] min remain
+04:56:29 [Blood Castle] (5) SetState EMPTY
+04:56:29 [Blood Castle] (6) Sync Start Time. [63] min remain
+04:56:29 [Blood Castle] (6) SetState EMPTY
+04:56:29 [Devil Square] (1) Sync Start Time. [213] min remain
+04:56:29 [Devil Square] (1) SetState EMPTY
+04:56:29 [Devil Square] (2) Sync Start Time. [213] min remain
+04:56:29 [Devil Square] (2) SetState EMPTY
+04:56:29 [Devil Square] (3) Sync Start Time. [213] min remain
+04:56:29 [Devil Square] (3) SetState EMPTY
+04:56:29 [Devil Square] (4) Sync Start Time. [213] min remain
+04:56:29 [Devil Square] (4) SetState EMPTY
+04:56:29 [Bingo] Sync Start Time. [1054] min remain
+04:56:29 [Bingo] SetState EMPTY
+04:56:29 [JoinServerConnection] Connected
+04:56:29 [DataServerConnection] Connected
+04:56:34 [ContentCatalog] 285 items, 159 monstruos, 17 fog, 0 efectos, 28 paquetes
+05:07:18 [ServerInfo] ChaosMix loaded successfully
+05:07:18 [ServerInfo] Character loaded successfully
+05:07:18 [ServerInfo] Command loaded successfully
+05:07:18 [ServerInfo] Common loaded successfully
+05:07:18 [ServerInfo] Custom loaded successfully
+05:07:18 [ServerInfo] Event loaded successfully
+05:07:18 [ServerInfo] EventItemBag loaded successfully
+05:07:18 [ServerInfo] Hack loaded successfully
+05:07:18 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/CustomItem.txt
+05:07:18 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/CustomGlow.txt
+05:07:18 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/CustomBow.txt
+05:07:18 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/ItemPosition.txt
+05:07:18 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/MapFog.txt
+05:07:18 [ContentCatalog] 03_000.json: item 96, 0 efectos, 0 líneas de tooltip, pose de inventario
+05:07:18 [ContentCatalog] 13_400.json: item 7120, 0 efectos, 1 líneas de tooltip, pose de inventario
+05:07:18 [CustomPet] 13_400.json: pet del item 7120, levanta zen
+05:07:18 [ServerInfo] Item loaded successfully
+05:07:18 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/CustomMonster.txt
+05:07:18 [ServerInfo] Monster loaded successfully
+05:07:18 [ServerInfo] Move loaded successfully
+05:07:18 [ServerInfo] Quest loaded successfully
+05:07:18 [ServerInfo] Shop loaded successfully
+05:07:18 [ServerInfo] Skill loaded successfully
+05:07:18 [ServerInfo] Util loaded successfully
+05:07:18 [Blood Castle] (1) Sync Start Time. [52] min remain
+05:07:18 [Blood Castle] (1) SetState EMPTY
+05:07:18 [Blood Castle] (2) Sync Start Time. [52] min remain
+05:07:18 [Blood Castle] (2) SetState EMPTY
+05:07:18 [Blood Castle] (3) Sync Start Time. [52] min remain
+05:07:18 [Blood Castle] (3) SetState EMPTY
+05:07:18 [Blood Castle] (4) Sync Start Time. [52] min remain
+05:07:18 [Blood Castle] (4) SetState EMPTY
+05:07:18 [Blood Castle] (5) Sync Start Time. [52] min remain
+05:07:18 [Blood Castle] (5) SetState EMPTY
+05:07:18 [Blood Castle] (6) Sync Start Time. [52] min remain
+05:07:18 [Blood Castle] (6) SetState EMPTY
+05:07:18 [Devil Square] (1) Sync Start Time. [202] min remain
+05:07:18 [Devil Square] (1) SetState EMPTY
+05:07:18 [Devil Square] (2) Sync Start Time. [202] min remain
+05:07:18 [Devil Square] (2) SetState EMPTY
+05:07:18 [Devil Square] (3) Sync Start Time. [202] min remain
+05:07:18 [Devil Square] (3) SetState EMPTY
+05:07:18 [Devil Square] (4) Sync Start Time. [202] min remain
+05:07:18 [Devil Square] (4) SetState EMPTY
+05:07:18 [Bingo] Sync Start Time. [1043] min remain
+05:07:18 [Bingo] SetState EMPTY
+05:07:18 [JoinServerConnection] Connected
+05:07:18 [DataServerConnection] Connected
+05:07:23 [ContentCatalog] 285 items, 159 monstruos, 17 fog, 0 efectos, 28 paquetes
+05:16:48 [ServerInfo] ChaosMix loaded successfully
+05:16:48 [ServerInfo] Character loaded successfully
+05:16:48 [ServerInfo] Command loaded successfully
+05:16:48 [ServerInfo] Common loaded successfully
+05:16:48 [ServerInfo] Custom loaded successfully
+05:16:48 [ServerInfo] Event loaded successfully
+05:16:48 [ServerInfo] EventItemBag loaded successfully
+05:16:48 [ServerInfo] Hack loaded successfully
+05:16:48 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/CustomItem.txt
+05:16:48 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/CustomGlow.txt
+05:16:48 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/CustomBow.txt
+05:16:48 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/ItemPosition.txt
+05:16:48 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/MapFog.txt
+05:16:48 [ContentCatalog] 03_000.json: item 96, 0 efectos, 0 líneas de tooltip, pose de inventario
+05:16:48 [ContentCatalog] 13_400.json: item 7120, 0 efectos, 1 líneas de tooltip, pose de inventario
+05:16:48 [CustomPet] 13_400.json: pet del item 7120, levanta zen
+05:16:48 [ServerInfo] Item loaded successfully
+05:16:48 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/CustomMonster.txt
+05:16:48 [ServerInfo] Monster loaded successfully
+05:16:48 [ServerInfo] Move loaded successfully
+05:16:48 [ServerInfo] Quest loaded successfully
+05:16:48 [ServerInfo] Shop loaded successfully
+05:16:48 [ServerInfo] Skill loaded successfully
+05:16:48 [ServerInfo] Util loaded successfully
+05:16:48 [Blood Castle] (1) Sync Start Time. [43] min remain
+05:16:48 [Blood Castle] (1) SetState EMPTY
+05:16:48 [Blood Castle] (2) Sync Start Time. [43] min remain
+05:16:48 [Blood Castle] (2) SetState EMPTY
+05:16:48 [Blood Castle] (3) Sync Start Time. [43] min remain
+05:16:48 [Blood Castle] (3) SetState EMPTY
+05:16:48 [Blood Castle] (4) Sync Start Time. [43] min remain
+05:16:48 [Blood Castle] (4) SetState EMPTY
+05:16:48 [Blood Castle] (5) Sync Start Time. [43] min remain
+05:16:48 [Blood Castle] (5) SetState EMPTY
+05:16:48 [Blood Castle] (6) Sync Start Time. [43] min remain
+05:16:48 [Blood Castle] (6) SetState EMPTY
+05:16:48 [Devil Square] (1) Sync Start Time. [193] min remain
+05:16:48 [Devil Square] (1) SetState EMPTY
+05:16:48 [Devil Square] (2) Sync Start Time. [193] min remain
+05:16:48 [Devil Square] (2) SetState EMPTY
+05:16:48 [Devil Square] (3) Sync Start Time. [193] min remain
+05:16:48 [Devil Square] (3) SetState EMPTY
+05:16:48 [Devil Square] (4) Sync Start Time. [193] min remain
+05:16:48 [Devil Square] (4) SetState EMPTY
+05:16:48 [Bingo] Sync Start Time. [1034] min remain
+05:16:48 [Bingo] SetState EMPTY
+05:16:48 [JoinServerConnection] Connected
+05:16:48 [DataServerConnection] Connected
+05:16:53 [ContentCatalog] 285 items, 159 monstruos, 17 fog, 0 efectos, 28 paquetes
+05:22:46 [ServerInfo] ChaosMix loaded successfully
+05:22:46 [ServerInfo] Character loaded successfully
+05:22:46 [ServerInfo] Command loaded successfully
+05:22:46 [ServerInfo] Common loaded successfully
+05:22:46 [ServerInfo] Custom loaded successfully
+05:22:46 [ServerInfo] Event loaded successfully
+05:22:46 [ServerInfo] EventItemBag loaded successfully
+05:22:46 [ServerInfo] Hack loaded successfully
+05:22:46 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/CustomItem.txt
+05:22:46 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/CustomGlow.txt
+05:22:46 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/CustomBow.txt
+05:22:46 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/ItemPosition.txt
+05:22:46 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/MapFog.txt
+05:22:46 [ContentCatalog] 03_000.json: item 96, 0 efectos, 0 líneas de tooltip, pose de inventario
+05:22:46 [ContentCatalog] 13_400.json: item 7120, 0 efectos, 1 líneas de tooltip, pose de inventario
+05:22:46 [CustomPet] 13_400.json: pet del item 7120, levanta zen
+05:22:46 [ServerInfo] Item loaded successfully
+05:22:46 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/CustomMonster.txt
+05:22:46 [ServerInfo] Monster loaded successfully
+05:22:46 [ServerInfo] Move loaded successfully
+05:22:46 [ServerInfo] Quest loaded successfully
+05:22:46 [ServerInfo] Shop loaded successfully
+05:22:46 [ServerInfo] Skill loaded successfully
+05:22:46 [ServerInfo] Util loaded successfully
+05:22:46 [Blood Castle] (1) Sync Start Time. [37] min remain
+05:22:46 [Blood Castle] (1) SetState EMPTY
+05:22:46 [Blood Castle] (2) Sync Start Time. [37] min remain
+05:22:46 [Blood Castle] (2) SetState EMPTY
+05:22:46 [Blood Castle] (3) Sync Start Time. [37] min remain
+05:22:46 [Blood Castle] (3) SetState EMPTY
+05:22:46 [Blood Castle] (4) Sync Start Time. [37] min remain
+05:22:46 [Blood Castle] (4) SetState EMPTY
+05:22:46 [Blood Castle] (5) Sync Start Time. [37] min remain
+05:22:46 [Blood Castle] (5) SetState EMPTY
+05:22:46 [Blood Castle] (6) Sync Start Time. [37] min remain
+05:22:46 [Blood Castle] (6) SetState EMPTY
+05:22:46 [Devil Square] (1) Sync Start Time. [187] min remain
+05:22:46 [Devil Square] (1) SetState EMPTY
+05:22:46 [Devil Square] (2) Sync Start Time. [187] min remain
+05:22:46 [Devil Square] (2) SetState EMPTY
+05:22:46 [Devil Square] (3) Sync Start Time. [187] min remain
+05:22:46 [Devil Square] (3) SetState EMPTY
+05:22:46 [Devil Square] (4) Sync Start Time. [187] min remain
+05:22:46 [Devil Square] (4) SetState EMPTY
+05:22:46 [Bingo] Sync Start Time. [1028] min remain
+05:22:46 [Bingo] SetState EMPTY
+05:22:46 [JoinServerConnection] Connected
+05:22:46 [DataServerConnection] Connected
+05:22:51 [ContentCatalog] 285 items, 159 monstruos, 17 fog, 0 efectos, 28 paquetes
+05:28:03 [ServerInfo] ChaosMix loaded successfully
+05:28:03 [ServerInfo] Character loaded successfully
+05:28:03 [ServerInfo] Command loaded successfully
+05:28:03 [ServerInfo] Common loaded successfully
+05:28:03 [ServerInfo] Custom loaded successfully
+05:28:03 [ServerInfo] Event loaded successfully
+05:28:03 [ServerInfo] EventItemBag loaded successfully
+05:28:03 [ServerInfo] Hack loaded successfully
+05:28:03 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/CustomItem.txt
+05:28:03 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/CustomGlow.txt
+05:28:03 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/CustomBow.txt
+05:28:03 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/ItemPosition.txt
+05:28:03 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/MapFog.txt
+05:28:03 [ContentCatalog] 03_000.json: item 96, 0 efectos, 0 líneas de tooltip, pose de inventario
+05:28:03 [ContentCatalog] 13_400.json: item 7120, 0 efectos, 1 líneas de tooltip, pose de inventario
+05:28:03 [CustomPet] 13_400.json: pet del item 7120, levanta zen
+05:28:03 [ServerInfo] Item loaded successfully
+05:28:03 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/CustomMonster.txt
+05:28:03 [ServerInfo] Monster loaded successfully
+05:28:03 [ServerInfo] Move loaded successfully
+05:28:03 [ServerInfo] Quest loaded successfully
+05:28:03 [ServerInfo] Shop loaded successfully
+05:28:03 [ServerInfo] Skill loaded successfully
+05:28:03 [ServerInfo] Util loaded successfully
+05:28:03 [Blood Castle] (1) Sync Start Time. [31] min remain
+05:28:03 [Blood Castle] (1) SetState EMPTY
+05:28:03 [Blood Castle] (2) Sync Start Time. [31] min remain
+05:28:03 [Blood Castle] (2) SetState EMPTY
+05:28:03 [Blood Castle] (3) Sync Start Time. [31] min remain
+05:28:03 [Blood Castle] (3) SetState EMPTY
+05:28:03 [Blood Castle] (4) Sync Start Time. [31] min remain
+05:28:03 [Blood Castle] (4) SetState EMPTY
+05:28:03 [Blood Castle] (5) Sync Start Time. [31] min remain
+05:28:03 [Blood Castle] (5) SetState EMPTY
+05:28:03 [Blood Castle] (6) Sync Start Time. [31] min remain
+05:28:03 [Blood Castle] (6) SetState EMPTY
+05:28:03 [Devil Square] (1) Sync Start Time. [181] min remain
+05:28:03 [Devil Square] (1) SetState EMPTY
+05:28:03 [Devil Square] (2) Sync Start Time. [181] min remain
+05:28:03 [Devil Square] (2) SetState EMPTY
+05:28:03 [Devil Square] (3) Sync Start Time. [181] min remain
+05:28:03 [Devil Square] (3) SetState EMPTY
+05:28:03 [Devil Square] (4) Sync Start Time. [181] min remain
+05:28:03 [Devil Square] (4) SetState EMPTY
+05:28:03 [Bingo] Sync Start Time. [1022] min remain
+05:28:03 [Bingo] SetState EMPTY
+05:28:03 [JoinServerConnection] Connected
+05:28:03 [DataServerConnection] Connected
+05:28:08 [ContentCatalog] 285 items, 159 monstruos, 17 fog, 0 efectos, 28 paquetes
+05:34:38 [ServerInfo] ChaosMix loaded successfully
+05:34:38 [ServerInfo] Character loaded successfully
+05:34:38 [ServerInfo] Command loaded successfully
+05:34:38 [ServerInfo] Common loaded successfully
+05:34:38 [ServerInfo] Custom loaded successfully
+05:34:38 [ServerInfo] Event loaded successfully
+05:34:38 [ServerInfo] EventItemBag loaded successfully
+05:34:38 [ServerInfo] Hack loaded successfully
+05:34:38 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/CustomItem.txt
+05:34:38 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/CustomGlow.txt
+05:34:38 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/CustomBow.txt
+05:34:38 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/ItemPosition.txt
+05:34:38 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/MapFog.txt
+05:34:38 [ContentCatalog] 03_000.json: item 96, 0 efectos, 0 líneas de tooltip, pose de inventario
+05:34:38 [ContentCatalog] 13_400.json: item 7120, 0 efectos, 1 líneas de tooltip, pose de inventario
+05:34:38 [CustomPet] 13_400.json: pet del item 7120, levanta zen
+05:34:38 [ServerInfo] Item loaded successfully
+05:34:38 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/CustomMonster.txt
+05:34:38 [ServerInfo] Monster loaded successfully
+05:34:38 [ServerInfo] Move loaded successfully
+05:34:38 [ServerInfo] Quest loaded successfully
+05:34:38 [ServerInfo] Shop loaded successfully
+05:34:38 [ServerInfo] Skill loaded successfully
+05:34:38 [ServerInfo] Util loaded successfully
+05:34:38 [Blood Castle] (1) Sync Start Time. [25] min remain
+05:34:38 [Blood Castle] (1) SetState EMPTY
+05:34:38 [Blood Castle] (2) Sync Start Time. [25] min remain
+05:34:38 [Blood Castle] (2) SetState EMPTY
+05:34:38 [Blood Castle] (3) Sync Start Time. [25] min remain
+05:34:38 [Blood Castle] (3) SetState EMPTY
+05:34:38 [Blood Castle] (4) Sync Start Time. [25] min remain
+05:34:38 [Blood Castle] (4) SetState EMPTY
+05:34:38 [Blood Castle] (5) Sync Start Time. [25] min remain
+05:34:38 [Blood Castle] (5) SetState EMPTY
+05:34:38 [Blood Castle] (6) Sync Start Time. [25] min remain
+05:34:38 [Blood Castle] (6) SetState EMPTY
+05:34:38 [Devil Square] (1) Sync Start Time. [175] min remain
+05:34:38 [Devil Square] (1) SetState EMPTY
+05:34:38 [Devil Square] (2) Sync Start Time. [175] min remain
+05:34:38 [Devil Square] (2) SetState EMPTY
+05:34:38 [Devil Square] (3) Sync Start Time. [175] min remain
+05:34:38 [Devil Square] (3) SetState EMPTY
+05:34:38 [Devil Square] (4) Sync Start Time. [175] min remain
+05:34:38 [Devil Square] (4) SetState EMPTY
+05:34:38 [Bingo] Sync Start Time. [1016] min remain
+05:34:38 [Bingo] SetState EMPTY
+05:34:38 [JoinServerConnection] Connected
+05:34:38 [DataServerConnection] Connected
+05:34:43 [ContentCatalog] 285 items, 159 monstruos, 17 fog, 0 efectos, 28 paquetes
+05:38:19 [ServerInfo] ChaosMix loaded successfully
+05:38:19 [ServerInfo] Character loaded successfully
+05:38:19 [ServerInfo] Command loaded successfully
+05:38:19 [ServerInfo] Common loaded successfully
+05:38:19 [ServerInfo] Custom loaded successfully
+05:38:19 [ServerInfo] Event loaded successfully
+05:38:19 [ServerInfo] EventItemBag loaded successfully
+05:38:19 [ServerInfo] Hack loaded successfully
+05:38:19 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/CustomItem.txt
+05:38:19 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/CustomGlow.txt
+05:38:19 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/CustomBow.txt
+05:38:19 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/ItemPosition.txt
+05:38:19 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/MapFog.txt
+05:38:19 [ContentCatalog] 03_000.json: item 96, 0 efectos, 0 líneas de tooltip, pose de inventario
+05:38:19 [ContentCatalog] 13_400.json: item 7120, 0 efectos, 1 líneas de tooltip, pose de inventario
+05:38:19 [CustomPet] 13_400.json: pet del item 7120, levanta zen
+05:38:19 [ServerInfo] Item loaded successfully
+05:38:19 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/CustomMonster.txt
+05:38:19 [ServerInfo] Monster loaded successfully
+05:38:19 [ServerInfo] Move loaded successfully
+05:38:19 [ServerInfo] Quest loaded successfully
+05:38:19 [ServerInfo] Shop loaded successfully
+05:38:19 [ServerInfo] Skill loaded successfully
+05:38:19 [ServerInfo] Util loaded successfully
+05:38:19 [Blood Castle] (1) Sync Start Time. [21] min remain
+05:38:19 [Blood Castle] (1) SetState EMPTY
+05:38:19 [Blood Castle] (2) Sync Start Time. [21] min remain
+05:38:19 [Blood Castle] (2) SetState EMPTY
+05:38:19 [Blood Castle] (3) Sync Start Time. [21] min remain
+05:38:19 [Blood Castle] (3) SetState EMPTY
+05:38:19 [Blood Castle] (4) Sync Start Time. [21] min remain
+05:38:19 [Blood Castle] (4) SetState EMPTY
+05:38:19 [Blood Castle] (5) Sync Start Time. [21] min remain
+05:38:19 [Blood Castle] (5) SetState EMPTY
+05:38:19 [Blood Castle] (6) Sync Start Time. [21] min remain
+05:38:19 [Blood Castle] (6) SetState EMPTY
+05:38:19 [Devil Square] (1) Sync Start Time. [171] min remain
+05:38:19 [Devil Square] (1) SetState EMPTY
+05:38:19 [Devil Square] (2) Sync Start Time. [171] min remain
+05:38:19 [Devil Square] (2) SetState EMPTY
+05:38:19 [Devil Square] (3) Sync Start Time. [171] min remain
+05:38:19 [Devil Square] (3) SetState EMPTY
+05:38:19 [Devil Square] (4) Sync Start Time. [171] min remain
+05:38:19 [Devil Square] (4) SetState EMPTY
+05:38:19 [Bingo] Sync Start Time. [1012] min remain
+05:38:19 [Bingo] SetState EMPTY
+05:38:19 [JoinServerConnection] Connected
+05:38:19 [DataServerConnection] Connected
+05:38:24 [ContentCatalog] 285 items, 159 monstruos, 17 fog, 0 efectos, 28 paquetes
+06:00:00 [Blood Castle] (1) SetState STAND
+06:00:00 [Blood Castle] (2) SetState STAND
+06:00:00 [Blood Castle] (3) SetState STAND
+06:00:00 [Blood Castle] (4) SetState STAND
+06:00:00 [Blood Castle] (5) SetState STAND
+06:00:00 [Blood Castle] (6) SetState STAND
+06:00:01 [Blood Castle] (1) Not enough users
+06:00:01 [Blood Castle] (1) Sync Start Time. [119] min remain
+06:00:01 [Blood Castle] (1) SetState EMPTY
+06:00:01 [Blood Castle] (2) Not enough users
+06:00:01 [Blood Castle] (2) Sync Start Time. [119] min remain
+06:00:01 [Blood Castle] (2) SetState EMPTY
+06:00:01 [Blood Castle] (3) Not enough users
+06:00:01 [Blood Castle] (3) Sync Start Time. [119] min remain
+06:00:01 [Blood Castle] (3) SetState EMPTY
+06:00:01 [Blood Castle] (4) Not enough users
+06:00:01 [Blood Castle] (4) Sync Start Time. [119] min remain
+06:00:01 [Blood Castle] (4) SetState EMPTY
+06:00:01 [Blood Castle] (5) Not enough users
+06:00:01 [Blood Castle] (5) Sync Start Time. [119] min remain
+06:00:01 [Blood Castle] (5) SetState EMPTY
+06:00:01 [Blood Castle] (6) Not enough users
+06:00:01 [Blood Castle] (6) Sync Start Time. [119] min remain
+06:00:01 [Blood Castle] (6) SetState EMPTY
+08:00:00 [Blood Castle] (1) SetState STAND
+08:00:00 [Blood Castle] (2) SetState STAND
+08:00:00 [Blood Castle] (3) SetState STAND
+08:00:00 [Blood Castle] (4) SetState STAND
+08:00:00 [Blood Castle] (5) SetState STAND
+08:00:00 [Blood Castle] (6) SetState STAND
+08:00:01 [Blood Castle] (1) Not enough users
+08:00:01 [Blood Castle] (1) Sync Start Time. [119] min remain
+08:00:01 [Blood Castle] (1) SetState EMPTY
+08:00:01 [Blood Castle] (2) Not enough users
+08:00:01 [Blood Castle] (2) Sync Start Time. [119] min remain
+08:00:01 [Blood Castle] (2) SetState EMPTY
+08:00:01 [Blood Castle] (3) Not enough users
+08:00:01 [Blood Castle] (3) Sync Start Time. [119] min remain
+08:00:01 [Blood Castle] (3) SetState EMPTY
+08:00:01 [Blood Castle] (4) Not enough users
+08:00:01 [Blood Castle] (4) Sync Start Time. [119] min remain
+08:00:01 [Blood Castle] (4) SetState EMPTY
+08:00:01 [Blood Castle] (5) Not enough users
+08:00:01 [Blood Castle] (5) Sync Start Time. [119] min remain
+08:00:01 [Blood Castle] (5) SetState EMPTY
+08:00:01 [Blood Castle] (6) Not enough users
+08:00:01 [Blood Castle] (6) Sync Start Time. [119] min remain
+08:00:01 [Blood Castle] (6) SetState EMPTY
+08:30:00 [Devil Square] (1) SetState STAND
+08:30:00 [Devil Square] (2) SetState STAND
+08:30:00 [Devil Square] (3) SetState STAND
+08:30:00 [Devil Square] (4) SetState STAND
+08:30:01 [Devil Square] (1) Not enough users
+08:30:01 [Devil Square] (1) Sync Start Time. [239] min remain
+08:30:01 [Devil Square] (1) SetState EMPTY
+08:30:01 [Devil Square] (2) Not enough users
+08:30:01 [Devil Square] (2) Sync Start Time. [239] min remain
+08:30:01 [Devil Square] (2) SetState EMPTY
+08:30:01 [Devil Square] (3) Not enough users
+08:30:01 [Devil Square] (3) Sync Start Time. [239] min remain
+08:30:01 [Devil Square] (3) SetState EMPTY
+08:30:01 [Devil Square] (4) Not enough users
+08:30:01 [Devil Square] (4) Sync Start Time. [239] min remain
+08:30:01 [Devil Square] (4) SetState EMPTY
+10:00:00 [Blood Castle] (1) SetState STAND
+10:00:00 [Blood Castle] (2) SetState STAND
+10:00:00 [Blood Castle] (3) SetState STAND
+10:00:00 [Blood Castle] (4) SetState STAND
+10:00:00 [Blood Castle] (5) SetState STAND
+10:00:00 [Blood Castle] (6) SetState STAND
+10:00:01 [Blood Castle] (1) Not enough users
+10:00:01 [Blood Castle] (1) Sync Start Time. [119] min remain
+10:00:01 [Blood Castle] (1) SetState EMPTY
+10:00:01 [Blood Castle] (2) Not enough users
+10:00:01 [Blood Castle] (2) Sync Start Time. [119] min remain
+10:00:01 [Blood Castle] (2) SetState EMPTY
+10:00:01 [Blood Castle] (3) Not enough users
+10:00:01 [Blood Castle] (3) Sync Start Time. [119] min remain
+10:00:01 [Blood Castle] (3) SetState EMPTY
+10:00:01 [Blood Castle] (4) Not enough users
+10:00:01 [Blood Castle] (4) Sync Start Time. [119] min remain
+10:00:01 [Blood Castle] (4) SetState EMPTY
+10:00:01 [Blood Castle] (5) Not enough users
+10:00:01 [Blood Castle] (5) Sync Start Time. [119] min remain
+10:00:01 [Blood Castle] (5) SetState EMPTY
+10:00:01 [Blood Castle] (6) Not enough users
+10:00:01 [Blood Castle] (6) Sync Start Time. [119] min remain
+10:00:01 [Blood Castle] (6) SetState EMPTY
+11:45:36 [ServerInfo] ChaosMix loaded successfully
+11:45:36 [ServerInfo] Character loaded successfully
+11:45:36 [ServerInfo] Command loaded successfully
+11:45:36 [ServerInfo] Common loaded successfully
+11:45:36 [ServerInfo] Custom loaded successfully
+11:45:36 [ServerInfo] Event loaded successfully
+11:45:36 [ServerInfo] EventItemBag loaded successfully
+11:45:36 [ServerInfo] Hack loaded successfully
+11:45:36 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/CustomItem.txt
+11:45:36 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/CustomGlow.txt
+11:45:36 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/CustomBow.txt
+11:45:36 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/ItemPosition.txt
+11:45:36 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/MapFog.txt
+11:45:36 [ContentCatalog] 03_000.json: item 96, 0 efectos, 0 líneas de tooltip, pose de inventario
+11:45:36 [ContentCatalog] 13_400.json: item 7120, 0 efectos, 1 líneas de tooltip, pose de inventario
+11:45:36 [CustomPet] 13_400.json: pet del item 7120, levanta zen
+11:45:36 [ServerInfo] Item loaded successfully
+11:45:36 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/CustomMonster.txt
+11:45:36 [ServerInfo] Monster loaded successfully
+11:45:36 [ServerInfo] Move loaded successfully
+11:45:36 [ServerInfo] Quest loaded successfully
+11:45:36 [ServerInfo] Shop loaded successfully
+11:45:36 [ServerInfo] Skill loaded successfully
+11:45:36 [ServerInfo] Util loaded successfully
+11:45:37 [Blood Castle] (1) Sync Start Time. [14] min remain
+11:45:37 [Blood Castle] (1) SetState EMPTY
+11:45:37 [Blood Castle] (2) Sync Start Time. [14] min remain
+11:45:37 [Blood Castle] (2) SetState EMPTY
+11:45:37 [Blood Castle] (3) Sync Start Time. [14] min remain
+11:45:37 [Blood Castle] (3) SetState EMPTY
+11:45:37 [Blood Castle] (4) Sync Start Time. [14] min remain
+11:45:37 [Blood Castle] (4) SetState EMPTY
+11:45:37 [Blood Castle] (5) Sync Start Time. [14] min remain
+11:45:37 [Blood Castle] (5) SetState EMPTY
+11:45:37 [Blood Castle] (6) Sync Start Time. [14] min remain
+11:45:37 [Blood Castle] (6) SetState EMPTY
+11:45:37 [Devil Square] (1) Sync Start Time. [44] min remain
+11:45:37 [Devil Square] (1) SetState EMPTY
+11:45:37 [Devil Square] (2) Sync Start Time. [44] min remain
+11:45:37 [Devil Square] (2) SetState EMPTY
+11:45:37 [Devil Square] (3) Sync Start Time. [44] min remain
+11:45:37 [Devil Square] (3) SetState EMPTY
+11:45:37 [Devil Square] (4) Sync Start Time. [44] min remain
+11:45:37 [Devil Square] (4) SetState EMPTY
+11:45:37 [Bingo] Sync Start Time. [645] min remain
+11:45:37 [Bingo] SetState EMPTY
+11:45:37 [JoinServerConnection] Connected
+11:45:37 [DataServerConnection] Connected
+11:45:42 [ContentCatalog] 285 items, 159 monstruos, 17 fog, 0 efectos, 28 paquetes
+12:00:00 [Blood Castle] (1) SetState STAND
+12:00:00 [Blood Castle] (2) SetState STAND
+12:00:00 [Blood Castle] (3) SetState STAND
+12:00:00 [Blood Castle] (4) SetState STAND
+12:00:00 [Blood Castle] (5) SetState STAND
+12:00:00 [Blood Castle] (6) SetState STAND
+12:00:01 [Blood Castle] (1) Not enough users
+12:00:01 [Blood Castle] (1) Sync Start Time. [119] min remain
+12:00:01 [Blood Castle] (1) SetState EMPTY
+12:00:01 [Blood Castle] (2) Not enough users
+12:00:01 [Blood Castle] (2) Sync Start Time. [119] min remain
+12:00:01 [Blood Castle] (2) SetState EMPTY
+12:00:01 [Blood Castle] (3) Not enough users
+12:00:01 [Blood Castle] (3) Sync Start Time. [119] min remain
+12:00:01 [Blood Castle] (3) SetState EMPTY
+12:00:01 [Blood Castle] (4) Not enough users
+12:00:01 [Blood Castle] (4) Sync Start Time. [119] min remain
+12:00:01 [Blood Castle] (4) SetState EMPTY
+12:00:01 [Blood Castle] (5) Not enough users
+12:00:01 [Blood Castle] (5) Sync Start Time. [119] min remain
+12:00:01 [Blood Castle] (5) SetState EMPTY
+12:00:01 [Blood Castle] (6) Not enough users
+12:00:01 [Blood Castle] (6) Sync Start Time. [119] min remain
+12:00:01 [Blood Castle] (6) SetState EMPTY
+12:03:37 [ServerInfo] ChaosMix loaded successfully
+12:03:37 [ServerInfo] Character loaded successfully
+12:03:37 [ServerInfo] Command loaded successfully
+12:03:37 [ServerInfo] Common loaded successfully
+12:03:37 [ServerInfo] Custom loaded successfully
+12:03:37 [ServerInfo] Event loaded successfully
+12:03:37 [ServerInfo] EventItemBag loaded successfully
+12:03:37 [ServerInfo] Hack loaded successfully
+12:03:37 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/CustomItem.txt
+12:03:37 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/CustomGlow.txt
+12:03:37 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/CustomBow.txt
+12:03:37 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/ItemPosition.txt
+12:03:37 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/MapFog.txt
+12:03:37 [ContentCatalog] 03_000.json: item 96, 0 efectos, 0 líneas de tooltip, pose de inventario
+12:03:37 [ContentCatalog] 13_400.json: item 7120, 0 efectos, 1 líneas de tooltip, pose de inventario
+12:03:37 [CustomPet] 13_400.json: pet del item 7120, levanta zen
+12:03:37 [ServerInfo] Item loaded successfully
+12:03:37 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/CustomMonster.txt
+12:03:37 [ServerInfo] Monster loaded successfully
+12:03:37 [ServerInfo] Move loaded successfully
+12:03:37 [ServerInfo] Quest loaded successfully
+12:03:37 [ServerInfo] Shop loaded successfully
+12:03:37 [ServerInfo] Skill loaded successfully
+12:03:37 [ServerInfo] Util loaded successfully
+12:03:37 [Blood Castle] (1) Sync Start Time. [116] min remain
+12:03:37 [Blood Castle] (1) SetState EMPTY
+12:03:37 [Blood Castle] (2) Sync Start Time. [116] min remain
+12:03:37 [Blood Castle] (2) SetState EMPTY
+12:03:37 [Blood Castle] (3) Sync Start Time. [116] min remain
+12:03:37 [Blood Castle] (3) SetState EMPTY
+12:03:37 [Blood Castle] (4) Sync Start Time. [116] min remain
+12:03:37 [Blood Castle] (4) SetState EMPTY
+12:03:37 [Blood Castle] (5) Sync Start Time. [116] min remain
+12:03:37 [Blood Castle] (5) SetState EMPTY
+12:03:37 [Blood Castle] (6) Sync Start Time. [116] min remain
+12:03:37 [Blood Castle] (6) SetState EMPTY
+12:03:37 [Devil Square] (1) Sync Start Time. [26] min remain
+12:03:37 [Devil Square] (1) SetState EMPTY
+12:03:37 [Devil Square] (2) Sync Start Time. [26] min remain
+12:03:37 [Devil Square] (2) SetState EMPTY
+12:03:37 [Devil Square] (3) Sync Start Time. [26] min remain
+12:03:37 [Devil Square] (3) SetState EMPTY
+12:03:37 [Devil Square] (4) Sync Start Time. [26] min remain
+12:03:37 [Devil Square] (4) SetState EMPTY
+12:03:37 [Bingo] Sync Start Time. [627] min remain
+12:03:37 [Bingo] SetState EMPTY
+12:03:37 [JoinServerConnection] Connected
+12:03:37 [DataServerConnection] Connected
+12:03:42 [ContentCatalog] 285 items, 159 monstruos, 17 fog, 0 efectos, 28 paquetes
+12:20:19 [ServerInfo] ChaosMix loaded successfully
+12:20:19 [ServerInfo] Character loaded successfully
+12:20:19 [ServerInfo] Command loaded successfully
+12:20:19 [ServerInfo] Common loaded successfully
+12:20:19 [ServerInfo] Custom loaded successfully
+12:20:19 [ServerInfo] Event loaded successfully
+12:20:19 [ServerInfo] EventItemBag loaded successfully
+12:20:19 [ServerInfo] Hack loaded successfully
+12:20:19 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/CustomItem.txt
+12:20:19 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/CustomGlow.txt
+12:20:19 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/CustomBow.txt
+12:20:19 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/ItemPosition.txt
+12:20:19 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/MapFog.txt
+12:20:19 [ContentCatalog] 03_000.json: item 96, 0 efectos, 0 líneas de tooltip, pose de inventario
+12:20:19 [ContentCatalog] 13_400.json: item 7120, 0 efectos, 1 líneas de tooltip, pose de inventario
+12:20:19 [CustomPet] 13_400.json: pet del item 7120, levanta zen
+12:20:19 [ServerInfo] Item loaded successfully
+12:20:19 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/CustomMonster.txt
+12:20:19 [ServerInfo] Monster loaded successfully
+12:20:19 [ServerInfo] Move loaded successfully
+12:20:19 [ServerInfo] Quest loaded successfully
+12:20:19 [ServerInfo] Shop loaded successfully
+12:20:19 [ServerInfo] Skill loaded successfully
+12:20:19 [ServerInfo] Util loaded successfully
+12:20:19 [Blood Castle] (1) Sync Start Time. [99] min remain
+12:20:19 [Blood Castle] (1) SetState EMPTY
+12:20:19 [Blood Castle] (2) Sync Start Time. [99] min remain
+12:20:19 [Blood Castle] (2) SetState EMPTY
+12:20:19 [Blood Castle] (3) Sync Start Time. [99] min remain
+12:20:19 [Blood Castle] (3) SetState EMPTY
+12:20:19 [Blood Castle] (4) Sync Start Time. [99] min remain
+12:20:19 [Blood Castle] (4) SetState EMPTY
+12:20:19 [Blood Castle] (5) Sync Start Time. [99] min remain
+12:20:19 [Blood Castle] (5) SetState EMPTY
+12:20:19 [Blood Castle] (6) Sync Start Time. [99] min remain
+12:20:19 [Blood Castle] (6) SetState EMPTY
+12:20:19 [Devil Square] (1) Sync Start Time. [9] min remain
+12:20:19 [Devil Square] (1) SetState EMPTY
+12:20:19 [Devil Square] (2) Sync Start Time. [9] min remain
+12:20:19 [Devil Square] (2) SetState EMPTY
+12:20:19 [Devil Square] (3) Sync Start Time. [9] min remain
+12:20:19 [Devil Square] (3) SetState EMPTY
+12:20:19 [Devil Square] (4) Sync Start Time. [9] min remain
+12:20:19 [Devil Square] (4) SetState EMPTY
+12:20:19 [Bingo] Sync Start Time. [610] min remain
+12:20:19 [Bingo] SetState EMPTY
+12:20:19 [JoinServerConnection] Connected
+12:20:19 [DataServerConnection] Connected
+12:20:24 [ContentCatalog] 285 items, 159 monstruos, 17 fog, 0 efectos, 28 paquetes
+12:30:00 [Devil Square] (1) SetState STAND
+12:30:00 [Devil Square] (2) SetState STAND
+12:30:00 [Devil Square] (3) SetState STAND
+12:30:00 [Devil Square] (4) SetState STAND
+12:30:01 [Devil Square] (1) Not enough users
+12:30:01 [Devil Square] (1) Sync Start Time. [239] min remain
+12:30:01 [Devil Square] (1) SetState EMPTY
+12:30:01 [Devil Square] (2) Not enough users
+12:30:01 [Devil Square] (2) Sync Start Time. [239] min remain
+12:30:01 [Devil Square] (2) SetState EMPTY
+12:30:01 [Devil Square] (3) Not enough users
+12:30:01 [Devil Square] (3) Sync Start Time. [239] min remain
+12:30:01 [Devil Square] (3) SetState EMPTY
+12:30:01 [Devil Square] (4) Not enough users
+12:30:01 [Devil Square] (4) Sync Start Time. [239] min remain
+12:30:01 [Devil Square] (4) SetState EMPTY
+12:37:12 [ServerInfo] ChaosMix loaded successfully
+12:37:12 [ServerInfo] Character loaded successfully
+12:37:12 [ServerInfo] Command loaded successfully
+12:37:12 [ServerInfo] Common loaded successfully
+12:37:12 [ServerInfo] Custom loaded successfully
+12:37:12 [ServerInfo] Event loaded successfully
+12:37:12 [ServerInfo] EventItemBag loaded successfully
+12:37:12 [ServerInfo] Hack loaded successfully
+12:37:12 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/CustomItem.txt
+12:37:12 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/CustomGlow.txt
+12:37:12 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/CustomBow.txt
+12:37:12 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/ItemPosition.txt
+12:37:12 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/MapFog.txt
+12:37:12 [ContentCatalog] 03_000.json: item 96, 0 efectos, 0 líneas de tooltip, pose de inventario
+12:37:12 [ContentCatalog] 13_400.json: item 7120, 0 efectos, 1 líneas de tooltip, pose de inventario
+12:37:12 [CustomPet] 13_400.json: pet del item 7120, levanta zen
+12:37:12 [ServerInfo] Item loaded successfully
+12:37:12 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/CustomMonster.txt
+12:37:12 [ServerInfo] Monster loaded successfully
+12:37:12 [ServerInfo] Move loaded successfully
+12:37:12 [ServerInfo] Quest loaded successfully
+12:37:12 [ServerInfo] Shop loaded successfully
+12:37:12 [ServerInfo] Skill loaded successfully
+12:37:12 [ServerInfo] Util loaded successfully
+12:37:12 [Blood Castle] (1) Sync Start Time. [82] min remain
+12:37:12 [Blood Castle] (1) SetState EMPTY
+12:37:12 [Blood Castle] (2) Sync Start Time. [82] min remain
+12:37:12 [Blood Castle] (2) SetState EMPTY
+12:37:12 [Blood Castle] (3) Sync Start Time. [82] min remain
+12:37:12 [Blood Castle] (3) SetState EMPTY
+12:37:12 [Blood Castle] (4) Sync Start Time. [82] min remain
+12:37:12 [Blood Castle] (4) SetState EMPTY
+12:37:12 [Blood Castle] (5) Sync Start Time. [82] min remain
+12:37:12 [Blood Castle] (5) SetState EMPTY
+12:37:12 [Blood Castle] (6) Sync Start Time. [82] min remain
+12:37:12 [Blood Castle] (6) SetState EMPTY
+12:37:12 [Devil Square] (1) Sync Start Time. [232] min remain
+12:37:12 [Devil Square] (1) SetState EMPTY
+12:37:12 [Devil Square] (2) Sync Start Time. [232] min remain
+12:37:12 [Devil Square] (2) SetState EMPTY
+12:37:12 [Devil Square] (3) Sync Start Time. [232] min remain
+12:37:12 [Devil Square] (3) SetState EMPTY
+12:37:12 [Devil Square] (4) Sync Start Time. [232] min remain
+12:37:12 [Devil Square] (4) SetState EMPTY
+12:37:12 [Bingo] Sync Start Time. [593] min remain
+12:37:12 [Bingo] SetState EMPTY
+12:37:12 [JoinServerConnection] Connected
+12:37:12 [DataServerConnection] Connected
+12:37:17 [ContentCatalog] 285 items, 159 monstruos, 17 fog, 0 efectos, 28 paquetes
+12:46:57 [ServerInfo] ChaosMix loaded successfully
+12:46:57 [ServerInfo] Character loaded successfully
+12:46:57 [ServerInfo] Command loaded successfully
+12:46:57 [ServerInfo] Common loaded successfully
+12:46:57 [ServerInfo] Custom loaded successfully
+12:46:57 [ServerInfo] Event loaded successfully
+12:46:57 [ServerInfo] EventItemBag loaded successfully
+12:46:57 [ServerInfo] Hack loaded successfully
+12:46:57 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/CustomItem.txt
+12:46:57 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/CustomGlow.txt
+12:46:57 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/CustomBow.txt
+12:46:57 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/ItemPosition.txt
+12:46:57 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/MapFog.txt
+12:46:57 [ContentCatalog] 03_000.json: item 96, 0 efectos, 0 líneas de tooltip, pose de inventario
+12:46:57 [ContentCatalog] 13_400.json: item 7120, 0 efectos, 1 líneas de tooltip, pose de inventario
+12:46:57 [CustomPet] 13_400.json: pet del item 7120, levanta zen
+12:46:57 [ServerInfo] Item loaded successfully
+12:46:57 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/CustomMonster.txt
+12:46:57 [ServerInfo] Monster loaded successfully
+12:46:57 [ServerInfo] Move loaded successfully
+12:46:57 [ServerInfo] Quest loaded successfully
+12:46:57 [ServerInfo] Shop loaded successfully
+12:46:57 [ServerInfo] Skill loaded successfully
+12:46:57 [ServerInfo] Util loaded successfully
+12:46:58 [Blood Castle] (1) Sync Start Time. [73] min remain
+12:46:58 [Blood Castle] (1) SetState EMPTY
+12:46:58 [Blood Castle] (2) Sync Start Time. [73] min remain
+12:46:58 [Blood Castle] (2) SetState EMPTY
+12:46:58 [Blood Castle] (3) Sync Start Time. [73] min remain
+12:46:58 [Blood Castle] (3) SetState EMPTY
+12:46:58 [Blood Castle] (4) Sync Start Time. [73] min remain
+12:46:58 [Blood Castle] (4) SetState EMPTY
+12:46:58 [Blood Castle] (5) Sync Start Time. [73] min remain
+12:46:58 [Blood Castle] (5) SetState EMPTY
+12:46:58 [Blood Castle] (6) Sync Start Time. [73] min remain
+12:46:58 [Blood Castle] (6) SetState EMPTY
+12:46:58 [Devil Square] (1) Sync Start Time. [223] min remain
+12:46:58 [Devil Square] (1) SetState EMPTY
+12:46:58 [Devil Square] (2) Sync Start Time. [223] min remain
+12:46:58 [Devil Square] (2) SetState EMPTY
+12:46:58 [Devil Square] (3) Sync Start Time. [223] min remain
+12:46:58 [Devil Square] (3) SetState EMPTY
+12:46:58 [Devil Square] (4) Sync Start Time. [223] min remain
+12:46:58 [Devil Square] (4) SetState EMPTY
+12:46:58 [Bingo] Sync Start Time. [584] min remain
+12:46:58 [Bingo] SetState EMPTY
+12:46:58 [JoinServerConnection] Connected
+12:46:58 [DataServerConnection] Connected
+12:47:03 [ContentCatalog] 285 items, 159 monstruos, 17 fog, 0 efectos, 28 paquetes
+13:01:36 [ServerInfo] ChaosMix loaded successfully
+13:01:36 [ServerInfo] Character loaded successfully
+13:01:36 [ServerInfo] Command loaded successfully
+13:01:36 [ServerInfo] Common loaded successfully
+13:01:36 [ServerInfo] Custom loaded successfully
+13:01:36 [ServerInfo] Event loaded successfully
+13:01:36 [ServerInfo] EventItemBag loaded successfully
+13:01:36 [ServerInfo] Hack loaded successfully
+13:01:36 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/CustomItem.txt
+13:01:36 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/CustomGlow.txt
+13:01:36 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/CustomBow.txt
+13:01:36 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/ItemPosition.txt
+13:01:36 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/MapFog.txt
+13:01:36 [ContentCatalog] 03_000.json: item 96, 0 efectos, 0 líneas de tooltip, pose de inventario
+13:01:36 [ContentCatalog] 13_400.json: item 7120, 0 efectos, 1 líneas de tooltip, pose de inventario
+13:01:36 [CustomPet] 13_400.json: pet del item 7120, levanta zen
+13:01:36 [ServerInfo] Item loaded successfully
+13:01:36 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/CustomMonster.txt
+13:01:36 [ServerInfo] Monster loaded successfully
+13:01:36 [ServerInfo] Move loaded successfully
+13:01:36 [ServerInfo] Quest loaded successfully
+13:01:36 [ServerInfo] Shop loaded successfully
+13:01:36 [ServerInfo] Skill loaded successfully
+13:01:36 [ServerInfo] Util loaded successfully
+13:01:36 [Blood Castle] (1) Sync Start Time. [58] min remain
+13:01:36 [Blood Castle] (1) SetState EMPTY
+13:01:36 [Blood Castle] (2) Sync Start Time. [58] min remain
+13:01:36 [Blood Castle] (2) SetState EMPTY
+13:01:36 [Blood Castle] (3) Sync Start Time. [58] min remain
+13:01:36 [Blood Castle] (3) SetState EMPTY
+13:01:36 [Blood Castle] (4) Sync Start Time. [58] min remain
+13:01:36 [Blood Castle] (4) SetState EMPTY
+13:01:36 [Blood Castle] (5) Sync Start Time. [58] min remain
+13:01:36 [Blood Castle] (5) SetState EMPTY
+13:01:36 [Blood Castle] (6) Sync Start Time. [58] min remain
+13:01:36 [Blood Castle] (6) SetState EMPTY
+13:01:36 [Devil Square] (1) Sync Start Time. [208] min remain
+13:01:36 [Devil Square] (1) SetState EMPTY
+13:01:36 [Devil Square] (2) Sync Start Time. [208] min remain
+13:01:36 [Devil Square] (2) SetState EMPTY
+13:01:36 [Devil Square] (3) Sync Start Time. [208] min remain
+13:01:36 [Devil Square] (3) SetState EMPTY
+13:01:36 [Devil Square] (4) Sync Start Time. [208] min remain
+13:01:36 [Devil Square] (4) SetState EMPTY
+13:01:36 [Bingo] Sync Start Time. [569] min remain
+13:01:36 [Bingo] SetState EMPTY
+13:01:36 [JoinServerConnection] Connected
+13:01:36 [DataServerConnection] Connected
+13:01:41 [ContentCatalog] 285 items, 159 monstruos, 17 fog, 0 efectos, 28 paquetes
+13:30:57 [ServerInfo] ChaosMix loaded successfully
+13:30:57 [ServerInfo] Character loaded successfully
+13:30:57 [ServerInfo] Command loaded successfully
+13:30:57 [ServerInfo] Common loaded successfully
+13:30:57 [ServerInfo] Custom loaded successfully
+13:30:57 [ServerInfo] Event loaded successfully
+13:30:57 [ServerInfo] EventItemBag loaded successfully
+13:30:57 [ServerInfo] Hack loaded successfully
+13:30:57 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/CustomItem.txt
+13:30:57 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/CustomGlow.txt
+13:30:57 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/CustomBow.txt
+13:30:57 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/ItemPosition.txt
+13:30:57 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/MapFog.txt
+13:30:57 [ContentCatalog] 03_000.json: item 96, 0 efectos, 0 líneas de tooltip, pose de inventario
+13:30:57 [ContentCatalog] 13_400.json: item 7120, 0 efectos, 1 líneas de tooltip, pose de inventario
+13:30:57 [CustomPet] 13_400.json: pet del item 7120, levanta zen
+13:30:57 [ServerInfo] Item loaded successfully
+13:30:57 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/CustomMonster.txt
+13:30:57 [ServerInfo] Monster loaded successfully
+13:30:57 [ServerInfo] Move loaded successfully
+13:30:57 [ServerInfo] Quest loaded successfully
+13:30:57 [ServerInfo] Shop loaded successfully
+13:30:57 [ServerInfo] Skill loaded successfully
+13:30:57 [ServerInfo] Util loaded successfully
+13:30:57 [Blood Castle] (1) Sync Start Time. [29] min remain
+13:30:57 [Blood Castle] (1) SetState EMPTY
+13:30:57 [Blood Castle] (2) Sync Start Time. [29] min remain
+13:30:57 [Blood Castle] (2) SetState EMPTY
+13:30:57 [Blood Castle] (3) Sync Start Time. [29] min remain
+13:30:57 [Blood Castle] (3) SetState EMPTY
+13:30:57 [Blood Castle] (4) Sync Start Time. [29] min remain
+13:30:57 [Blood Castle] (4) SetState EMPTY
+13:30:57 [Blood Castle] (5) Sync Start Time. [29] min remain
+13:30:57 [Blood Castle] (5) SetState EMPTY
+13:30:57 [Blood Castle] (6) Sync Start Time. [29] min remain
+13:30:57 [Blood Castle] (6) SetState EMPTY
+13:30:57 [Devil Square] (1) Sync Start Time. [179] min remain
+13:30:57 [Devil Square] (1) SetState EMPTY
+13:30:57 [Devil Square] (2) Sync Start Time. [179] min remain
+13:30:57 [Devil Square] (2) SetState EMPTY
+13:30:57 [Devil Square] (3) Sync Start Time. [179] min remain
+13:30:57 [Devil Square] (3) SetState EMPTY
+13:30:57 [Devil Square] (4) Sync Start Time. [179] min remain
+13:30:57 [Devil Square] (4) SetState EMPTY
+13:30:57 [Bingo] Sync Start Time. [540] min remain
+13:30:57 [Bingo] SetState EMPTY
+13:30:57 [JoinServerConnection] Connected
+13:30:57 [DataServerConnection] Connected
+13:35:37 [ServerInfo] ChaosMix loaded successfully
+13:35:37 [ServerInfo] Character loaded successfully
+13:35:37 [ServerInfo] Command loaded successfully
+13:35:37 [ServerInfo] Common loaded successfully
+13:35:37 [ServerInfo] Custom loaded successfully
+13:35:37 [ServerInfo] Event loaded successfully
+13:35:37 [ServerInfo] EventItemBag loaded successfully
+13:35:37 [ServerInfo] Hack loaded successfully
+13:35:37 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/CustomItem.txt
+13:35:37 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/CustomGlow.txt
+13:35:37 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/CustomBow.txt
+13:35:37 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/ItemPosition.txt
+13:35:37 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/MapFog.txt
+13:35:37 [ContentCatalog] 03_000.json: item 96, 0 efectos, 0 líneas de tooltip, pose de inventario
+13:35:37 [ContentCatalog] 13_400.json: item 7120, 0 efectos, 1 líneas de tooltip, pose de inventario
+13:35:37 [CustomPet] 13_400.json: pet del item 7120, levanta zen
+13:35:37 [ServerInfo] Item loaded successfully
+13:35:37 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/CustomMonster.txt
+13:35:37 [ServerInfo] Monster loaded successfully
+13:35:37 [ServerInfo] Move loaded successfully
+13:35:37 [ServerInfo] Quest loaded successfully
+13:35:37 [ServerInfo] Shop loaded successfully
+13:35:37 [ServerInfo] Skill loaded successfully
+13:35:37 [ServerInfo] Util loaded successfully
+13:35:38 [Blood Castle] (1) Sync Start Time. [24] min remain
+13:35:38 [Blood Castle] (1) SetState EMPTY
+13:35:38 [Blood Castle] (2) Sync Start Time. [24] min remain
+13:35:38 [Blood Castle] (2) SetState EMPTY
+13:35:38 [Blood Castle] (3) Sync Start Time. [24] min remain
+13:35:38 [Blood Castle] (3) SetState EMPTY
+13:35:38 [Blood Castle] (4) Sync Start Time. [24] min remain
+13:35:38 [Blood Castle] (4) SetState EMPTY
+13:35:38 [Blood Castle] (5) Sync Start Time. [24] min remain
+13:35:38 [Blood Castle] (5) SetState EMPTY
+13:35:38 [Blood Castle] (6) Sync Start Time. [24] min remain
+13:35:38 [Blood Castle] (6) SetState EMPTY
+13:35:38 [Devil Square] (1) Sync Start Time. [174] min remain
+13:35:38 [Devil Square] (1) SetState EMPTY
+13:35:38 [Devil Square] (2) Sync Start Time. [174] min remain
+13:35:38 [Devil Square] (2) SetState EMPTY
+13:35:38 [Devil Square] (3) Sync Start Time. [174] min remain
+13:35:38 [Devil Square] (3) SetState EMPTY
+13:35:38 [Devil Square] (4) Sync Start Time. [174] min remain
+13:35:38 [Devil Square] (4) SetState EMPTY
+13:35:38 [Bingo] Sync Start Time. [535] min remain
+13:35:38 [Bingo] SetState EMPTY
+13:35:38 [JoinServerConnection] Connected
+13:35:38 [DataServerConnection] Connected
+13:40:18 [ContentCatalog] 285 items, 159 monstruos, 17 fog, 0 efectos, 28 paquetes
+14:00:00 [Blood Castle] (1) SetState STAND
+14:00:00 [Blood Castle] (2) SetState STAND
+14:00:00 [Blood Castle] (3) SetState STAND
+14:00:00 [Blood Castle] (4) SetState STAND
+14:00:00 [Blood Castle] (5) SetState STAND
+14:00:00 [Blood Castle] (6) SetState STAND
+14:00:01 [Blood Castle] (1) Not enough users
+14:00:01 [Blood Castle] (1) Sync Start Time. [119] min remain
+14:00:01 [Blood Castle] (1) SetState EMPTY
+14:00:01 [Blood Castle] (2) Not enough users
+14:00:01 [Blood Castle] (2) Sync Start Time. [119] min remain
+14:00:01 [Blood Castle] (2) SetState EMPTY
+14:00:01 [Blood Castle] (3) Not enough users
+14:00:01 [Blood Castle] (3) Sync Start Time. [119] min remain
+14:00:01 [Blood Castle] (3) SetState EMPTY
+14:00:01 [Blood Castle] (4) Not enough users
+14:00:01 [Blood Castle] (4) Sync Start Time. [119] min remain
+14:00:01 [Blood Castle] (4) SetState EMPTY
+14:00:01 [Blood Castle] (5) Not enough users
+14:00:01 [Blood Castle] (5) Sync Start Time. [119] min remain
+14:00:01 [Blood Castle] (5) SetState EMPTY
+14:00:01 [Blood Castle] (6) Not enough users
+14:00:01 [Blood Castle] (6) Sync Start Time. [119] min remain
+14:00:01 [Blood Castle] (6) SetState EMPTY
+14:50:00 [Invasion Manager] (Death King) Boss Position (Map: 3, X: 171, Y: 71
+14:50:28 [ServerInfo] ChaosMix loaded successfully
+14:50:28 [ServerInfo] Character loaded successfully
+14:50:28 [ServerInfo] Command loaded successfully
+14:50:28 [ServerInfo] Common loaded successfully
+14:50:28 [ServerInfo] Custom loaded successfully
+14:50:28 [ServerInfo] Event loaded successfully
+14:50:28 [ServerInfo] EventItemBag loaded successfully
+14:50:28 [ServerInfo] Hack loaded successfully
+14:50:28 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/CustomItem.txt
+14:50:28 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/CustomGlow.txt
+14:50:28 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/CustomBow.txt
+14:50:28 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/ItemPosition.txt
+14:50:28 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/MapFog.txt
+14:50:28 [ContentCatalog] 03_000.json: item 96, 0 efectos, 0 líneas de tooltip, pose de inventario
+14:50:28 [ContentCatalog] 13_400.json: item 7120, 0 efectos, 1 líneas de tooltip, pose de inventario
+14:50:28 [CustomPet] 13_400.json: pet del item 7120, levanta zen
+14:50:28 [ServerInfo] Item loaded successfully
+14:50:28 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/CustomMonster.txt
+14:50:28 [ServerInfo] Monster loaded successfully
+14:50:28 [ServerInfo] Move loaded successfully
+14:50:28 [ServerInfo] Quest loaded successfully
+14:50:28 [ServerInfo] Shop loaded successfully
+14:50:28 [ServerInfo] Skill loaded successfully
+14:50:28 [ServerInfo] Util loaded successfully
+14:50:28 [Blood Castle] (1) Sync Start Time. [69] min remain
+14:50:28 [Blood Castle] (1) SetState EMPTY
+14:50:28 [Blood Castle] (2) Sync Start Time. [69] min remain
+14:50:28 [Blood Castle] (2) SetState EMPTY
+14:50:28 [Blood Castle] (3) Sync Start Time. [69] min remain
+14:50:28 [Blood Castle] (3) SetState EMPTY
+14:50:28 [Blood Castle] (4) Sync Start Time. [69] min remain
+14:50:28 [Blood Castle] (4) SetState EMPTY
+14:50:28 [Blood Castle] (5) Sync Start Time. [69] min remain
+14:50:28 [Blood Castle] (5) SetState EMPTY
+14:50:28 [Blood Castle] (6) Sync Start Time. [69] min remain
+14:50:28 [Blood Castle] (6) SetState EMPTY
+14:50:28 [Devil Square] (1) Sync Start Time. [99] min remain
+14:50:28 [Devil Square] (1) SetState EMPTY
+14:50:28 [Devil Square] (2) Sync Start Time. [99] min remain
+14:50:28 [Devil Square] (2) SetState EMPTY
+14:50:28 [Devil Square] (3) Sync Start Time. [99] min remain
+14:50:28 [Devil Square] (3) SetState EMPTY
+14:50:28 [Devil Square] (4) Sync Start Time. [99] min remain
+14:50:28 [Devil Square] (4) SetState EMPTY
+14:50:28 [Bingo] Sync Start Time. [460] min remain
+14:50:28 [Bingo] SetState EMPTY
+14:50:28 [JoinServerConnection] Connected
+14:50:28 [DataServerConnection] Connected
+14:54:27 [ContentCatalog] 285 items, 159 monstruos, 17 fog, 0 efectos, 28 paquetes
+15:04:54 [ServerInfo] ChaosMix loaded successfully
+15:04:54 [ServerInfo] Character loaded successfully
+15:04:54 [ServerInfo] Command loaded successfully
+15:04:54 [ServerInfo] Common loaded successfully
+15:04:54 [ServerInfo] Custom loaded successfully
+15:04:54 [ServerInfo] Event loaded successfully
+15:04:54 [ServerInfo] EventItemBag loaded successfully
+15:04:54 [ServerInfo] Hack loaded successfully
+15:04:54 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/CustomItem.txt
+15:04:54 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/CustomGlow.txt
+15:04:54 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/CustomBow.txt
+15:04:54 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/ItemPosition.txt
+15:04:54 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/MapFog.txt
+15:04:54 [ContentCatalog] 03_000.json: item 96, 0 efectos, 0 líneas de tooltip, pose de inventario
+15:04:54 [ContentCatalog] 13_400.json: item 7120, 0 efectos, 1 líneas de tooltip, pose de inventario
+15:04:54 [CustomPet] 13_400.json: pet del item 7120, levanta zen
+15:04:54 [ServerInfo] Item loaded successfully
+15:04:54 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/CustomMonster.txt
+15:04:54 [ServerInfo] Monster loaded successfully
+15:04:54 [ServerInfo] Move loaded successfully
+15:04:54 [ServerInfo] Quest loaded successfully
+15:04:54 [ServerInfo] Shop loaded successfully
+15:04:54 [ServerInfo] Skill loaded successfully
+15:04:54 [ServerInfo] Util loaded successfully
+15:04:54 [Blood Castle] (1) Sync Start Time. [55] min remain
+15:04:54 [Blood Castle] (1) SetState EMPTY
+15:04:54 [Blood Castle] (2) Sync Start Time. [55] min remain
+15:04:54 [Blood Castle] (2) SetState EMPTY
+15:04:54 [Blood Castle] (3) Sync Start Time. [55] min remain
+15:04:54 [Blood Castle] (3) SetState EMPTY
+15:04:54 [Blood Castle] (4) Sync Start Time. [55] min remain
+15:04:54 [Blood Castle] (4) SetState EMPTY
+15:04:54 [Blood Castle] (5) Sync Start Time. [55] min remain
+15:04:54 [Blood Castle] (5) SetState EMPTY
+15:04:54 [Blood Castle] (6) Sync Start Time. [55] min remain
+15:04:54 [Blood Castle] (6) SetState EMPTY
+15:04:54 [Devil Square] (1) Sync Start Time. [85] min remain
+15:04:54 [Devil Square] (1) SetState EMPTY
+15:04:54 [Devil Square] (2) Sync Start Time. [85] min remain
+15:04:54 [Devil Square] (2) SetState EMPTY
+15:04:54 [Devil Square] (3) Sync Start Time. [85] min remain
+15:04:54 [Devil Square] (3) SetState EMPTY
+15:04:54 [Devil Square] (4) Sync Start Time. [85] min remain
+15:04:54 [Devil Square] (4) SetState EMPTY
+15:04:54 [Bingo] Sync Start Time. [446] min remain
+15:04:54 [Bingo] SetState EMPTY
+15:04:54 [JoinServerConnection] Connected
+15:04:54 [DataServerConnection] Connected
+15:04:59 [ContentCatalog] 285 items, 159 monstruos, 17 fog, 0 efectos, 28 paquetes
+15:25:25 [ServerInfo] ChaosMix loaded successfully
+15:25:25 [ServerInfo] Character loaded successfully
+15:25:25 [ServerInfo] Command loaded successfully
+15:25:25 [ServerInfo] Common loaded successfully
+15:25:25 [ServerInfo] Custom loaded successfully
+15:25:25 [ServerInfo] Event loaded successfully
+15:25:25 [ServerInfo] EventItemBag loaded successfully
+15:25:25 [ServerInfo] Hack loaded successfully
+15:25:25 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/CustomItem.txt
+15:25:25 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/CustomGlow.txt
+15:25:25 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/CustomBow.txt
+15:25:25 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/ItemPosition.txt
+15:25:25 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/MapFog.txt
+15:25:25 [ContentCatalog] 03_000.json: item 96, 0 efectos, 0 líneas de tooltip, pose de inventario
+15:25:25 [ContentCatalog] 13_400.json: item 7120, 0 efectos, 1 líneas de tooltip, pose de inventario
+15:25:25 [CustomPet] 13_400.json: pet del item 7120, levanta zen
+15:25:25 [ServerInfo] Item loaded successfully
+15:25:25 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/CustomMonster.txt
+15:25:25 [ServerInfo] Monster loaded successfully
+15:25:25 [ServerInfo] Move loaded successfully
+15:25:25 [ServerInfo] Quest loaded successfully
+15:25:25 [ServerInfo] Shop loaded successfully
+15:25:25 [ServerInfo] Skill loaded successfully
+15:25:25 [ServerInfo] Util loaded successfully
+15:25:25 [Blood Castle] (1) Sync Start Time. [34] min remain
+15:25:25 [Blood Castle] (1) SetState EMPTY
+15:25:25 [Blood Castle] (2) Sync Start Time. [34] min remain
+15:25:25 [Blood Castle] (2) SetState EMPTY
+15:25:25 [Blood Castle] (3) Sync Start Time. [34] min remain
+15:25:25 [Blood Castle] (3) SetState EMPTY
+15:25:25 [Blood Castle] (4) Sync Start Time. [34] min remain
+15:25:25 [Blood Castle] (4) SetState EMPTY
+15:25:25 [Blood Castle] (5) Sync Start Time. [34] min remain
+15:25:25 [Blood Castle] (5) SetState EMPTY
+15:25:25 [Blood Castle] (6) Sync Start Time. [34] min remain
+15:25:25 [Blood Castle] (6) SetState EMPTY
+15:25:25 [Devil Square] (1) Sync Start Time. [64] min remain
+15:25:25 [Devil Square] (1) SetState EMPTY
+15:25:25 [Devil Square] (2) Sync Start Time. [64] min remain
+15:25:25 [Devil Square] (2) SetState EMPTY
+15:25:25 [Devil Square] (3) Sync Start Time. [64] min remain
+15:25:25 [Devil Square] (3) SetState EMPTY
+15:25:25 [Devil Square] (4) Sync Start Time. [64] min remain
+15:25:25 [Devil Square] (4) SetState EMPTY
+15:25:25 [Bingo] Sync Start Time. [425] min remain
+15:25:25 [Bingo] SetState EMPTY
+15:25:25 [JoinServerConnection] Connected
+15:25:25 [DataServerConnection] Connected
+15:25:30 [ContentCatalog] 285 items, 159 monstruos, 17 fog, 0 efectos, 28 paquetes
+15:33:14 [ServerInfo] ChaosMix loaded successfully
+15:33:14 [ServerInfo] Character loaded successfully
+15:33:14 [ServerInfo] Command loaded successfully
+15:33:14 [ServerInfo] Common loaded successfully
+15:33:14 [ServerInfo] Custom loaded successfully
+15:33:14 [ServerInfo] Event loaded successfully
+15:33:14 [ServerInfo] EventItemBag loaded successfully
+15:33:14 [ServerInfo] Hack loaded successfully
+15:33:14 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/CustomItem.txt
+15:33:14 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/CustomGlow.txt
+15:33:14 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/CustomBow.txt
+15:33:14 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/ItemPosition.txt
+15:33:14 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/MapFog.txt
+15:33:14 [ContentCatalog] 03_000.json: item 96, 0 efectos, 0 líneas de tooltip, pose de inventario
+15:33:14 [ContentCatalog] 13_400.json: item 7120, 0 efectos, 1 líneas de tooltip, pose de inventario
+15:33:14 [CustomPet] 13_400.json: pet del item 7120, levanta zen
+15:33:14 [ServerInfo] Item loaded successfully
+15:33:14 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/CustomMonster.txt
+15:33:14 [ServerInfo] Monster loaded successfully
+15:33:14 [ServerInfo] Move loaded successfully
+15:33:14 [ServerInfo] Quest loaded successfully
+15:33:14 [ServerInfo] Shop loaded successfully
+15:33:14 [ServerInfo] Skill loaded successfully
+15:33:14 [ServerInfo] Util loaded successfully
+15:33:14 [Blood Castle] (1) Sync Start Time. [26] min remain
+15:33:14 [Blood Castle] (1) SetState EMPTY
+15:33:14 [Blood Castle] (2) Sync Start Time. [26] min remain
+15:33:14 [Blood Castle] (2) SetState EMPTY
+15:33:14 [Blood Castle] (3) Sync Start Time. [26] min remain
+15:33:14 [Blood Castle] (3) SetState EMPTY
+15:33:14 [Blood Castle] (4) Sync Start Time. [26] min remain
+15:33:14 [Blood Castle] (4) SetState EMPTY
+15:33:14 [Blood Castle] (5) Sync Start Time. [26] min remain
+15:33:14 [Blood Castle] (5) SetState EMPTY
+15:33:14 [Blood Castle] (6) Sync Start Time. [26] min remain
+15:33:14 [Blood Castle] (6) SetState EMPTY
+15:33:14 [Devil Square] (1) Sync Start Time. [56] min remain
+15:33:14 [Devil Square] (1) SetState EMPTY
+15:33:14 [Devil Square] (2) Sync Start Time. [56] min remain
+15:33:14 [Devil Square] (2) SetState EMPTY
+15:33:14 [Devil Square] (3) Sync Start Time. [56] min remain
+15:33:14 [Devil Square] (3) SetState EMPTY
+15:33:14 [Devil Square] (4) Sync Start Time. [56] min remain
+15:33:14 [Devil Square] (4) SetState EMPTY
+15:33:14 [Bingo] Sync Start Time. [417] min remain
+15:33:14 [Bingo] SetState EMPTY
+15:33:14 [JoinServerConnection] Connected
+15:33:14 [DataServerConnection] Connected
+15:33:19 [ContentCatalog] 285 items, 159 monstruos, 17 fog, 0 efectos, 28 paquetes
+15:57:14 [ServerInfo] ChaosMix loaded successfully
+15:57:14 [ServerInfo] Character loaded successfully
+15:57:14 [ServerInfo] Command loaded successfully
+15:57:14 [ServerInfo] Common loaded successfully
+15:57:14 [ServerInfo] Custom loaded successfully
+15:57:14 [ServerInfo] Event loaded successfully
+15:57:14 [ServerInfo] EventItemBag loaded successfully
+15:57:14 [ServerInfo] Hack loaded successfully
+15:57:14 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/CustomItem.txt
+15:57:14 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/CustomGlow.txt
+15:57:14 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/CustomBow.txt
+15:57:14 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/ItemPosition.txt
+15:57:14 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/MapFog.txt
+15:57:14 [ContentCatalog] 03_000.json: item 96, 0 efectos, 0 líneas de tooltip, pose de inventario
+15:57:14 [ContentCatalog] 13_400.json: item 7120, 0 efectos, 1 líneas de tooltip, pose de inventario
+15:57:14 [CustomPet] 13_400.json: pet del item 7120, levanta zen
+15:57:14 [ServerInfo] Item loaded successfully
+15:57:14 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/CustomMonster.txt
+15:57:14 [ServerInfo] Monster loaded successfully
+15:57:14 [ServerInfo] Move loaded successfully
+15:57:14 [ServerInfo] Quest loaded successfully
+15:57:14 [ServerInfo] Shop loaded successfully
+15:57:14 [ServerInfo] Skill loaded successfully
+15:57:14 [ServerInfo] Util loaded successfully
+15:57:14 [Blood Castle] (1) Sync Start Time. [2] min remain
+15:57:14 [Blood Castle] (1) SetState EMPTY
+15:57:14 [Blood Castle] (2) Sync Start Time. [2] min remain
+15:57:14 [Blood Castle] (2) SetState EMPTY
+15:57:14 [Blood Castle] (3) Sync Start Time. [2] min remain
+15:57:14 [Blood Castle] (3) SetState EMPTY
+15:57:14 [Blood Castle] (4) Sync Start Time. [2] min remain
+15:57:14 [Blood Castle] (4) SetState EMPTY
+15:57:14 [Blood Castle] (5) Sync Start Time. [2] min remain
+15:57:14 [Blood Castle] (5) SetState EMPTY
+15:57:14 [Blood Castle] (6) Sync Start Time. [2] min remain
+15:57:14 [Blood Castle] (6) SetState EMPTY
+15:57:14 [Devil Square] (1) Sync Start Time. [32] min remain
+15:57:14 [Devil Square] (1) SetState EMPTY
+15:57:14 [Devil Square] (2) Sync Start Time. [32] min remain
+15:57:14 [Devil Square] (2) SetState EMPTY
+15:57:14 [Devil Square] (3) Sync Start Time. [32] min remain
+15:57:14 [Devil Square] (3) SetState EMPTY
+15:57:14 [Devil Square] (4) Sync Start Time. [32] min remain
+15:57:14 [Devil Square] (4) SetState EMPTY
+15:57:14 [Bingo] Sync Start Time. [393] min remain
+15:57:14 [Bingo] SetState EMPTY
+15:57:14 [JoinServerConnection] Connected
+15:57:14 [DataServerConnection] Connected
+15:57:14 [ContentCatalog] 285 items, 159 monstruos, 17 fog, 0 efectos, 28 paquetes
+16:00:01 [Blood Castle] (1) SetState STAND
+16:00:01 [Blood Castle] (2) SetState STAND
+16:00:01 [Blood Castle] (3) SetState STAND
+16:00:01 [Blood Castle] (4) SetState STAND
+16:00:01 [Blood Castle] (5) SetState STAND
+16:00:01 [Blood Castle] (6) SetState STAND
+16:00:02 [Blood Castle] (1) Not enough users
+16:00:02 [Blood Castle] (1) Sync Start Time. [119] min remain
+16:00:02 [Blood Castle] (1) SetState EMPTY
+16:00:02 [Blood Castle] (2) Not enough users
+16:00:02 [Blood Castle] (2) Sync Start Time. [119] min remain
+16:00:02 [Blood Castle] (2) SetState EMPTY
+16:00:02 [Blood Castle] (3) Not enough users
+16:00:02 [Blood Castle] (3) Sync Start Time. [119] min remain
+16:00:02 [Blood Castle] (3) SetState EMPTY
+16:00:02 [Blood Castle] (4) Not enough users
+16:00:02 [Blood Castle] (4) Sync Start Time. [119] min remain
+16:00:02 [Blood Castle] (4) SetState EMPTY
+16:00:02 [Blood Castle] (5) Not enough users
+16:00:02 [Blood Castle] (5) Sync Start Time. [119] min remain
+16:00:02 [Blood Castle] (5) SetState EMPTY
+16:00:02 [Blood Castle] (6) Not enough users
+16:00:02 [Blood Castle] (6) Sync Start Time. [119] min remain
+16:00:02 [Blood Castle] (6) SetState EMPTY
+16:30:00 [Devil Square] (1) SetState STAND
+16:30:00 [Devil Square] (2) SetState STAND
+16:30:00 [Devil Square] (3) SetState STAND
+16:30:00 [Devil Square] (4) SetState STAND
+16:30:01 [Devil Square] (1) Not enough users
+16:30:01 [Devil Square] (1) Sync Start Time. [239] min remain
+16:30:01 [Devil Square] (1) SetState EMPTY
+16:30:01 [Devil Square] (2) Not enough users
+16:30:01 [Devil Square] (2) Sync Start Time. [239] min remain
+16:30:01 [Devil Square] (2) SetState EMPTY
+16:30:01 [Devil Square] (3) Not enough users
+16:30:01 [Devil Square] (3) Sync Start Time. [239] min remain
+16:30:01 [Devil Square] (3) SetState EMPTY
+16:30:01 [Devil Square] (4) Not enough users
+16:30:01 [Devil Square] (4) Sync Start Time. [239] min remain
+16:30:01 [Devil Square] (4) SetState EMPTY
+17:05:59 [ServerInfo] ChaosMix loaded successfully
+17:05:59 [ServerInfo] Character loaded successfully
+17:05:59 [ServerInfo] Command loaded successfully
+17:05:59 [ServerInfo] Common loaded successfully
+17:05:59 [ServerInfo] Custom loaded successfully
+17:05:59 [ServerInfo] Event loaded successfully
+17:05:59 [ServerInfo] EventItemBag loaded successfully
+17:05:59 [ServerInfo] Hack loaded successfully
+17:05:59 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/CustomItem.txt
+17:05:59 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/CustomGlow.txt
+17:05:59 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/CustomBow.txt
+17:05:59 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/ItemPosition.txt
+17:05:59 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/MapFog.txt
+17:05:59 [ContentCatalog] 03_000.json: item 96, 0 efectos, 0 líneas de tooltip, pose de inventario
+17:05:59 [ContentCatalog] 13_400.json: item 7120, 0 efectos, 1 líneas de tooltip, pose de inventario
+17:05:59 [CustomPet] 13_400.json: pet del item 7120, levanta zen
+17:05:59 [ServerInfo] Item loaded successfully
+17:05:59 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/CustomMonster.txt
+17:05:59 [ServerInfo] Monster loaded successfully
+17:05:59 [ServerInfo] Move loaded successfully
+17:05:59 [ServerInfo] Quest loaded successfully
+17:05:59 [ServerInfo] Shop loaded successfully
+17:05:59 [ServerInfo] Skill loaded successfully
+17:05:59 [ServerInfo] Util loaded successfully
+17:05:59 [Blood Castle] (1) Sync Start Time. [54] min remain
+17:05:59 [Blood Castle] (1) SetState EMPTY
+17:05:59 [Blood Castle] (2) Sync Start Time. [54] min remain
+17:05:59 [Blood Castle] (2) SetState EMPTY
+17:05:59 [Blood Castle] (3) Sync Start Time. [54] min remain
+17:05:59 [Blood Castle] (3) SetState EMPTY
+17:05:59 [Blood Castle] (4) Sync Start Time. [54] min remain
+17:05:59 [Blood Castle] (4) SetState EMPTY
+17:05:59 [Blood Castle] (5) Sync Start Time. [54] min remain
+17:05:59 [Blood Castle] (5) SetState EMPTY
+17:05:59 [Blood Castle] (6) Sync Start Time. [54] min remain
+17:05:59 [Blood Castle] (6) SetState EMPTY
+17:05:59 [Devil Square] (1) Sync Start Time. [204] min remain
+17:05:59 [Devil Square] (1) SetState EMPTY
+17:05:59 [Devil Square] (2) Sync Start Time. [204] min remain
+17:05:59 [Devil Square] (2) SetState EMPTY
+17:05:59 [Devil Square] (3) Sync Start Time. [204] min remain
+17:05:59 [Devil Square] (3) SetState EMPTY
+17:05:59 [Devil Square] (4) Sync Start Time. [204] min remain
+17:05:59 [Devil Square] (4) SetState EMPTY
+17:05:59 [Bingo] Sync Start Time. [325] min remain
+17:05:59 [Bingo] SetState EMPTY
+17:05:59 [JoinServerConnection] Connected
+17:05:59 [DataServerConnection] Connected
+17:10:40 [ContentCatalog] 285 items, 159 monstruos, 17 fog, 0 efectos, 28 paquetes
+17:25:03 [ServerInfo] ChaosMix loaded successfully
+17:25:03 [ServerInfo] Character loaded successfully
+17:25:03 [ServerInfo] Command loaded successfully
+17:25:03 [ServerInfo] Common loaded successfully
+17:25:03 [ServerInfo] Custom loaded successfully
+17:25:03 [ServerInfo] Event loaded successfully
+17:25:03 [ServerInfo] EventItemBag loaded successfully
+17:25:03 [ServerInfo] Hack loaded successfully
+17:25:03 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/CustomItem.txt
+17:25:03 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/CustomGlow.txt
+17:25:03 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/CustomBow.txt
+17:25:03 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/ItemPosition.txt
+17:25:03 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/MapFog.txt
+17:25:03 [ContentCatalog] 03_000.json: item 96, 0 efectos, 0 líneas de tooltip, pose de inventario
+17:25:03 [ContentCatalog] 13_400.json: item 7120, 0 efectos, 1 líneas de tooltip, pose de inventario
+17:25:03 [CustomPet] 13_400.json: pet del item 7120, levanta zen
+17:25:03 [ServerInfo] Item loaded successfully
+17:25:03 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/CustomMonster.txt
+17:25:03 [ServerInfo] Monster loaded successfully
+17:25:03 [ServerInfo] Move loaded successfully
+17:25:03 [ServerInfo] Quest loaded successfully
+17:25:03 [ServerInfo] Shop loaded successfully
+17:25:03 [ServerInfo] Skill loaded successfully
+17:25:03 [ServerInfo] Util loaded successfully
+17:25:03 [Blood Castle] (1) Sync Start Time. [34] min remain
+17:25:03 [Blood Castle] (1) SetState EMPTY
+17:25:03 [Blood Castle] (2) Sync Start Time. [34] min remain
+17:25:03 [Blood Castle] (2) SetState EMPTY
+17:25:03 [Blood Castle] (3) Sync Start Time. [34] min remain
+17:25:03 [Blood Castle] (3) SetState EMPTY
+17:25:03 [Blood Castle] (4) Sync Start Time. [34] min remain
+17:25:03 [Blood Castle] (4) SetState EMPTY
+17:25:03 [Blood Castle] (5) Sync Start Time. [34] min remain
+17:25:03 [Blood Castle] (5) SetState EMPTY
+17:25:03 [Blood Castle] (6) Sync Start Time. [34] min remain
+17:25:03 [Blood Castle] (6) SetState EMPTY
+17:25:03 [Devil Square] (1) Sync Start Time. [184] min remain
+17:25:03 [Devil Square] (1) SetState EMPTY
+17:25:03 [Devil Square] (2) Sync Start Time. [184] min remain
+17:25:03 [Devil Square] (2) SetState EMPTY
+17:25:03 [Devil Square] (3) Sync Start Time. [184] min remain
+17:25:03 [Devil Square] (3) SetState EMPTY
+17:25:03 [Devil Square] (4) Sync Start Time. [184] min remain
+17:25:03 [Devil Square] (4) SetState EMPTY
+17:25:03 [Bingo] Sync Start Time. [305] min remain
+17:25:03 [Bingo] SetState EMPTY
+17:25:03 [JoinServerConnection] Connected
+17:25:03 [DataServerConnection] Connected
+17:39:58 [ContentCatalog] 285 items, 159 monstruos, 17 fog, 0 efectos, 28 paquetes
+18:00:00 [Blood Castle] (1) SetState STAND
+18:00:00 [Blood Castle] (2) SetState STAND
+18:00:00 [Blood Castle] (3) SetState STAND
+18:00:00 [Blood Castle] (4) SetState STAND
+18:00:00 [Blood Castle] (5) SetState STAND
+18:00:00 [Blood Castle] (6) SetState STAND
+18:00:01 [Blood Castle] (1) Not enough users
+18:00:01 [Blood Castle] (1) Sync Start Time. [119] min remain
+18:00:01 [Blood Castle] (1) SetState EMPTY
+18:00:01 [Blood Castle] (2) Not enough users
+18:00:01 [Blood Castle] (2) Sync Start Time. [119] min remain
+18:00:01 [Blood Castle] (2) SetState EMPTY
+18:00:01 [Blood Castle] (3) Not enough users
+18:00:01 [Blood Castle] (3) Sync Start Time. [119] min remain
+18:00:01 [Blood Castle] (3) SetState EMPTY
+18:00:01 [Blood Castle] (4) Not enough users
+18:00:01 [Blood Castle] (4) Sync Start Time. [119] min remain
+18:00:01 [Blood Castle] (4) SetState EMPTY
+18:00:01 [Blood Castle] (5) Not enough users
+18:00:01 [Blood Castle] (5) Sync Start Time. [119] min remain
+18:00:01 [Blood Castle] (5) SetState EMPTY
+18:00:01 [Blood Castle] (6) Not enough users
+18:00:01 [Blood Castle] (6) Sync Start Time. [119] min remain
+18:00:01 [Blood Castle] (6) SetState EMPTY
+18:37:44 [ServerInfo] ChaosMix loaded successfully
+18:37:44 [ServerInfo] Character loaded successfully
+18:37:44 [ServerInfo] Command loaded successfully
+18:37:44 [ServerInfo] Common loaded successfully
+18:37:44 [ServerInfo] Custom loaded successfully
+18:37:44 [ServerInfo] Event loaded successfully
+18:37:44 [ServerInfo] EventItemBag loaded successfully
+18:37:44 [ServerInfo] Hack loaded successfully
+18:37:44 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/CustomItem.txt
+18:37:44 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/CustomGlow.txt
+18:37:44 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/CustomBow.txt
+18:37:44 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/ItemPosition.txt
+18:37:44 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/MapFog.txt
+18:37:44 [ContentCatalog] 03_000.json: item 96, 0 efectos, 0 líneas de tooltip, pose de inventario
+18:37:44 [ContentCatalog] 13_400.json: item 7120, 0 efectos, 1 líneas de tooltip, pose de inventario
+18:37:44 [CustomPet] 13_400.json: pet del item 7120, levanta zen
+18:37:44 [ServerInfo] Item loaded successfully
+18:37:44 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/CustomMonster.txt
+18:37:44 [ServerInfo] Monster loaded successfully
+18:37:44 [ServerInfo] Move loaded successfully
+18:37:44 [ServerInfo] Quest loaded successfully
+18:37:44 [ServerInfo] Shop loaded successfully
+18:37:44 [ServerInfo] Skill loaded successfully
+18:37:44 [ServerInfo] Util loaded successfully
+18:37:44 [Blood Castle] (1) Sync Start Time. [82] min remain
+18:37:44 [Blood Castle] (1) SetState EMPTY
+18:37:44 [Blood Castle] (2) Sync Start Time. [82] min remain
+18:37:44 [Blood Castle] (2) SetState EMPTY
+18:37:44 [Blood Castle] (3) Sync Start Time. [82] min remain
+18:37:44 [Blood Castle] (3) SetState EMPTY
+18:37:44 [Blood Castle] (4) Sync Start Time. [82] min remain
+18:37:44 [Blood Castle] (4) SetState EMPTY
+18:37:44 [Blood Castle] (5) Sync Start Time. [82] min remain
+18:37:44 [Blood Castle] (5) SetState EMPTY
+18:37:44 [Blood Castle] (6) Sync Start Time. [82] min remain
+18:37:44 [Blood Castle] (6) SetState EMPTY
+18:37:44 [Devil Square] (1) Sync Start Time. [112] min remain
+18:37:44 [Devil Square] (1) SetState EMPTY
+18:37:44 [Devil Square] (2) Sync Start Time. [112] min remain
+18:37:44 [Devil Square] (2) SetState EMPTY
+18:37:44 [Devil Square] (3) Sync Start Time. [112] min remain
+18:37:44 [Devil Square] (3) SetState EMPTY
+18:37:44 [Devil Square] (4) Sync Start Time. [112] min remain
+18:37:44 [Devil Square] (4) SetState EMPTY
+18:37:44 [Bingo] Sync Start Time. [233] min remain
+18:37:44 [Bingo] SetState EMPTY
+18:37:44 [JoinServerConnection] Connected
+18:37:44 [DataServerConnection] Connected
+18:40:27 [ContentCatalog] 285 items, 159 monstruos, 17 fog, 0 efectos, 28 paquetes
+19:00:24 [ServerInfo] ChaosMix loaded successfully
+19:00:24 [ServerInfo] Character loaded successfully
+19:00:24 [ServerInfo] Command loaded successfully
+19:00:24 [ServerInfo] Common loaded successfully
+19:00:24 [ServerInfo] Custom loaded successfully
+19:00:24 [ServerInfo] Event loaded successfully
+19:00:24 [ServerInfo] EventItemBag loaded successfully
+19:00:24 [ServerInfo] Hack loaded successfully
+19:00:24 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/CustomItem.txt
+19:00:24 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/CustomGlow.txt
+19:00:24 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/CustomBow.txt
+19:00:24 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/ItemPosition.txt
+19:00:24 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/MapFog.txt
+19:00:24 [ContentCatalog] 03_000.json: item 96, 0 efectos, 0 líneas de tooltip, pose de inventario
+19:00:24 [ContentCatalog] 13_400.json: item 7120, 0 efectos, 1 líneas de tooltip, pose de inventario
+19:00:24 [CustomPet] 13_400.json: pet del item 7120, levanta zen
+19:00:24 [ServerInfo] Item loaded successfully
+19:00:24 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/CustomMonster.txt
+19:00:24 [ServerInfo] Monster loaded successfully
+19:00:24 [ServerInfo] Move loaded successfully
+19:00:24 [ServerInfo] Quest loaded successfully
+19:00:24 [ServerInfo] Shop loaded successfully
+19:00:24 [ServerInfo] Skill loaded successfully
+19:00:24 [ServerInfo] Util loaded successfully
+19:00:24 [Blood Castle] (1) Sync Start Time. [59] min remain
+19:00:24 [Blood Castle] (1) SetState EMPTY
+19:00:24 [Blood Castle] (2) Sync Start Time. [59] min remain
+19:00:24 [Blood Castle] (2) SetState EMPTY
+19:00:24 [Blood Castle] (3) Sync Start Time. [59] min remain
+19:00:24 [Blood Castle] (3) SetState EMPTY
+19:00:24 [Blood Castle] (4) Sync Start Time. [59] min remain
+19:00:24 [Blood Castle] (4) SetState EMPTY
+19:00:24 [Blood Castle] (5) Sync Start Time. [59] min remain
+19:00:24 [Blood Castle] (5) SetState EMPTY
+19:00:24 [Blood Castle] (6) Sync Start Time. [59] min remain
+19:00:24 [Blood Castle] (6) SetState EMPTY
+19:00:24 [Devil Square] (1) Sync Start Time. [89] min remain
+19:00:24 [Devil Square] (1) SetState EMPTY
+19:00:24 [Devil Square] (2) Sync Start Time. [89] min remain
+19:00:24 [Devil Square] (2) SetState EMPTY
+19:00:24 [Devil Square] (3) Sync Start Time. [89] min remain
+19:00:24 [Devil Square] (3) SetState EMPTY
+19:00:24 [Devil Square] (4) Sync Start Time. [89] min remain
+19:00:24 [Devil Square] (4) SetState EMPTY
+19:00:24 [Bingo] Sync Start Time. [210] min remain
+19:00:24 [Bingo] SetState EMPTY
+19:00:24 [JoinServerConnection] Connected
+19:00:24 [DataServerConnection] Connected
+19:00:25 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:00:25 [MON_DEBUG] Idx=13 Class=0 Map=0 (137,76)->(135,74) PathFound=1 Num=3
+19:00:27 [MON_DEBUG] Idx=11 Class=0 Map=0 (137,79)->(139,78) PathFound=1 Num=3
+19:00:28 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:00:29 [MON_DEBUG] Idx=12 Class=0 Map=0 (134,78)->(134,76) PathFound=1 Num=3
+19:00:31 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:00:31 [MON_DEBUG] Idx=11 Class=0 Map=0 (137,76)->(134,75) PathFound=1 Num=4
+19:00:33 [MON_DEBUG] Idx=11 Class=0 Map=0 (134,77)->(137,78) PathFound=1 Num=4
+19:00:34 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:00:35 [MON_DEBUG] Idx=11 Class=0 Map=0 (137,78)->(139,78) PathFound=1 Num=3
+19:00:37 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:00:37 [MON_DEBUG] Idx=11 Class=0 Map=0 (140,75)->(141,73) PathFound=1 Num=3
+19:00:39 [MON_DEBUG] Idx=12 Class=0 Map=0 (139,74)->(137,77) PathFound=1 Num=4
+19:00:40 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:00:41 [MON_DEBUG] Idx=22 Class=0 Map=0 (162,83)->(160,81) PathFound=1 Num=3
+19:00:44 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:00:44 [MON_DEBUG] Idx=11 Class=0 Map=0 (141,74)->(141,75) PathFound=1 Num=2
+19:00:46 [MON_DEBUG] Idx=14 Class=0 Map=0 (134,76)->(135,76) PathFound=1 Num=2
+19:00:47 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:00:48 [MON_DEBUG] Idx=11 Class=0 Map=0 (140,74)->(139,77) PathFound=1 Num=4
+19:00:50 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:00:50 [MON_DEBUG] Idx=12 Class=0 Map=0 (136,75)->(137,77) PathFound=1 Num=3
+19:00:52 [MON_DEBUG] Idx=11 Class=0 Map=0 (138,76)->(138,73) PathFound=1 Num=4
+19:00:53 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:00:54 [MON_DEBUG] Idx=11 Class=0 Map=0 (137,75)->(134,76) PathFound=1 Num=4
+19:00:56 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:00:56 [MON_DEBUG] Idx=12 Class=0 Map=0 (133,73)->(135,74) PathFound=1 Num=3
+19:00:58 [MON_DEBUG] Idx=16 Class=0 Map=0 (134,75)->(134,72) PathFound=1 Num=4
+19:00:59 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:01:00 [MON_DEBUG] Idx=11 Class=0 Map=0 (134,75)->(137,72) PathFound=1 Num=4
+19:01:02 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:01:02 [MON_DEBUG] Idx=12 Class=0 Map=0 (136,75)->(137,74) PathFound=1 Num=2
+19:01:04 [MON_DEBUG] Idx=11 Class=0 Map=0 (134,75)->(135,73) PathFound=1 Num=3
+19:01:05 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:01:06 [MON_DEBUG] Idx=11 Class=0 Map=0 (134,75)->(133,73) PathFound=1 Num=3
+19:01:08 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:01:08 [MON_DEBUG] Idx=13 Class=0 Map=0 (136,79)->(136,80) PathFound=1 Num=2
+19:01:10 [MON_DEBUG] Idx=13 Class=0 Map=0 (137,80)->(139,77) PathFound=1 Num=4
+19:01:11 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:01:12 [MON_DEBUG] Idx=16 Class=0 Map=0 (138,75)->(138,77) PathFound=1 Num=3
+19:01:14 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:01:14 [MON_DEBUG] Idx=11 Class=0 Map=0 (135,78)->(137,78) PathFound=1 Num=3
+19:01:16 [MON_DEBUG] Idx=13 Class=0 Map=0 (135,77)->(136,76) PathFound=1 Num=2
+19:01:17 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:01:18 [MON_DEBUG] Idx=11 Class=0 Map=0 (135,78)->(134,79) PathFound=1 Num=2
+19:01:20 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:01:20 [MON_DEBUG] Idx=11 Class=0 Map=0 (133,77)->(135,75) PathFound=1 Num=3
+19:01:22 [MON_DEBUG] Idx=15 Class=0 Map=0 (137,75)->(135,75) PathFound=1 Num=3
+19:01:23 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:01:24 [MON_DEBUG] Idx=12 Class=0 Map=0 (135,78)->(138,75) PathFound=1 Num=4
+19:01:26 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:01:26 [MON_DEBUG] Idx=11 Class=0 Map=0 (137,79)->(137,77) PathFound=1 Num=3
+19:01:28 [MON_DEBUG] Idx=11 Class=0 Map=0 (137,77)->(134,79) PathFound=1 Num=4
+19:01:29 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:01:30 [MON_DEBUG] Idx=12 Class=0 Map=0 (134,80)->(134,78) PathFound=1 Num=3
+19:01:32 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:01:32 [MON_DEBUG] Idx=11 Class=0 Map=0 (134,77)->(134,76) PathFound=1 Num=2
+19:01:34 [MON_DEBUG] Idx=13 Class=0 Map=0 (137,71)->(138,74) PathFound=1 Num=4
+19:01:35 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:01:36 [MON_DEBUG] Idx=12 Class=0 Map=0 (135,77)->(136,77) PathFound=1 Num=2
+19:01:38 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:01:38 [MON_DEBUG] Idx=11 Class=0 Map=0 (138,78)->(137,77) PathFound=1 Num=2
+19:01:40 [MON_DEBUG] Idx=14 Class=0 Map=0 (135,77)->(134,76) PathFound=1 Num=2
+19:01:41 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:01:42 [MON_DEBUG] Idx=11 Class=0 Map=0 (139,78)->(140,76) PathFound=1 Num=3
+19:01:44 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:01:44 [MON_DEBUG] Idx=12 Class=0 Map=0 (139,74)->(140,75) PathFound=1 Num=2
+19:01:47 [MON_DEBUG] Idx=12 Class=0 Map=0 (138,77)->(138,75) PathFound=1 Num=3
+19:01:48 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:01:49 [MON_DEBUG] Idx=11 Class=0 Map=0 (138,76)->(138,74) PathFound=1 Num=3
+19:01:51 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:01:51 [MON_DEBUG] Idx=13 Class=0 Map=0 (134,74)->(136,72) PathFound=1 Num=3
+19:01:53 [MON_DEBUG] Idx=11 Class=0 Map=0 (138,72)->(135,72) PathFound=1 Num=4
+19:01:54 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:01:55 [MON_DEBUG] Idx=13 Class=0 Map=0 (133,74)->(133,75) PathFound=1 Num=2
+19:01:57 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:01:57 [MON_DEBUG] Idx=11 Class=0 Map=0 (136,75)->(134,73) PathFound=1 Num=3
+19:01:59 [MON_DEBUG] Idx=12 Class=0 Map=0 (137,75)->(136,76) PathFound=1 Num=2
+19:02:00 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:02:01 [MON_DEBUG] Idx=14 Class=0 Map=0 (133,74)->(134,73) PathFound=1 Num=2
+19:02:03 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:02:03 [MON_DEBUG] Idx=11 Class=0 Map=0 (135,75)->(138,78) PathFound=1 Num=4
+19:02:05 [MON_DEBUG] Idx=11 Class=0 Map=0 (138,78)->(140,75) PathFound=1 Num=4
+19:02:06 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:02:07 [MON_DEBUG] Idx=11 Class=0 Map=0 (138,78)->(136,77) PathFound=1 Num=3
+19:02:09 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:02:09 [MON_DEBUG] Idx=13 Class=0 Map=0 (135,75)->(136,75) PathFound=1 Num=2
+19:02:11 [MON_DEBUG] Idx=12 Class=0 Map=0 (140,73)->(139,73) PathFound=1 Num=2
+19:02:12 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:02:13 [MON_DEBUG] Idx=12 Class=0 Map=0 (136,72)->(133,74) PathFound=1 Num=4
+19:02:15 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:02:15 [MON_DEBUG] Idx=14 Class=0 Map=0 (134,76)->(134,75) PathFound=1 Num=2
+19:02:17 [MON_DEBUG] Idx=11 Class=0 Map=0 (138,80)->(135,79) PathFound=1 Num=4
+19:02:18 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:02:19 [MON_DEBUG] Idx=11 Class=0 Map=0 (135,79)->(135,78) PathFound=1 Num=2
+19:02:21 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:02:21 [MON_DEBUG] Idx=14 Class=0 Map=0 (140,76)->(137,76) PathFound=1 Num=4
+19:02:23 [MON_DEBUG] Idx=12 Class=0 Map=0 (135,74)->(138,76) PathFound=1 Num=4
+19:02:24 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:02:25 [MON_DEBUG] Idx=12 Class=0 Map=0 (138,76)->(139,78) PathFound=1 Num=3
+19:02:27 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:02:27 [MON_DEBUG] Idx=12 Class=0 Map=0 (139,78)->(139,77) PathFound=1 Num=2
+19:02:29 [MON_DEBUG] Idx=12 Class=0 Map=0 (138,76)->(135,76) PathFound=1 Num=4
+19:02:30 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:02:31 [MON_DEBUG] Idx=12 Class=0 Map=0 (133,76)->(135,75) PathFound=1 Num=3
+19:02:33 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:02:33 [MON_DEBUG] Idx=11 Class=0 Map=0 (138,72)->(141,73) PathFound=1 Num=4
+19:02:35 [MON_DEBUG] Idx=11 Class=0 Map=0 (139,72)->(140,75) PathFound=1 Num=4
+19:02:36 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:02:37 [MON_DEBUG] Idx=14 Class=0 Map=0 (139,74)->(137,73) PathFound=1 Num=3
+19:02:39 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:02:39 [MON_DEBUG] Idx=11 Class=0 Map=0 (135,74)->(138,72) PathFound=1 Num=4
+19:02:41 [MON_DEBUG] Idx=13 Class=0 Map=0 (134,74)->(137,71) PathFound=1 Num=4
+19:02:42 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:02:43 [MON_DEBUG] Idx=13 Class=0 Map=0 (138,73)->(139,74) PathFound=1 Num=2
+19:02:45 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:02:45 [MON_DEBUG] Idx=12 Class=0 Map=0 (136,73)->(133,73) PathFound=1 Num=4
+19:02:47 [MON_DEBUG] Idx=11 Class=0 Map=0 (137,79)->(138,79) PathFound=1 Num=2
+19:02:48 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:02:50 [MON_DEBUG] Idx=11 Class=0 Map=0 (140,80)->(140,79) PathFound=1 Num=2
+19:02:52 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:02:52 [MON_DEBUG] Idx=15 Class=0 Map=0 (138,79)->(137,79) PathFound=1 Num=2
+19:02:54 [MON_DEBUG] Idx=11 Class=0 Map=0 (139,79)->(139,77) PathFound=1 Num=3
+19:02:55 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:02:56 [MON_DEBUG] Idx=11 Class=0 Map=0 (138,77)->(138,78) PathFound=1 Num=2
+19:02:58 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:02:58 [MON_DEBUG] Idx=11 Class=0 Map=0 (138,78)->(137,79) PathFound=1 Num=2
+19:03:00 [MON_DEBUG] Idx=13 Class=0 Map=0 (136,79)->(139,76) PathFound=1 Num=4
+19:03:01 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:03:02 [MON_DEBUG] Idx=13 Class=0 Map=0 (139,76)->(138,77) PathFound=1 Num=2
+19:03:04 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:03:04 [MON_DEBUG] Idx=12 Class=0 Map=0 (137,73)->(134,75) PathFound=1 Num=4
+19:03:06 [MON_DEBUG] Idx=12 Class=0 Map=0 (138,75)->(137,77) PathFound=1 Num=3
+19:03:07 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:03:08 [MON_DEBUG] Idx=12 Class=0 Map=0 (135,77)->(136,78) PathFound=1 Num=2
+19:03:10 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:03:10 [MON_DEBUG] Idx=12 Class=0 Map=0 (134,77)->(133,77) PathFound=1 Num=2
+19:03:12 [MON_DEBUG] Idx=15 Class=0 Map=0 (141,73)->(140,76) PathFound=1 Num=4
+19:03:13 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:03:14 [MON_DEBUG] Idx=17 Class=0 Map=0 (133,73)->(136,74) PathFound=1 Num=4
+19:03:16 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:03:16 [MON_DEBUG] Idx=13 Class=0 Map=0 (134,73)->(133,73) PathFound=1 Num=2
+19:03:18 [MON_DEBUG] Idx=13 Class=0 Map=0 (135,73)->(138,76) PathFound=1 Num=4
+19:03:19 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:03:20 [MON_DEBUG] Idx=11 Class=0 Map=0 (138,73)->(136,74) PathFound=1 Num=3
+19:03:22 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:03:22 [MON_DEBUG] Idx=11 Class=0 Map=0 (139,73)->(137,74) PathFound=1 Num=3
+19:03:24 [MON_DEBUG] Idx=18 Class=0 Map=0 (138,73)->(141,76) PathFound=1 Num=4
+19:03:25 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:03:26 [MON_DEBUG] Idx=12 Class=0 Map=0 (137,80)->(134,79) PathFound=1 Num=4
+19:03:28 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:03:28 [MON_DEBUG] Idx=11 Class=0 Map=0 (136,74)->(137,77) PathFound=1 Num=4
+19:03:30 [MON_DEBUG] Idx=11 Class=0 Map=0 (137,75)->(136,75) PathFound=1 Num=2
+19:03:31 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:03:32 [MON_DEBUG] Idx=13 Class=0 Map=0 (136,79)->(136,76) PathFound=1 Num=4
+19:03:34 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:03:34 [MON_DEBUG] Idx=14 Class=0 Map=0 (135,74)->(137,71) PathFound=1 Num=4
+19:03:36 [MON_DEBUG] Idx=12 Class=0 Map=0 (138,78)->(140,75) PathFound=1 Num=4
+19:03:37 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:03:38 [MON_DEBUG] Idx=13 Class=0 Map=0 (137,75)->(136,76) PathFound=1 Num=2
+19:03:40 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:03:40 [MON_DEBUG] Idx=13 Class=0 Map=0 (137,79)->(138,77) PathFound=1 Num=3
+19:03:42 [MON_DEBUG] Idx=11 Class=0 Map=0 (138,72)->(136,73) PathFound=1 Num=3
+19:03:43 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:03:44 [MON_DEBUG] Idx=11 Class=0 Map=0 (137,71)->(137,74) PathFound=1 Num=4
+19:03:46 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:03:46 [MON_DEBUG] Idx=11 Class=0 Map=0 (138,76)->(140,79) PathFound=1 Num=4
+19:03:48 [MON_DEBUG] Idx=12 Class=0 Map=0 (140,77)->(140,79) PathFound=1 Num=3
+19:03:49 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:03:50 [MON_DEBUG] Idx=11 Class=0 Map=0 (140,79)->(137,81) PathFound=1 Num=4
+19:03:52 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:03:52 [MON_DEBUG] Idx=11 Class=0 Map=0 (139,76)->(140,78) PathFound=1 Num=3
+19:03:55 [MON_DEBUG] Idx=13 Class=0 Map=0 (138,78)->(136,77) PathFound=1 Num=3
+19:03:56 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:03:57 [MON_DEBUG] Idx=14 Class=0 Map=0 (138,77)->(140,76) PathFound=1 Num=3
+19:03:59 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:03:59 [MON_DEBUG] Idx=11 Class=0 Map=0 (139,79)->(137,79) PathFound=1 Num=3
+19:04:01 [MON_DEBUG] Idx=21 Class=0 Map=0 (159,85)->(160,86) PathFound=1 Num=2
+19:04:02 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:04:03 [MON_DEBUG] Idx=12 Class=0 Map=0 (133,74)->(135,77) PathFound=1 Num=4
+19:04:05 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:04:05 [MON_DEBUG] Idx=11 Class=0 Map=0 (135,78)->(135,80) PathFound=1 Num=3
+19:04:07 [MON_DEBUG] Idx=12 Class=0 Map=0 (137,78)->(140,75) PathFound=1 Num=4
+19:04:08 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:04:09 [MON_DEBUG] Idx=12 Class=0 Map=0 (140,78)->(141,77) PathFound=1 Num=2
+19:04:11 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:04:11 [MON_DEBUG] Idx=11 Class=0 Map=0 (138,78)->(136,76) PathFound=1 Num=3
+19:04:13 [MON_DEBUG] Idx=11 Class=0 Map=0 (137,77)->(140,76) PathFound=1 Num=4
+19:04:14 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:04:15 [MON_DEBUG] Idx=11 Class=0 Map=0 (139,76)->(140,79) PathFound=1 Num=4
+19:04:17 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:04:17 [MON_DEBUG] Idx=11 Class=0 Map=0 (140,79)->(139,78) PathFound=1 Num=2
+19:04:19 [MON_DEBUG] Idx=11 Class=0 Map=0 (139,78)->(137,80) PathFound=1 Num=3
+19:04:20 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:04:21 [MON_DEBUG] Idx=11 Class=0 Map=0 (137,78)->(136,77) PathFound=1 Num=2
+19:04:23 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:04:23 [MON_DEBUG] Idx=11 Class=0 Map=0 (135,77)->(137,75) PathFound=1 Num=3
+19:04:25 [MON_DEBUG] Idx=11 Class=0 Map=0 (135,74)->(135,76) PathFound=1 Num=3
+19:04:26 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:04:27 [MON_DEBUG] Idx=12 Class=0 Map=0 (140,76)->(140,77) PathFound=1 Num=2
+19:04:29 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:04:29 [MON_DEBUG] Idx=11 Class=0 Map=0 (139,74)->(137,74) PathFound=1 Num=3
+19:04:31 [MON_DEBUG] Idx=11 Class=0 Map=0 (135,73)->(134,75) PathFound=1 Num=3
+19:04:32 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:04:33 [MON_DEBUG] Idx=13 Class=0 Map=0 (138,77)->(139,75) PathFound=1 Num=3
+19:04:35 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:04:35 [MON_DEBUG] Idx=12 Class=0 Map=0 (141,76)->(140,74) PathFound=1 Num=3
+19:04:37 [MON_DEBUG] Idx=13 Class=0 Map=0 (137,73)->(138,72) PathFound=1 Num=2
+19:04:38 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:04:39 [MON_DEBUG] Idx=12 Class=0 Map=0 (141,77)->(138,75) PathFound=1 Num=4
+19:04:41 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:04:41 [MON_DEBUG] Idx=13 Class=0 Map=0 (136,74)->(139,75) PathFound=1 Num=4
+19:04:43 [MON_DEBUG] Idx=13 Class=0 Map=0 (138,74)->(139,76) PathFound=1 Num=3
+19:04:44 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:04:45 [MON_DEBUG] Idx=14 Class=0 Map=0 (138,79)->(139,80) PathFound=1 Num=2
+19:04:47 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:04:47 [MON_DEBUG] Idx=11 Class=0 Map=0 (136,72)->(134,75) PathFound=1 Num=4
+19:04:49 [MON_DEBUG] Idx=11 Class=0 Map=0 (134,75)->(135,72) PathFound=1 Num=4
+19:04:50 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:04:51 [MON_DEBUG] Idx=12 Class=0 Map=0 (135,78)->(134,78) PathFound=1 Num=2
+19:04:53 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:04:53 [MON_DEBUG] Idx=12 Class=0 Map=0 (133,77)->(134,78) PathFound=1 Num=2
+19:04:55 [MON_DEBUG] Idx=13 Class=0 Map=0 (136,79)->(138,80) PathFound=1 Num=3
+19:04:57 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:04:58 [MON_DEBUG] Idx=12 Class=0 Map=0 (137,73)->(137,74) PathFound=1 Num=2
+19:05:00 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:05:00 [MON_DEBUG] Idx=11 Class=0 Map=0 (136,73)->(135,75) PathFound=1 Num=3
+19:05:02 [MON_DEBUG] Idx=13 Class=0 Map=0 (137,72)->(134,75) PathFound=1 Num=4
+19:05:03 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:05:04 [MON_DEBUG] Idx=12 Class=0 Map=0 (134,77)->(135,77) PathFound=1 Num=2
+19:05:06 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:05:06 [MON_DEBUG] Idx=15 Class=0 Map=0 (136,76)->(139,73) PathFound=1 Num=4
+19:05:08 [MON_DEBUG] Idx=12 Class=0 Map=0 (138,74)->(135,77) PathFound=1 Num=4
+19:05:09 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:05:10 [MON_DEBUG] Idx=13 Class=0 Map=0 (140,73)->(137,74) PathFound=1 Num=4
+19:05:12 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:05:12 [MON_DEBUG] Idx=11 Class=0 Map=0 (139,74)->(137,75) PathFound=1 Num=3
+19:05:14 [MON_DEBUG] Idx=11 Class=0 Map=0 (136,72)->(136,73) PathFound=1 Num=2
+19:05:15 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:05:16 [MON_DEBUG] Idx=12 Class=0 Map=0 (137,75)->(139,78) PathFound=1 Num=4
+19:05:18 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:05:18 [MON_DEBUG] Idx=13 Class=0 Map=0 (136,75)->(133,77) PathFound=1 Num=4
+19:05:20 [MON_DEBUG] Idx=11 Class=0 Map=0 (136,76)->(136,79) PathFound=1 Num=4
+19:05:21 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:05:22 [MON_DEBUG] Idx=12 Class=0 Map=0 (140,74)->(139,73) PathFound=1 Num=2
+19:05:24 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:05:24 [MON_DEBUG] Idx=12 Class=0 Map=0 (141,75)->(141,78) PathFound=1 Num=4
+19:05:26 [MON_DEBUG] Idx=15 Class=0 Map=0 (141,76)->(138,75) PathFound=1 Num=4
+19:05:27 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:05:28 [MON_DEBUG] Idx=11 Class=0 Map=0 (137,73)->(134,74) PathFound=1 Num=4
+19:05:30 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:05:30 [MON_DEBUG] Idx=12 Class=0 Map=0 (140,76)->(141,76) PathFound=1 Num=2
+19:05:32 [MON_DEBUG] Idx=14 Class=0 Map=0 (135,79)->(133,79) PathFound=1 Num=3
+19:05:33 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:05:34 [MON_DEBUG] Idx=11 Class=0 Map=0 (135,73)->(137,74) PathFound=1 Num=3
+19:05:36 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:05:36 [MON_DEBUG] Idx=11 Class=0 Map=0 (138,73)->(135,72) PathFound=1 Num=4
+19:05:38 [MON_DEBUG] Idx=11 Class=0 Map=0 (138,74)->(141,75) PathFound=1 Num=4
+19:05:39 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:05:40 [MON_DEBUG] Idx=11 Class=0 Map=0 (139,74)->(140,76) PathFound=1 Num=3
+19:05:42 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:05:42 [MON_DEBUG] Idx=11 Class=0 Map=0 (140,76)->(137,75) PathFound=1 Num=4
+19:05:44 [MON_DEBUG] Idx=11 Class=0 Map=0 (138,76)->(140,75) PathFound=1 Num=3
+19:05:45 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:05:46 [MON_DEBUG] Idx=14 Class=0 Map=0 (134,72)->(135,74) PathFound=1 Num=3
+19:05:48 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:05:48 [MON_DEBUG] Idx=12 Class=0 Map=0 (137,79)->(137,80) PathFound=1 Num=2
+19:05:50 [MON_DEBUG] Idx=12 Class=0 Map=0 (139,79)->(141,76) PathFound=1 Num=4
+19:05:51 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:05:52 [MON_DEBUG] Idx=12 Class=0 Map=0 (141,78)->(139,79) PathFound=1 Num=3
+19:05:54 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:05:54 [MON_DEBUG] Idx=12 Class=0 Map=0 (140,79)->(137,81) PathFound=1 Num=4
+19:05:56 [MON_DEBUG] Idx=12 Class=0 Map=0 (141,79)->(140,79) PathFound=1 Num=2
+19:05:57 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:05:58 [MON_DEBUG] Idx=11 Class=0 Map=0 (133,76)->(133,79) PathFound=1 Num=4
+19:06:01 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:06:01 [MON_DEBUG] Idx=13 Class=0 Map=0 (140,73)->(140,76) PathFound=1 Num=4
+19:06:03 [MON_DEBUG] Idx=11 Class=0 Map=0 (135,78)->(136,78) PathFound=1 Num=2
+19:06:04 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:06:05 [MON_DEBUG] Idx=12 Class=0 Map=0 (139,76)->(138,77) PathFound=1 Num=2
+19:06:07 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:06:07 [MON_DEBUG] Idx=11 Class=0 Map=0 (134,73)->(136,72) PathFound=1 Num=3
+19:06:09 [MON_DEBUG] Idx=11 Class=0 Map=0 (135,73)->(137,72) PathFound=1 Num=3
+19:06:10 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:06:11 [MON_DEBUG] Idx=11 Class=0 Map=0 (133,73)->(135,76) PathFound=1 Num=4
+19:06:13 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:06:13 [MON_DEBUG] Idx=11 Class=0 Map=0 (137,75)->(140,72) PathFound=1 Num=4
+19:06:15 [MON_DEBUG] Idx=11 Class=0 Map=0 (138,74)->(137,72) PathFound=1 Num=3
+19:06:16 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:06:17 [MON_DEBUG] Idx=14 Class=0 Map=0 (136,78)->(137,76) PathFound=1 Num=3
+19:06:19 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:06:19 [MON_DEBUG] Idx=11 Class=0 Map=0 (135,74)->(135,75) PathFound=1 Num=2
+19:06:21 [MON_DEBUG] Idx=12 Class=0 Map=0 (140,79)->(138,78) PathFound=1 Num=3
+19:06:22 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:06:23 [MON_DEBUG] Idx=12 Class=0 Map=0 (140,78)->(137,78) PathFound=1 Num=4
+19:06:25 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:06:25 [MON_DEBUG] Idx=11 Class=0 Map=0 (137,77)->(135,77) PathFound=1 Num=3
+19:06:27 [MON_DEBUG] Idx=19 Class=0 Map=0 (165,85)->(166,82) PathFound=1 Num=4
+19:06:28 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:06:29 [MON_DEBUG] Idx=12 Class=0 Map=0 (138,79)->(136,80) PathFound=1 Num=3
+19:06:31 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:06:31 [MON_DEBUG] Idx=11 Class=0 Map=0 (133,76)->(134,73) PathFound=1 Num=4
+19:06:33 [MON_DEBUG] Idx=11 Class=0 Map=0 (133,73)->(136,75) PathFound=1 Num=4
+19:06:34 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:06:35 [MON_DEBUG] Idx=11 Class=0 Map=0 (136,74)->(133,77) PathFound=1 Num=4
+19:06:37 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:06:37 [MON_DEBUG] Idx=12 Class=0 Map=0 (139,80)->(140,77) PathFound=1 Num=4
+19:06:39 [MON_DEBUG] Idx=11 Class=0 Map=0 (135,76)->(134,74) PathFound=1 Num=3
+19:06:40 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:06:41 [MON_DEBUG] Idx=11 Class=0 Map=0 (136,75)->(137,76) PathFound=1 Num=2
+19:06:43 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:06:43 [MON_DEBUG] Idx=12 Class=0 Map=0 (138,74)->(139,76) PathFound=1 Num=3
+19:06:45 [MON_DEBUG] Idx=12 Class=0 Map=0 (139,76)->(138,75) PathFound=1 Num=2
+19:06:46 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:06:47 [MON_DEBUG] Idx=11 Class=0 Map=0 (134,77)->(134,78) PathFound=1 Num=2
+19:06:49 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:06:49 [MON_DEBUG] Idx=12 Class=0 Map=0 (139,72)->(136,74) PathFound=1 Num=4
+19:06:51 [MON_DEBUG] Idx=11 Class=0 Map=0 (137,78)->(136,78) PathFound=1 Num=2
+19:06:52 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:06:53 [MON_DEBUG] Idx=11 Class=0 Map=0 (137,78)->(134,77) PathFound=1 Num=4
+19:06:55 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:06:55 [MON_DEBUG] Idx=11 Class=0 Map=0 (135,80)->(134,79) PathFound=1 Num=2
+19:06:57 [MON_DEBUG] Idx=11 Class=0 Map=0 (136,79)->(137,78) PathFound=1 Num=2
+19:06:58 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:06:59 [MON_DEBUG] Idx=18 Class=0 Map=0 (135,74)->(136,72) PathFound=1 Num=3
+19:07:02 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:07:02 [MON_DEBUG] Idx=11 Class=0 Map=0 (137,77)->(134,76) PathFound=1 Num=4
+19:07:04 [MON_DEBUG] Idx=11 Class=0 Map=0 (138,76)->(137,75) PathFound=1 Num=2
+19:07:05 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:07:06 [MON_DEBUG] Idx=17 Class=0 Map=0 (139,75)->(140,74) PathFound=1 Num=2
+19:07:08 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:07:08 [MON_DEBUG] Idx=13 Class=0 Map=0 (137,78)->(134,77) PathFound=1 Num=4
+19:07:10 [MON_DEBUG] Idx=11 Class=0 Map=0 (135,78)->(136,78) PathFound=1 Num=2
+19:07:11 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:07:12 [MON_DEBUG] Idx=11 Class=0 Map=0 (136,78)->(133,75) PathFound=1 Num=4
+19:07:14 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:07:14 [MON_DEBUG] Idx=11 Class=0 Map=0 (134,77)->(136,77) PathFound=1 Num=3
+19:07:16 [MON_DEBUG] Idx=12 Class=0 Map=0 (140,78)->(138,79) PathFound=1 Num=3
+19:07:17 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:07:18 [MON_DEBUG] Idx=11 Class=0 Map=0 (136,76)->(134,76) PathFound=1 Num=3
+19:07:20 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:07:20 [MON_DEBUG] Idx=12 Class=0 Map=0 (141,77)->(138,77) PathFound=1 Num=4
+19:07:22 [MON_DEBUG] Idx=14 Class=0 Map=0 (136,78)->(137,79) PathFound=1 Num=2
+19:07:23 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:07:24 [MON_DEBUG] Idx=11 Class=0 Map=0 (137,75)->(134,77) PathFound=1 Num=4
+19:07:26 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:07:26 [MON_DEBUG] Idx=11 Class=0 Map=0 (136,76)->(139,78) PathFound=1 Num=4
+19:07:28 [MON_DEBUG] Idx=11 Class=0 Map=0 (136,76)->(136,77) PathFound=1 Num=2
+19:07:29 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:07:30 [MON_DEBUG] Idx=12 Class=0 Map=0 (136,80)->(133,78) PathFound=1 Num=4
+19:07:32 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:07:32 [MON_DEBUG] Idx=13 Class=0 Map=0 (136,77)->(137,78) PathFound=1 Num=2
+19:07:34 [MON_DEBUG] Idx=12 Class=0 Map=0 (135,75)->(135,76) PathFound=1 Num=2
+19:07:35 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:07:36 [MON_DEBUG] Idx=11 Class=0 Map=0 (140,80)->(137,79) PathFound=1 Num=4
+19:07:38 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:07:38 [MON_DEBUG] Idx=14 Class=0 Map=0 (139,76)->(140,73) PathFound=1 Num=4
+19:07:40 [MON_DEBUG] Idx=15 Class=0 Map=0 (138,80)->(135,80) PathFound=1 Num=4
+19:07:41 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:07:42 [MON_DEBUG] Idx=14 Class=0 Map=0 (141,74)->(138,74) PathFound=1 Num=4
+19:07:44 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:07:44 [MON_DEBUG] Idx=12 Class=0 Map=0 (138,80)->(135,79) PathFound=1 Num=4
+19:07:46 [MON_DEBUG] Idx=13 Class=0 Map=0 (136,77)->(135,75) PathFound=1 Num=3
+19:07:47 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:07:48 [MON_DEBUG] Idx=11 Class=0 Map=0 (135,75)->(134,77) PathFound=1 Num=3
+19:07:50 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:07:50 [MON_DEBUG] Idx=11 Class=0 Map=0 (136,75)->(138,73) PathFound=1 Num=3
+19:07:52 [MON_DEBUG] Idx=19 Class=0 Map=0 (159,79)->(162,80) PathFound=1 Num=4
+19:07:53 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:07:54 [MON_DEBUG] Idx=11 Class=0 Map=0 (140,74)->(137,73) PathFound=1 Num=4
+19:07:56 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:07:56 [MON_DEBUG] Idx=13 Class=0 Map=0 (140,76)->(138,76) PathFound=1 Num=3
+19:07:58 [MON_DEBUG] Idx=11 Class=0 Map=0 (140,75)->(137,78) PathFound=1 Num=4
+19:07:59 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:08:00 [MON_DEBUG] Idx=11 Class=0 Map=0 (141,74)->(140,73) PathFound=1 Num=2
+19:08:02 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:08:02 [MON_DEBUG] Idx=11 Class=0 Map=0 (141,74)->(140,74) PathFound=1 Num=2
+19:08:05 [MON_DEBUG] Idx=11 Class=0 Map=0 (141,74)->(142,76) PathFound=1 Num=3
+19:08:06 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:08:07 [MON_DEBUG] Idx=12 Class=0 Map=0 (137,80)->(135,79) PathFound=1 Num=3
+19:08:09 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:08:09 [MON_DEBUG] Idx=12 Class=0 Map=0 (135,80)->(134,78) PathFound=1 Num=3
+19:08:11 [MON_DEBUG] Idx=12 Class=0 Map=0 (135,78)->(138,78) PathFound=1 Num=4
+19:08:12 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:08:13 [MON_DEBUG] Idx=11 Class=0 Map=0 (137,73)->(139,74) PathFound=1 Num=3
+19:08:15 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:08:15 [MON_DEBUG] Idx=11 Class=0 Map=0 (137,75)->(140,72) PathFound=1 Num=4
+19:08:17 [MON_DEBUG] Idx=11 Class=0 Map=0 (139,77)->(141,77) PathFound=1 Num=3
+19:08:18 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:08:19 [MON_DEBUG] Idx=12 Class=0 Map=0 (136,74)->(134,75) PathFound=1 Num=3
+19:08:21 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:08:21 [MON_DEBUG] Idx=11 Class=0 Map=0 (141,76)->(138,76) PathFound=1 Num=4
+19:08:23 [MON_DEBUG] Idx=12 Class=0 Map=0 (134,77)->(136,78) PathFound=1 Num=3
+19:08:24 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:08:25 [MON_DEBUG] Idx=11 Class=0 Map=0 (135,80)->(135,78) PathFound=1 Num=3
+19:08:27 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:08:27 [MON_DEBUG] Idx=12 Class=0 Map=0 (136,74)->(139,76) PathFound=1 Num=4
+19:08:29 [MON_DEBUG] Idx=12 Class=0 Map=0 (138,74)->(138,72) PathFound=1 Num=3
+19:08:30 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:08:31 [MON_DEBUG] Idx=11 Class=0 Map=0 (133,75)->(134,72) PathFound=1 Num=4
+19:08:33 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:08:33 [MON_DEBUG] Idx=13 Class=0 Map=0 (138,72)->(137,73) PathFound=1 Num=2
+19:08:35 [MON_DEBUG] Idx=12 Class=0 Map=0 (136,74)->(133,73) PathFound=1 Num=4
+19:08:36 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:08:37 [MON_DEBUG] Idx=11 Class=0 Map=0 (135,74)->(138,73) PathFound=1 Num=4
+19:08:39 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:08:39 [MON_DEBUG] Idx=11 Class=0 Map=0 (138,73)->(137,72) PathFound=1 Num=2
+19:08:41 [MON_DEBUG] Idx=11 Class=0 Map=0 (139,74)->(139,72) PathFound=1 Num=3
+19:08:42 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:08:43 [MON_DEBUG] Idx=13 Class=0 Map=0 (140,72)->(137,73) PathFound=1 Num=4
+19:08:45 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:08:45 [MON_DEBUG] Idx=13 Class=0 Map=0 (137,73)->(137,76) PathFound=1 Num=4
+19:08:47 [MON_DEBUG] Idx=12 Class=0 Map=0 (135,75)->(137,77) PathFound=1 Num=3
+19:08:48 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:08:49 [MON_DEBUG] Idx=13 Class=0 Map=0 (138,72)->(137,72) PathFound=1 Num=2
+19:08:51 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:08:51 [MON_DEBUG] Idx=13 Class=0 Map=0 (139,72)->(138,73) PathFound=1 Num=2
+19:08:53 [MON_DEBUG] Idx=11 Class=0 Map=0 (136,80)->(135,79) PathFound=1 Num=2
+19:08:54 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:08:55 [MON_DEBUG] Idx=11 Class=0 Map=0 (136,79)->(136,78) PathFound=1 Num=2
+19:08:57 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:08:57 [MON_DEBUG] Idx=11 Class=0 Map=0 (136,80)->(139,79) PathFound=1 Num=4
+19:08:59 [MON_DEBUG] Idx=11 Class=0 Map=0 (137,80)->(140,78) PathFound=1 Num=4
+19:09:00 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:09:01 [MON_DEBUG] Idx=14 Class=0 Map=0 (137,73)->(134,76) PathFound=1 Num=4
+19:09:03 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:09:03 [MON_DEBUG] Idx=12 Class=0 Map=0 (142,76)->(141,79) PathFound=1 Num=4
+19:09:05 [MON_DEBUG] Idx=15 Class=0 Map=0 (133,74)->(135,74) PathFound=1 Num=3
+19:09:06 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:09:08 [MON_DEBUG] Idx=11 Class=0 Map=0 (136,77)->(134,77) PathFound=1 Num=3
+19:09:10 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:09:10 [MON_DEBUG] Idx=11 Class=0 Map=0 (134,79)->(137,76) PathFound=1 Num=4
+19:09:12 [MON_DEBUG] Idx=11 Class=0 Map=0 (134,79)->(136,77) PathFound=1 Num=3
+19:09:13 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:09:14 [MON_DEBUG] Idx=11 Class=0 Map=0 (133,79)->(134,80) PathFound=1 Num=2
+19:09:16 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:09:16 [MON_DEBUG] Idx=11 Class=0 Map=0 (136,80)->(135,80) PathFound=1 Num=2
+19:09:18 [MON_DEBUG] Idx=13 Class=0 Map=0 (137,75)->(137,76) PathFound=1 Num=2
+19:09:19 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:09:20 [MON_DEBUG] Idx=12 Class=0 Map=0 (137,77)->(140,78) PathFound=1 Num=4
+19:09:22 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:09:22 [MON_DEBUG] Idx=12 Class=0 Map=0 (139,78)->(140,75) PathFound=1 Num=4
+19:09:24 [MON_DEBUG] Idx=11 Class=0 Map=0 (139,75)->(140,73) PathFound=1 Num=3
+19:09:25 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:09:26 [MON_DEBUG] Idx=11 Class=0 Map=0 (141,73)->(139,73) PathFound=1 Num=3
+19:09:28 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:09:28 [MON_DEBUG] Idx=12 Class=0 Map=0 (139,74)->(141,73) PathFound=1 Num=3
+19:09:30 [MON_DEBUG] Idx=16 Class=0 Map=0 (137,72)->(134,75) PathFound=1 Num=4
+19:09:31 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:09:32 [MON_DEBUG] Idx=11 Class=0 Map=0 (138,75)->(141,77) PathFound=1 Num=4
+19:09:34 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:09:34 [MON_DEBUG] Idx=11 Class=0 Map=0 (138,77)->(137,76) PathFound=1 Num=2
+19:09:36 [MON_DEBUG] Idx=11 Class=0 Map=0 (138,75)->(140,72) PathFound=1 Num=4
+19:09:37 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:09:38 [MON_DEBUG] Idx=11 Class=0 Map=0 (140,73)->(137,76) PathFound=1 Num=4
+19:09:40 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:09:40 [MON_DEBUG] Idx=12 Class=0 Map=0 (138,80)->(136,78) PathFound=1 Num=3
+19:09:42 [MON_DEBUG] Idx=11 Class=0 Map=0 (138,74)->(137,71) PathFound=1 Num=4
+19:09:43 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:09:44 [MON_DEBUG] Idx=13 Class=0 Map=0 (140,74)->(141,77) PathFound=1 Num=4
+19:09:46 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:09:46 [MON_DEBUG] Idx=13 Class=0 Map=0 (141,74)->(139,73) PathFound=1 Num=3
+19:09:48 [MON_DEBUG] Idx=11 Class=0 Map=0 (135,79)->(137,81) PathFound=1 Num=3
+19:09:49 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:09:50 [MON_DEBUG] Idx=12 Class=0 Map=0 (136,76)->(135,75) PathFound=1 Num=2
+19:09:52 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:09:52 [MON_DEBUG] Idx=13 Class=0 Map=0 (138,77)->(138,78) PathFound=1 Num=2
+19:09:54 [MON_DEBUG] Idx=12 Class=0 Map=0 (134,76)->(137,74) PathFound=1 Num=4
+19:09:55 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:09:56 [MON_DEBUG] Idx=13 Class=0 Map=0 (134,74)->(133,75) PathFound=1 Num=2
+19:09:58 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:09:58 [MON_DEBUG] Idx=11 Class=0 Map=0 (137,81)->(137,80) PathFound=1 Num=2
+19:10:00 [MON_DEBUG] Idx=11 Class=0 Map=0 (135,80)->(135,77) PathFound=1 Num=4
+19:10:01 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:10:02 [MON_DEBUG] Idx=17 Class=0 Map=0 (139,73)->(139,76) PathFound=1 Num=4
+19:10:04 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:10:04 [MON_DEBUG] Idx=11 Class=0 Map=0 (137,79)->(135,80) PathFound=1 Num=3
+19:10:06 [MON_DEBUG] Idx=17 Class=0 Map=0 (139,72)->(137,74) PathFound=1 Num=3
+19:10:07 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:10:08 [MON_DEBUG] Idx=13 Class=0 Map=0 (136,75)->(133,74) PathFound=1 Num=4
+19:10:11 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:10:11 [MON_DEBUG] Idx=11 Class=0 Map=0 (138,77)->(139,74) PathFound=1 Num=4
+19:10:13 [MON_DEBUG] Idx=12 Class=0 Map=0 (135,74)->(133,77) PathFound=1 Num=4
+19:10:14 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:10:15 [MON_DEBUG] Idx=15 Class=0 Map=0 (136,75)->(135,74) PathFound=1 Num=2
+19:10:17 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:10:17 [MON_DEBUG] Idx=15 Class=0 Map=0 (135,74)->(133,75) PathFound=1 Num=3
+19:10:19 [MON_DEBUG] Idx=11 Class=0 Map=0 (138,77)->(139,74) PathFound=1 Num=4
+19:10:20 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:10:21 [MON_DEBUG] Idx=13 Class=0 Map=0 (137,74)->(138,75) PathFound=1 Num=2
+19:10:23 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:10:23 [MON_DEBUG] Idx=11 Class=0 Map=0 (138,78)->(139,77) PathFound=1 Num=2
+19:10:25 [MON_DEBUG] Idx=11 Class=0 Map=0 (137,75)->(140,73) PathFound=1 Num=4
+19:10:26 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:10:27 [MON_DEBUG] Idx=12 Class=0 Map=0 (140,76)->(138,78) PathFound=1 Num=3
+19:10:29 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:10:29 [MON_DEBUG] Idx=15 Class=0 Map=0 (137,77)->(135,74) PathFound=1 Num=4
+19:10:31 [MON_DEBUG] Idx=14 Class=0 Map=0 (136,74)->(134,74) PathFound=1 Num=3
+19:10:32 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:10:33 [MON_DEBUG] Idx=11 Class=0 Map=0 (138,75)->(139,76) PathFound=1 Num=2
+19:10:35 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:10:35 [MON_DEBUG] Idx=15 Class=0 Map=0 (137,77)->(138,74) PathFound=1 Num=4
+19:10:37 [MON_DEBUG] Idx=12 Class=0 Map=0 (136,76)->(136,74) PathFound=1 Num=3
+19:10:38 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:10:39 [MON_DEBUG] Idx=12 Class=0 Map=0 (135,73)->(137,76) PathFound=1 Num=4
+19:10:41 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:10:41 [MON_DEBUG] Idx=11 Class=0 Map=0 (135,75)->(133,74) PathFound=1 Num=3
+19:10:43 [MON_DEBUG] Idx=12 Class=0 Map=0 (137,74)->(134,72) PathFound=1 Num=4
+19:10:44 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:10:45 [MON_DEBUG] Idx=11 Class=0 Map=0 (135,78)->(133,77) PathFound=1 Num=3
+19:10:47 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:10:47 [MON_DEBUG] Idx=11 Class=0 Map=0 (133,77)->(134,79) PathFound=1 Num=3
+19:10:49 [MON_DEBUG] Idx=13 Class=0 Map=0 (134,75)->(136,76) PathFound=1 Num=3
+19:10:50 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:10:51 [MON_DEBUG] Idx=12 Class=0 Map=0 (137,77)->(135,80) PathFound=1 Num=4
+19:10:53 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:10:53 [MON_DEBUG] Idx=11 Class=0 Map=0 (134,74)->(137,76) PathFound=1 Num=4
+19:10:55 [MON_DEBUG] Idx=12 Class=0 Map=0 (135,76)->(136,79) PathFound=1 Num=4
+19:10:56 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:10:57 [MON_DEBUG] Idx=11 Class=0 Map=0 (137,76)->(134,73) PathFound=1 Num=4
+19:10:59 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:10:59 [MON_DEBUG] Idx=11 Class=0 Map=0 (135,77)->(134,76) PathFound=1 Num=2
+19:11:01 [MON_DEBUG] Idx=11 Class=0 Map=0 (135,77)->(133,75) PathFound=1 Num=3
+19:11:02 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:11:03 [MON_DEBUG] Idx=11 Class=0 Map=0 (137,75)->(139,72) PathFound=1 Num=4
+19:11:05 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:11:05 [MON_DEBUG] Idx=11 Class=0 Map=0 (138,77)->(135,79) PathFound=1 Num=4
+19:11:07 [MON_DEBUG] Idx=13 Class=0 Map=0 (133,75)->(133,76) PathFound=1 Num=2
+19:11:08 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:11:09 [MON_DEBUG] Idx=11 Class=0 Map=0 (135,79)->(136,80) PathFound=1 Num=2
+19:11:11 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:11:11 [MON_DEBUG] Idx=12 Class=0 Map=0 (133,77)->(133,74) PathFound=1 Num=4
+19:11:14 [MON_DEBUG] Idx=11 Class=0 Map=0 (136,78)->(136,80) PathFound=1 Num=3
+19:11:15 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:11:16 [MON_DEBUG] Idx=11 Class=0 Map=0 (134,79)->(136,78) PathFound=1 Num=3
+19:11:18 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:11:18 [MON_DEBUG] Idx=11 Class=0 Map=0 (136,76)->(138,78) PathFound=1 Num=3
+19:11:18 [ServerInfo] ChaosMix loaded successfully
+19:11:18 [ServerInfo] Character loaded successfully
+19:11:18 [ServerInfo] Command loaded successfully
+19:11:18 [ServerInfo] Common loaded successfully
+19:11:18 [ServerInfo] Custom loaded successfully
+19:11:18 [ServerInfo] Event loaded successfully
+19:11:18 [ServerInfo] EventItemBag loaded successfully
+19:11:18 [ServerInfo] Hack loaded successfully
+19:11:18 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/CustomItem.txt
+19:11:18 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/CustomGlow.txt
+19:11:18 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/CustomBow.txt
+19:11:18 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/ItemPosition.txt
+19:11:18 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/MapFog.txt
+19:11:18 [ContentCatalog] 03_000.json: item 96, 0 efectos, 0 líneas de tooltip, pose de inventario
+19:11:18 [ContentCatalog] 13_400.json: item 7120, 0 efectos, 1 líneas de tooltip, pose de inventario
+19:11:18 [CustomPet] 13_400.json: pet del item 7120, levanta zen
+19:11:18 [ServerInfo] Item loaded successfully
+19:11:18 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/CustomMonster.txt
+19:11:18 [ServerInfo] Monster loaded successfully
+19:11:18 [ServerInfo] Move loaded successfully
+19:11:18 [ServerInfo] Quest loaded successfully
+19:11:18 [ServerInfo] Shop loaded successfully
+19:11:18 [ServerInfo] Skill loaded successfully
+19:11:18 [ServerInfo] Util loaded successfully
+19:11:18 [Blood Castle] (1) Sync Start Time. [48] min remain
+19:11:18 [Blood Castle] (1) SetState EMPTY
+19:11:18 [Blood Castle] (2) Sync Start Time. [48] min remain
+19:11:18 [Blood Castle] (2) SetState EMPTY
+19:11:18 [Blood Castle] (3) Sync Start Time. [48] min remain
+19:11:18 [Blood Castle] (3) SetState EMPTY
+19:11:18 [Blood Castle] (4) Sync Start Time. [48] min remain
+19:11:18 [Blood Castle] (4) SetState EMPTY
+19:11:18 [Blood Castle] (5) Sync Start Time. [48] min remain
+19:11:18 [Blood Castle] (5) SetState EMPTY
+19:11:18 [Blood Castle] (6) Sync Start Time. [48] min remain
+19:11:18 [Blood Castle] (6) SetState EMPTY
+19:11:18 [Devil Square] (1) Sync Start Time. [78] min remain
+19:11:18 [Devil Square] (1) SetState EMPTY
+19:11:18 [Devil Square] (2) Sync Start Time. [78] min remain
+19:11:18 [Devil Square] (2) SetState EMPTY
+19:11:18 [Devil Square] (3) Sync Start Time. [78] min remain
+19:11:18 [Devil Square] (3) SetState EMPTY
+19:11:18 [Devil Square] (4) Sync Start Time. [78] min remain
+19:11:18 [Devil Square] (4) SetState EMPTY
+19:11:18 [Bingo] Sync Start Time. [199] min remain
+19:11:18 [Bingo] SetState EMPTY
+19:11:18 [JoinServerConnection] Connected
+19:11:18 [DataServerConnection] Connected
+19:11:20 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:11:20 [MON_DEBUG] Idx=14 Class=0 Map=0 (137,76)->(135,74) PathFound=1 Num=3
+19:11:22 [MON_DEBUG] Idx=11 Class=0 Map=0 (137,76)->(136,79) PathFound=1 Num=4
+19:11:23 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:11:24 [MON_DEBUG] Idx=11 Class=0 Map=0 (135,78)->(138,75) PathFound=1 Num=4
+19:11:26 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:11:26 [MON_DEBUG] Idx=11 Class=0 Map=0 (140,76)->(140,79) PathFound=1 Num=4
+19:11:28 [MON_DEBUG] Idx=11 Class=0 Map=0 (142,76)->(139,75) PathFound=1 Num=4
+19:11:29 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:11:30 [MON_DEBUG] Idx=11 Class=0 Map=0 (139,73)->(141,75) PathFound=1 Num=3
+19:11:32 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:11:32 [MON_DEBUG] Idx=13 Class=0 Map=0 (139,80)->(139,79) PathFound=1 Num=2
+19:11:34 [MON_DEBUG] Idx=12 Class=0 Map=0 (133,78)->(133,76) PathFound=1 Num=3
+19:11:35 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:11:36 [MON_DEBUG] Idx=11 Class=0 Map=0 (136,74)->(139,77) PathFound=1 Num=4
+19:11:38 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:11:38 [MON_DEBUG] Idx=12 Class=0 Map=0 (136,77)->(138,75) PathFound=1 Num=3
+19:11:40 [MON_DEBUG] Idx=13 Class=0 Map=0 (137,77)->(139,77) PathFound=1 Num=3
+19:11:41 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:11:42 [MON_DEBUG] Idx=11 Class=0 Map=0 (132,76)->(135,75) PathFound=1 Num=4
+19:11:44 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:11:44 [MON_DEBUG] Idx=11 Class=0 Map=0 (136,74)->(136,76) PathFound=1 Num=3
+19:11:46 [MON_DEBUG] Idx=11 Class=0 Map=0 (136,76)->(139,75) PathFound=1 Num=4
+19:11:47 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:11:48 [MON_DEBUG] Idx=14 Class=0 Map=0 (136,75)->(136,72) PathFound=1 Num=4
+19:11:50 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:11:50 [MON_DEBUG] Idx=12 Class=0 Map=0 (141,77)->(138,74) PathFound=1 Num=4
+19:11:52 [MON_DEBUG] Idx=11 Class=0 Map=0 (138,73)->(136,75) PathFound=1 Num=3
+19:11:53 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:11:54 [MON_DEBUG] Idx=11 Class=0 Map=0 (136,75)->(133,75) PathFound=1 Num=4
+19:11:56 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:11:56 [MON_DEBUG] Idx=11 Class=0 Map=0 (135,74)->(137,73) PathFound=1 Num=3
+19:11:58 [MON_DEBUG] Idx=13 Class=0 Map=0 (136,75)->(136,74) PathFound=1 Num=2
+19:11:59 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:12:00 [MON_DEBUG] Idx=11 Class=0 Map=0 (136,74)->(136,77) PathFound=1 Num=4
+19:12:02 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:12:02 [MON_DEBUG] Idx=11 Class=0 Map=0 (135,78)->(137,81) PathFound=1 Num=4
+19:12:04 [MON_DEBUG] Idx=13 Class=0 Map=0 (135,75)->(136,76) PathFound=1 Num=2
+19:12:05 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:12:06 [MON_DEBUG] Idx=11 Class=0 Map=0 (133,79)->(133,76) PathFound=1 Num=4
+19:12:08 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:12:08 [MON_DEBUG] Idx=11 Class=0 Map=0 (134,76)->(137,78) PathFound=1 Num=4
+19:12:10 [MON_DEBUG] Idx=12 Class=0 Map=0 (138,79)->(137,78) PathFound=1 Num=2
+19:12:11 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:12:12 [MON_DEBUG] Idx=12 Class=0 Map=0 (137,80)->(135,79) PathFound=1 Num=3
+19:12:14 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:12:14 [MON_DEBUG] Idx=15 Class=0 Map=0 (138,75)->(140,74) PathFound=1 Num=3
+19:12:16 [MON_DEBUG] Idx=12 Class=0 Map=0 (135,76)->(138,76) PathFound=1 Num=4
+19:12:17 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:12:18 [MON_DEBUG] Idx=11 Class=0 Map=0 (137,74)->(134,77) PathFound=1 Num=4
+19:12:21 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:12:21 [MON_DEBUG] Idx=11 Class=0 Map=0 (137,73)->(140,72) PathFound=1 Num=4
+19:12:23 [MON_DEBUG] Idx=15 Class=0 Map=0 (138,76)->(138,78) PathFound=1 Num=3
+19:12:24 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:12:25 [MON_DEBUG] Idx=11 Class=0 Map=0 (136,75)->(135,76) PathFound=1 Num=2
+19:12:27 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:12:27 [MON_DEBUG] Idx=12 Class=0 Map=0 (137,77)->(136,77) PathFound=1 Num=2
+19:12:29 [MON_DEBUG] Idx=11 Class=0 Map=0 (133,77)->(135,77) PathFound=1 Num=3
+19:12:30 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:12:31 [MON_DEBUG] Idx=15 Class=0 Map=0 (140,74)->(137,75) PathFound=1 Num=4
+19:12:33 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:12:33 [MON_DEBUG] Idx=12 Class=0 Map=0 (137,76)->(135,73) PathFound=1 Num=4
+19:12:35 [MON_DEBUG] Idx=13 Class=0 Map=0 (138,74)->(139,72) PathFound=1 Num=3
+19:12:36 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:12:37 [MON_DEBUG] Idx=13 Class=0 Map=0 (137,72)->(139,73) PathFound=1 Num=3
+19:12:39 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:12:39 [MON_DEBUG] Idx=12 Class=0 Map=0 (137,73)->(138,76) PathFound=1 Num=4
+19:12:41 [MON_DEBUG] Idx=12 Class=0 Map=0 (139,73)->(138,75) PathFound=1 Num=3
+19:12:42 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:12:43 [MON_DEBUG] Idx=11 Class=0 Map=0 (136,74)->(135,73) PathFound=1 Num=2
+19:12:45 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:12:45 [MON_DEBUG] Idx=11 Class=0 Map=0 (136,74)->(133,76) PathFound=1 Num=4
+19:12:47 [MON_DEBUG] Idx=13 Class=0 Map=0 (136,77)->(133,77) PathFound=1 Num=4
+19:12:48 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:12:49 [MON_DEBUG] Idx=12 Class=0 Map=0 (139,76)->(137,78) PathFound=1 Num=3
+19:12:51 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:12:51 [MON_DEBUG] Idx=11 Class=0 Map=0 (134,77)->(133,75) PathFound=1 Num=3
+19:12:53 [MON_DEBUG] Idx=15 Class=0 Map=0 (135,75)->(133,77) PathFound=1 Num=3
+19:12:54 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:12:55 [MON_DEBUG] Idx=11 Class=0 Map=0 (137,74)->(137,72) PathFound=1 Num=3
+19:12:57 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:12:57 [MON_DEBUG] Idx=11 Class=0 Map=0 (136,74)->(137,71) PathFound=1 Num=4
+19:12:59 [MON_DEBUG] Idx=11 Class=0 Map=0 (136,72)->(138,72) PathFound=1 Num=3
+19:13:00 [ServerInfo] ChaosMix loaded successfully
+19:13:00 [ServerInfo] Character loaded successfully
+19:13:00 [ServerInfo] Command loaded successfully
+19:13:00 [ServerInfo] Common loaded successfully
+19:13:00 [ServerInfo] Custom loaded successfully
+19:13:00 [ServerInfo] Event loaded successfully
+19:13:00 [ServerInfo] EventItemBag loaded successfully
+19:13:00 [ServerInfo] Hack loaded successfully
+19:13:00 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/CustomItem.txt
+19:13:00 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/CustomGlow.txt
+19:13:00 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/CustomBow.txt
+19:13:00 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/ItemPosition.txt
+19:13:00 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/MapFog.txt
+19:13:00 [ContentCatalog] 03_000.json: item 96, 0 efectos, 0 líneas de tooltip, pose de inventario
+19:13:00 [ContentCatalog] 13_400.json: item 7120, 0 efectos, 1 líneas de tooltip, pose de inventario
+19:13:00 [CustomPet] 13_400.json: pet del item 7120, levanta zen
+19:13:00 [ServerInfo] Item loaded successfully
+19:13:00 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/CustomMonster.txt
+19:13:00 [ServerInfo] Monster loaded successfully
+19:13:00 [ServerInfo] Move loaded successfully
+19:13:00 [ServerInfo] Quest loaded successfully
+19:13:00 [ServerInfo] Shop loaded successfully
+19:13:00 [ServerInfo] Skill loaded successfully
+19:13:00 [ServerInfo] Util loaded successfully
+19:13:00 [Blood Castle] (1) Sync Start Time. [47] min remain
+19:13:00 [Blood Castle] (1) SetState EMPTY
+19:13:00 [Blood Castle] (2) Sync Start Time. [47] min remain
+19:13:00 [Blood Castle] (2) SetState EMPTY
+19:13:00 [Blood Castle] (3) Sync Start Time. [47] min remain
+19:13:00 [Blood Castle] (3) SetState EMPTY
+19:13:00 [Blood Castle] (4) Sync Start Time. [47] min remain
+19:13:00 [Blood Castle] (4) SetState EMPTY
+19:13:01 [Blood Castle] (5) Sync Start Time. [47] min remain
+19:13:01 [Blood Castle] (5) SetState EMPTY
+19:13:01 [Blood Castle] (6) Sync Start Time. [46] min remain
+19:13:01 [Blood Castle] (6) SetState EMPTY
+19:13:01 [Devil Square] (1) Sync Start Time. [76] min remain
+19:13:01 [Devil Square] (1) SetState EMPTY
+19:13:01 [Devil Square] (2) Sync Start Time. [76] min remain
+19:13:01 [Devil Square] (2) SetState EMPTY
+19:13:01 [Devil Square] (3) Sync Start Time. [76] min remain
+19:13:01 [Devil Square] (3) SetState EMPTY
+19:13:01 [Devil Square] (4) Sync Start Time. [76] min remain
+19:13:01 [Devil Square] (4) SetState EMPTY
+19:13:01 [Bingo] Sync Start Time. [197] min remain
+19:13:01 [Bingo] SetState EMPTY
+19:13:01 [JoinServerConnection] Connected
+19:13:01 [DataServerConnection] Connected
+19:13:02 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:13:02 [DUNGEON_DEBUG] Idx=137 Class=5 (108,233)->(109,233) PathFound=1 Num=2
+19:13:03 [DUNGEON_DEBUG] Idx=138 Class=5 (109,234)->(107,232) PathFound=1 Num=3
+19:13:04 [DUNGEON_DEBUG] Idx=139 Class=5 (110,235)->(110,236) PathFound=1 Num=2
+19:13:05 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:13:05 [DUNGEON_DEBUG] Idx=138 Class=5 (108,231)->(108,233) PathFound=1 Num=3
+19:13:06 [DUNGEON_DEBUG] Idx=138 Class=5 (108,233)->(111,232) PathFound=1 Num=4
+19:13:07 [DUNGEON_DEBUG] Idx=139 Class=5 (107,236)->(110,235) PathFound=1 Num=4
+19:13:08 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:13:08 [DUNGEON_DEBUG] Idx=137 Class=5 (111,231)->(109,233) PathFound=1 Num=3
+19:13:09 [DUNGEON_DEBUG] Idx=138 Class=5 (110,235)->(108,233) PathFound=1 Num=3
+19:13:10 [DUNGEON_DEBUG] Idx=137 Class=5 (109,231)->(106,234) PathFound=1 Num=4
+19:13:11 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:13:11 [DUNGEON_DEBUG] Idx=138 Class=5 (105,235)->(106,236) PathFound=1 Num=2
+19:13:12 [DUNGEON_DEBUG] Idx=138 Class=5 (107,234)->(104,235) PathFound=1 Num=4
+19:13:13 [DUNGEON_DEBUG] Idx=138 Class=5 (109,235)->(106,232) PathFound=1 Num=4
+19:13:14 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:13:14 [DUNGEON_DEBUG] Idx=139 Class=5 (107,229)->(106,230) PathFound=1 Num=2
+19:13:15 [DUNGEON_DEBUG] Idx=138 Class=5 (110,232)->(109,232) PathFound=1 Num=2
+19:13:16 [DUNGEON_DEBUG] Idx=141 Class=5 (105,235)->(106,234) PathFound=1 Num=2
+19:13:17 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:13:17 [DUNGEON_DEBUG] Idx=138 Class=5 (106,231)->(109,234) PathFound=1 Num=4
+19:13:18 [DUNGEON_DEBUG] Idx=137 Class=5 (111,234)->(109,236) PathFound=1 Num=3
+19:13:19 [DUNGEON_DEBUG] Idx=137 Class=5 (111,234)->(109,232) PathFound=1 Num=3
+19:13:20 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:13:20 [DUNGEON_DEBUG] Idx=139 Class=5 (107,230)->(107,233) PathFound=1 Num=4
+19:13:21 [DUNGEON_DEBUG] Idx=141 Class=5 (109,235)->(110,234) PathFound=1 Num=2
+19:13:22 [DUNGEON_DEBUG] Idx=137 Class=5 (108,233)->(105,230) PathFound=1 Num=4
+19:13:23 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:13:23 [DUNGEON_DEBUG] Idx=137 Class=5 (106,231)->(107,229) PathFound=1 Num=3
+19:13:24 [DUNGEON_DEBUG] Idx=137 Class=5 (107,229)->(107,231) PathFound=1 Num=3
+19:13:25 [DUNGEON_DEBUG] Idx=137 Class=5 (108,231)->(107,229) PathFound=1 Num=3
+19:13:26 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:13:26 [DUNGEON_DEBUG] Idx=137 Class=5 (107,229)->(106,229) PathFound=1 Num=2
+19:13:27 [DUNGEON_DEBUG] Idx=139 Class=5 (111,236)->(110,235) PathFound=1 Num=2
+19:13:28 [DUNGEON_DEBUG] Idx=137 Class=5 (108,229)->(106,230) PathFound=1 Num=3
+19:13:29 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:13:29 [DUNGEON_DEBUG] Idx=141 Class=5 (108,234)->(111,234) PathFound=1 Num=4
+19:13:30 [DUNGEON_DEBUG] Idx=137 Class=5 (111,232)->(112,231) PathFound=1 Num=2
+19:13:31 [DUNGEON_DEBUG] Idx=138 Class=5 (111,232)->(108,231) PathFound=1 Num=4
+19:13:32 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:13:32 [DUNGEON_DEBUG] Idx=137 Class=5 (112,232)->(112,231) PathFound=1 Num=2
+19:13:33 [DUNGEON_DEBUG] Idx=137 Class=5 (112,231)->(113,233) PathFound=1 Num=3
+19:13:34 [DUNGEON_DEBUG] Idx=139 Class=5 (110,234)->(112,234) PathFound=1 Num=3
+19:13:35 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:13:35 [DUNGEON_DEBUG] Idx=137 Class=5 (111,231)->(108,231) PathFound=1 Num=4
+19:13:36 [DUNGEON_DEBUG] Idx=138 Class=5 (106,234)->(104,234) PathFound=1 Num=3
+19:13:37 [DUNGEON_DEBUG] Idx=140 Class=5 (106,237)->(104,235) PathFound=1 Num=3
+19:13:38 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:13:38 [DUNGEON_DEBUG] Idx=139 Class=5 (112,233)->(112,230) PathFound=1 Num=4
+19:13:39 [DUNGEON_DEBUG] Idx=138 Class=5 (104,236)->(105,233) PathFound=1 Num=4
+19:13:40 [DUNGEON_DEBUG] Idx=138 Class=5 (106,235)->(109,233) PathFound=1 Num=4
+19:13:41 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:13:41 [DUNGEON_DEBUG] Idx=138 Class=5 (105,237)->(105,235) PathFound=1 Num=3
+19:13:42 [DUNGEON_DEBUG] Idx=141 Class=5 (104,236)->(107,233) PathFound=1 Num=4
+19:13:43 [DUNGEON_DEBUG] Idx=137 Class=5 (108,232)->(107,235) PathFound=1 Num=4
+19:13:44 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:13:44 [DUNGEON_DEBUG] Idx=139 Class=5 (109,233)->(109,235) PathFound=1 Num=3
+19:13:45 [DUNGEON_DEBUG] Idx=137 Class=5 (109,229)->(109,231) PathFound=1 Num=3
+19:13:46 [DUNGEON_DEBUG] Idx=137 Class=5 (109,231)->(107,229) PathFound=1 Num=3
+19:13:47 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:13:47 [DUNGEON_DEBUG] Idx=139 Class=5 (106,233)->(106,230) PathFound=1 Num=4
+19:13:48 [DUNGEON_DEBUG] Idx=138 Class=5 (105,235)->(105,236) PathFound=1 Num=2
+19:13:49 [DUNGEON_DEBUG] Idx=137 Class=5 (105,232)->(106,230) PathFound=1 Num=3
+19:13:50 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:13:50 [DUNGEON_DEBUG] Idx=144 Class=5 (107,231)->(105,234) PathFound=1 Num=4
+19:13:51 [DUNGEON_DEBUG] Idx=138 Class=5 (106,233)->(109,234) PathFound=1 Num=4
+19:13:52 [DUNGEON_DEBUG] Idx=137 Class=5 (106,230)->(109,230) PathFound=1 Num=4
+19:13:53 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:13:53 [DUNGEON_DEBUG] Idx=140 Class=5 (111,233)->(112,236) PathFound=1 Num=4
+19:13:54 [DUNGEON_DEBUG] Idx=139 Class=5 (106,230)->(109,232) PathFound=1 Num=4
+19:13:55 [DUNGEON_DEBUG] Idx=137 Class=5 (107,230)->(108,229) PathFound=1 Num=2
+19:13:56 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:13:56 [DUNGEON_DEBUG] Idx=137 Class=5 (108,229)->(106,230) PathFound=1 Num=3
+19:13:57 [DUNGEON_DEBUG] Idx=138 Class=5 (107,237)->(104,234) PathFound=1 Num=4
+19:13:58 [DUNGEON_DEBUG] Idx=137 Class=5 (108,231)->(109,234) PathFound=1 Num=4
+19:13:59 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:13:59 [DUNGEON_DEBUG] Idx=138 Class=5 (108,237)->(108,234) PathFound=1 Num=4
+19:14:00 [DUNGEON_DEBUG] Idx=137 Class=5 (106,235)->(109,237) PathFound=1 Num=4
+19:14:01 [DUNGEON_DEBUG] Idx=138 Class=5 (107,232)->(105,235) PathFound=1 Num=4
+19:14:02 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:14:02 [DUNGEON_DEBUG] Idx=137 Class=5 (109,237)->(108,235) PathFound=1 Num=3
+19:14:04 [DUNGEON_DEBUG] Idx=139 Class=5 (108,233)->(109,231) PathFound=1 Num=3
+19:14:05 [DUNGEON_DEBUG] Idx=138 Class=5 (108,236)->(109,234) PathFound=1 Num=3
+19:14:06 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:14:06 [DUNGEON_DEBUG] Idx=138 Class=5 (109,234)->(112,233) PathFound=1 Num=4
+19:14:07 [DUNGEON_DEBUG] Idx=137 Class=5 (110,237)->(112,235) PathFound=1 Num=3
+19:14:08 [DUNGEON_DEBUG] Idx=137 Class=5 (112,235)->(109,237) PathFound=1 Num=4
+19:14:09 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:14:09 [DUNGEON_DEBUG] Idx=137 Class=5 (112,235)->(111,232) PathFound=1 Num=4
+19:14:10 [DUNGEON_DEBUG] Idx=137 Class=5 (111,233)->(112,232) PathFound=1 Num=2
+19:14:11 [DUNGEON_DEBUG] Idx=138 Class=5 (109,234)->(109,235) PathFound=1 Num=2
+19:14:12 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:14:12 [DUNGEON_DEBUG] Idx=137 Class=5 (112,232)->(110,235) PathFound=1 Num=4
+19:14:13 [DUNGEON_DEBUG] Idx=137 Class=5 (110,234)->(108,231) PathFound=1 Num=4
+19:14:14 [DUNGEON_DEBUG] Idx=138 Class=5 (110,234)->(110,237) PathFound=1 Num=4
+19:14:15 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:14:15 [DUNGEON_DEBUG] Idx=137 Class=5 (108,231)->(110,230) PathFound=1 Num=3
+19:14:16 [DUNGEON_DEBUG] Idx=137 Class=5 (110,230)->(108,231) PathFound=1 Num=3
+19:14:17 [DUNGEON_DEBUG] Idx=138 Class=5 (111,235)->(109,233) PathFound=1 Num=3
+19:14:18 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:14:18 [DUNGEON_DEBUG] Idx=137 Class=5 (107,233)->(104,234) PathFound=1 Num=4
+19:14:19 [DUNGEON_DEBUG] Idx=137 Class=5 (105,234)->(106,232) PathFound=1 Num=3
+19:14:20 [DUNGEON_DEBUG] Idx=137 Class=5 (107,234)->(110,235) PathFound=1 Num=4
+19:14:21 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:14:21 [DUNGEON_DEBUG] Idx=138 Class=5 (108,237)->(108,236) PathFound=1 Num=2
+19:14:22 [DUNGEON_DEBUG] Idx=139 Class=5 (112,236)->(109,234) PathFound=1 Num=4
+19:14:23 [DUNGEON_DEBUG] Idx=137 Class=5 (107,234)->(105,233) PathFound=1 Num=3
+19:14:24 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:14:24 [DUNGEON_DEBUG] Idx=137 Class=5 (104,233)->(106,233) PathFound=1 Num=3
+19:14:25 [DUNGEON_DEBUG] Idx=138 Class=5 (107,236)->(105,237) PathFound=1 Num=3
+19:14:26 [DUNGEON_DEBUG] Idx=138 Class=5 (105,237)->(104,236) PathFound=1 Num=2
+19:14:27 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:14:27 [DUNGEON_DEBUG] Idx=137 Class=5 (107,231)->(108,234) PathFound=1 Num=4
+19:14:28 [DUNGEON_DEBUG] Idx=140 Class=5 (107,230)->(108,233) PathFound=1 Num=4
+19:14:29 [DUNGEON_DEBUG] Idx=145 Class=14 (97,215)->(99,216) PathFound=1 Num=3
+19:14:30 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:14:30 [DUNGEON_DEBUG] Idx=137 Class=5 (107,235)->(104,233) PathFound=1 Num=4
+19:14:31 [DUNGEON_DEBUG] Idx=137 Class=5 (105,233)->(106,236) PathFound=1 Num=4
+19:14:32 [DUNGEON_DEBUG] Idx=137 Class=5 (106,235)->(106,236) PathFound=1 Num=2
+19:14:33 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:14:33 [DUNGEON_DEBUG] Idx=138 Class=5 (106,236)->(104,235) PathFound=1 Num=3
+19:14:34 [DUNGEON_DEBUG] Idx=139 Class=5 (105,235)->(107,233) PathFound=1 Num=3
+19:14:35 [DUNGEON_DEBUG] Idx=137 Class=5 (106,234)->(106,232) PathFound=1 Num=3
+19:14:36 [PROC_DEBUG] Idx=0 Class=230 Live=1 State=2 PosNum=0 Dis=0 Target=-1 Move=0
+19:14:36 [DUNGEON_DEBUG] Idx=137 Class=5 (106,231)->(109,233) PathFound=1 Num=4
+19:14:37 [ServerInfo] ChaosMix loaded successfully
+19:14:37 [ServerInfo] Character loaded successfully
+19:14:37 [ServerInfo] Command loaded successfully
+19:14:37 [ServerInfo] Common loaded successfully
+19:14:37 [ServerInfo] Custom loaded successfully
+19:14:37 [ServerInfo] Event loaded successfully
+19:14:37 [ServerInfo] EventItemBag loaded successfully
+19:14:37 [ServerInfo] Hack loaded successfully
+19:14:37 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/CustomItem.txt
+19:14:37 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/CustomGlow.txt
+19:14:37 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/CustomBow.txt
+19:14:37 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/ItemPosition.txt
+19:14:37 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/MapFog.txt
+19:14:37 [ContentCatalog] 03_000.json: item 96, 0 efectos, 0 líneas de tooltip, pose de inventario
+19:14:37 [ContentCatalog] 13_400.json: item 7120, 0 efectos, 1 líneas de tooltip, pose de inventario
+19:14:37 [CustomPet] 13_400.json: pet del item 7120, levanta zen
+19:14:37 [ServerInfo] Item loaded successfully
+19:14:37 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/CustomMonster.txt
+19:14:37 [ServerInfo] Monster loaded successfully
+19:14:37 [ServerInfo] Move loaded successfully
+19:14:37 [ServerInfo] Quest loaded successfully
+19:14:37 [ServerInfo] Shop loaded successfully
+19:14:37 [ServerInfo] Skill loaded successfully
+19:14:37 [ServerInfo] Util loaded successfully
+19:14:37 [Blood Castle] (1) Sync Start Time. [45] min remain
+19:14:37 [Blood Castle] (1) SetState EMPTY
+19:14:37 [Blood Castle] (2) Sync Start Time. [45] min remain
+19:14:37 [Blood Castle] (2) SetState EMPTY
+19:14:37 [Blood Castle] (3) Sync Start Time. [45] min remain
+19:14:37 [Blood Castle] (3) SetState EMPTY
+19:14:37 [Blood Castle] (4) Sync Start Time. [45] min remain
+19:14:37 [Blood Castle] (4) SetState EMPTY
+19:14:37 [Blood Castle] (5) Sync Start Time. [45] min remain
+19:14:37 [Blood Castle] (5) SetState EMPTY
+19:14:37 [Blood Castle] (6) Sync Start Time. [45] min remain
+19:14:37 [Blood Castle] (6) SetState EMPTY
+19:14:37 [Devil Square] (1) Sync Start Time. [75] min remain
+19:14:37 [Devil Square] (1) SetState EMPTY
+19:14:37 [Devil Square] (2) Sync Start Time. [75] min remain
+19:14:37 [Devil Square] (2) SetState EMPTY
+19:14:37 [Devil Square] (3) Sync Start Time. [75] min remain
+19:14:37 [Devil Square] (3) SetState EMPTY
+19:14:37 [Devil Square] (4) Sync Start Time. [75] min remain
+19:14:37 [Devil Square] (4) SetState EMPTY
+19:14:37 [Bingo] Sync Start Time. [196] min remain
+19:14:37 [Bingo] SetState EMPTY
+19:14:37 [JoinServerConnection] Connected
+19:14:37 [DataServerConnection] Connected
+19:27:12 [ContentCatalog] 285 items, 159 monstruos, 17 fog, 0 efectos, 28 paquetes
+19:35:00 [Invasion Manager] (Red Dragon) Boss Position (Map: 0, X: 74, Y: 98
+20:00:00 [Blood Castle] (1) SetState STAND
+20:00:00 [Blood Castle] (2) SetState STAND
+20:00:00 [Blood Castle] (3) SetState STAND
+20:00:00 [Blood Castle] (4) SetState STAND
+20:00:00 [Blood Castle] (5) SetState STAND
+20:00:00 [Blood Castle] (6) SetState STAND
+20:00:01 [Blood Castle] (1) Not enough users
+20:00:01 [Blood Castle] (1) Sync Start Time. [119] min remain
+20:00:01 [Blood Castle] (1) SetState EMPTY
+20:00:01 [Blood Castle] (2) Not enough users
+20:00:01 [Blood Castle] (2) Sync Start Time. [119] min remain
+20:00:01 [Blood Castle] (2) SetState EMPTY
+20:00:01 [Blood Castle] (3) Not enough users
+20:00:01 [Blood Castle] (3) Sync Start Time. [119] min remain
+20:00:01 [Blood Castle] (3) SetState EMPTY
+20:00:01 [Blood Castle] (4) Not enough users
+20:00:01 [Blood Castle] (4) Sync Start Time. [119] min remain
+20:00:01 [Blood Castle] (4) SetState EMPTY
+20:00:01 [Blood Castle] (5) Not enough users
+20:00:01 [Blood Castle] (5) Sync Start Time. [119] min remain
+20:00:01 [Blood Castle] (5) SetState EMPTY
+20:00:01 [Blood Castle] (6) Not enough users
+20:00:01 [Blood Castle] (6) Sync Start Time. [119] min remain
+20:00:01 [Blood Castle] (6) SetState EMPTY
+20:25:31 [ServerInfo] ChaosMix loaded successfully
+20:25:31 [ServerInfo] Character loaded successfully
+20:25:31 [ServerInfo] Command loaded successfully
+20:25:31 [ServerInfo] Common loaded successfully
+20:25:31 [ServerInfo] Custom loaded successfully
+20:25:31 [ServerInfo] Event loaded successfully
+20:25:31 [ServerInfo] EventItemBag loaded successfully
+20:25:31 [ServerInfo] Hack loaded successfully
+20:25:31 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/CustomItem.txt
+20:25:31 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/CustomGlow.txt
+20:25:31 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/CustomBow.txt
+20:25:31 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/ItemPosition.txt
+20:25:31 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/MapFog.txt
+20:25:31 [ContentCatalog] 03_000.json: item 96, 0 efectos, 0 líneas de tooltip, pose de inventario
+20:25:31 [ContentCatalog] 13_400.json: item 7120, 0 efectos, 1 líneas de tooltip, pose de inventario
+20:25:31 [CustomPet] 13_400.json: pet del item 7120, levanta zen
+20:25:31 [ServerInfo] Item loaded successfully
+20:25:31 [ContentCatalog] Fusionando /opt/mu/Data/Custom/Encoder/CustomMonster.txt
+20:25:31 [ServerInfo] Monster loaded successfully
+20:25:31 [ServerInfo] Move loaded successfully
+20:25:31 [ServerInfo] Quest loaded successfully
+20:25:31 [ServerInfo] Shop loaded successfully
+20:25:31 [ServerInfo] Skill loaded successfully
+20:25:31 [ServerInfo] Util loaded successfully
+20:25:32 [Blood Castle] (1) Sync Start Time. [94] min remain
+20:25:32 [Blood Castle] (1) SetState EMPTY
+20:25:32 [Blood Castle] (2) Sync Start Time. [94] min remain
+20:25:32 [Blood Castle] (2) SetState EMPTY
+20:25:32 [Blood Castle] (3) Sync Start Time. [94] min remain
+20:25:32 [Blood Castle] (3) SetState EMPTY
+20:25:32 [Blood Castle] (4) Sync Start Time. [94] min remain
+20:25:32 [Blood Castle] (4) SetState EMPTY
+20:25:32 [Blood Castle] (5) Sync Start Time. [94] min remain
+20:25:32 [Blood Castle] (5) SetState EMPTY
+20:25:32 [Blood Castle] (6) Sync Start Time. [94] min remain
+20:25:32 [Blood Castle] (6) SetState EMPTY
+20:25:32 [Devil Square] (1) Sync Start Time. [4] min remain
+20:25:32 [Devil Square] (1) SetState EMPTY
+20:25:32 [Devil Square] (2) Sync Start Time. [4] min remain
+20:25:32 [Devil Square] (2) SetState EMPTY
+20:25:32 [Devil Square] (3) Sync Start Time. [4] min remain
+20:25:32 [Devil Square] (3) SetState EMPTY
+20:25:32 [Devil Square] (4) Sync Start Time. [4] min remain
+20:25:32 [Devil Square] (4) SetState EMPTY
+20:25:32 [Bingo] Sync Start Time. [125] min remain
+20:25:32 [Bingo] SetState EMPTY
+20:25:32 [JoinServerConnection] Connected
+20:25:32 [DataServerConnection] Connected

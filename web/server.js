@@ -922,7 +922,7 @@ async function verifyTurnstile(token, remoteIp) {
 app.use((req, res, next) => {
   res.locals.turnstileSiteKey = TURNSTILE_SITE_KEY;
   res.locals.session = req.session;
-  res.locals.appName = 'MuLinux';
+  res.locals.appName = 'Oraculo Emu';
   res.locals.year = new Date().getFullYear();
   res.locals.timeZone = resolvedTimeZone;
   res.locals.assetsVersion = resolvedAssetVersion;
@@ -1084,32 +1084,32 @@ app.get('/', async (req, res) => {
     };
   }).filter(Boolean);
 
-  res.render('home', { news, ranking: rankingView, playersOnline, serverTime, events, page: 'home', pageTitle: 'MuLinux - Inicio' });
+  res.render('home', { news, ranking: rankingView, playersOnline, serverTime, events, page: 'home', pageTitle: 'Oraculo Emu - Inicio' });
 });
 
 app.get('/register', (req, res) => {
-  res.render('register', { error: null, page: 'register', pageTitle: 'MuLinux - Registro' });
+  res.render('register', { error: null, page: 'register', pageTitle: 'Oraculo Emu - Registro' });
 });
 
 app.post('/register', authLimiter, async (req, res) => {
   const { account, password, confirm, email, name } = req.body;
 
   if (!account || !password || !confirm || !email) {
-    return res.render('register', { error: 'Completa todos los campos.', page: 'register', pageTitle: 'MuLinux - Registro' });
+    return res.render('register', { error: 'Completa todos los campos.', page: 'register', pageTitle: 'Oraculo Emu - Registro' });
   }
 
   if (!/^[a-zA-Z0-9]{4,10}$/.test(account)) {
-    return res.render('register', { error: 'El usuario debe tener 4-10 caracteres alfanumericos.', page: 'register', pageTitle: 'MuLinux - Registro' });
+    return res.render('register', { error: 'El usuario debe tener 4-10 caracteres alfanumericos.', page: 'register', pageTitle: 'Oraculo Emu - Registro' });
   }
 
   if (password.length < 6 || password !== confirm) {
-    return res.render('register', { error: 'La contrasena debe tener al menos 6 caracteres y coincidir.', page: 'register', pageTitle: 'MuLinux - Registro' });
+    return res.render('register', { error: 'La contrasena debe tener al menos 6 caracteres y coincidir.', page: 'register', pageTitle: 'Oraculo Emu - Registro' });
   }
 
   const turnstileToken = req.body['cf-turnstile-response'];
   const turnstileOk = await verifyTurnstile(turnstileToken, req.ip);
   if (!turnstileOk) {
-    return res.render('register', { error: 'Captcha invalido. Intenta nuevamente.', page: 'register', pageTitle: 'MuLinux - Registro' });
+    return res.render('register', { error: 'Captcha invalido. Intenta nuevamente.', page: 'register', pageTitle: 'Oraculo Emu - Registro' });
   }
 
   const conn = await pool.getConnection();
@@ -1118,7 +1118,7 @@ app.post('/register', authLimiter, async (req, res) => {
     const [existing] = await conn.query('SELECT memb___id FROM MEMB_INFO WHERE memb___id = ? LIMIT 1', [account]);
     if (existing.length > 0) {
       await conn.rollback();
-      return res.render('register', { error: 'La cuenta ya existe.', page: 'register', pageTitle: 'MuLinux - Registro' });
+      return res.render('register', { error: 'La cuenta ya existe.', page: 'register', pageTitle: 'Oraculo Emu - Registro' });
     }
 
     const membName = name && name.trim().length > 0 ? name.trim().slice(0, 10) : account;
@@ -1471,7 +1471,7 @@ app.get('/rankings', async (req, res) => {
 
 app.get('/download', (req, res) => {
   const downloads = loadDownloadsConfig();
-  res.render('download', { page: 'download', pageTitle: 'MuLinux - Descargas', downloads });
+  res.render('download', { page: 'download', pageTitle: 'Oraculo Emu - Descargas', downloads });
 });
 
 app.get('/news', async (req, res) => {
@@ -1480,13 +1480,13 @@ app.get('/news', async (req, res) => {
     ...row,
     excerpt: makeExcerpt(row.body)
   }));
-  res.render('news', { news, page: 'news', pageTitle: 'MuLinux - Noticias' });
+  res.render('news', { news, page: 'news', pageTitle: 'Oraculo Emu - Noticias' });
 });
 
 app.get('/news/:id', async (req, res) => {
   const [rows] = await pool.query('SELECT id, title, body, body_is_html, hide_title, created_at FROM web_news WHERE published = 1 AND id = ? LIMIT 1', [req.params.id]);
   if (rows.length === 0) return res.redirect('/news');
-  res.render('news_detail', { item: rows[0], page: 'news', pageTitle: `MuLinux - ${rows[0].title}` });
+  res.render('news_detail', { item: rows[0], page: 'news', pageTitle: `Oraculo Emu - ${rows[0].title}` });
 });
 
 app.get('/admin/login', (req, res) => {

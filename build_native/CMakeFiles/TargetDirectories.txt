@@ -1,0 +1,6 @@
+/home/ubuntu/Mu-Linux-0.97k/build_native/CMakeFiles/ConnectServer.dir
+/home/ubuntu/Mu-Linux-0.97k/build_native/CMakeFiles/JoinServer.dir
+/home/ubuntu/Mu-Linux-0.97k/build_native/CMakeFiles/DataServer.dir
+/home/ubuntu/Mu-Linux-0.97k/build_native/CMakeFiles/GameServer.dir
+/home/ubuntu/Mu-Linux-0.97k/build_native/CMakeFiles/edit_cache.dir
+/home/ubuntu/Mu-Linux-0.97k/build_native/CMakeFiles/rebuild_cache.dir

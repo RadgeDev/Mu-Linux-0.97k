@@ -1,0 +1,53 @@
+services:
+  mysql:
+    image: emapupi/mu-linux-97k-mysql:latest
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD:?Falta MYSQL_ROOT_PASSWORD en .env}
+      MYSQL_DATABASE: ${MYSQL_DATABASE:?Falta MYSQL_DATABASE en .env}
+      MYSQL_USER: ${MYSQL_USER:?Falta MYSQL_USER en .env}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD:?Falta MYSQL_PASSWORD en .env}
+      SEED_TEST_DATA: ${SEED_TEST_DATA:-0}
+    volumes:
+      - mu97k_private_mysql:/var/lib/mysql
+    networks:
+      - mu97k_private
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "127.0.0.1", "-p$${MYSQL_ROOT_PASSWORD}"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+
+  mu-server:
+    image: emapupi/mu-linux-97k:0.97.30
+    restart: unless-stopped
+    depends_on:
+      mysql:
+        condition: service_healthy
+    environment:
+      DB_HOST: mysql
+      DB_PORT: ${DB_PORT:-3306}
+      DB_USER: ${DB_USER:?Falta DB_USER en .env}
+      DB_PASS: ${DB_PASS:?Falta DB_PASS en .env}
+      DB_NAME: ${DB_NAME:?Falta DB_NAME en .env}
+      PUBLIC_IP: 127.0.0.1
+    ports:
+      - "127.0.0.1:44405:44405/tcp"
+      - "127.0.0.1:55901:55901/tcp"
+    volumes:
+      - mu97k_private_data:/opt/mu/Data
+      - mu97k_private_gameserver_data:/opt/mu/GameServer/Data
+    networks:
+      - mu97k_private
+
+networks:
+  mu97k_private:
+    name: mu97k_private
+
+volumes:
+  mu97k_private_mysql:
+    name: mu97k_private_mysql
+  mu97k_private_data:
+    name: mu97k_private_data
+  mu97k_private_gameserver_data:
+    name: mu97k_private_gameserver_data

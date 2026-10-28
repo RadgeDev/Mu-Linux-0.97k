@@ -1,0 +1,41 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/ConnectServer.dir/ConnectServer/ClientManager.cpp.o"
+  "CMakeFiles/ConnectServer.dir/ConnectServer/ClientManager.cpp.o.d"
+  "CMakeFiles/ConnectServer.dir/ConnectServer/ConnectServerLinux.cpp.o"
+  "CMakeFiles/ConnectServer.dir/ConnectServer/ConnectServerLinux.cpp.o.d"
+  "CMakeFiles/ConnectServer.dir/ConnectServer/ConnectServerProtocol.cpp.o"
+  "CMakeFiles/ConnectServer.dir/ConnectServer/ConnectServerProtocol.cpp.o.d"
+  "CMakeFiles/ConnectServer.dir/ConnectServer/Console.cpp.o"
+  "CMakeFiles/ConnectServer.dir/ConnectServer/Console.cpp.o.d"
+  "CMakeFiles/ConnectServer.dir/ConnectServer/CriticalSection.cpp.o"
+  "CMakeFiles/ConnectServer.dir/ConnectServer/CriticalSection.cpp.o.d"
+  "CMakeFiles/ConnectServer.dir/ConnectServer/IpManager.cpp.o"
+  "CMakeFiles/ConnectServer.dir/ConnectServer/IpManager.cpp.o.d"
+  "CMakeFiles/ConnectServer.dir/ConnectServer/Log.cpp.o"
+  "CMakeFiles/ConnectServer.dir/ConnectServer/Log.cpp.o.d"
+  "CMakeFiles/ConnectServer.dir/ConnectServer/MiniDump.cpp.o"
+  "CMakeFiles/ConnectServer.dir/ConnectServer/MiniDump.cpp.o.d"
+  "CMakeFiles/ConnectServer.dir/ConnectServer/Queue.cpp.o"
+  "CMakeFiles/ConnectServer.dir/ConnectServer/Queue.cpp.o.d"
+  "CMakeFiles/ConnectServer.dir/ConnectServer/ReadScript.cpp.o"
+  "CMakeFiles/ConnectServer.dir/ConnectServer/ReadScript.cpp.o.d"
+  "CMakeFiles/ConnectServer.dir/ConnectServer/ServerDisplayer.cpp.o"
+  "CMakeFiles/ConnectServer.dir/ConnectServer/ServerDisplayer.cpp.o.d"
+  "CMakeFiles/ConnectServer.dir/ConnectServer/ServerList.cpp.o"
+  "CMakeFiles/ConnectServer.dir/ConnectServer/ServerList.cpp.o.d"
+  "CMakeFiles/ConnectServer.dir/ConnectServer/SocketManagerLinux.cpp.o"
+  "CMakeFiles/ConnectServer.dir/ConnectServer/SocketManagerLinux.cpp.o.d"
+  "CMakeFiles/ConnectServer.dir/ConnectServer/SocketManagerUdpLinux.cpp.o"
+  "CMakeFiles/ConnectServer.dir/ConnectServer/SocketManagerUdpLinux.cpp.o.d"
+  "CMakeFiles/ConnectServer.dir/ConnectServer/Util.cpp.o"
+  "CMakeFiles/ConnectServer.dir/ConnectServer/Util.cpp.o.d"
+  "CMakeFiles/ConnectServer.dir/ConnectServer/stdafx.cpp.o"
+  "CMakeFiles/ConnectServer.dir/ConnectServer/stdafx.cpp.o.d"
+  "bin/ConnectServer"
+  "bin/ConnectServer.pdb"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/ConnectServer.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()
