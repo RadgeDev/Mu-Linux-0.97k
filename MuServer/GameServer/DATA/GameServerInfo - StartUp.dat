@@ -8,7 +8,7 @@ CustomerName=MuLinux
 ServerName=SV1
 
 ; Name of the Window
-WindowName=Server 1
+WindowName=Oraculo Mu
 
 ; Code of the Server -> Sync with ConnectServer/ServerList
 ServerCode=0
