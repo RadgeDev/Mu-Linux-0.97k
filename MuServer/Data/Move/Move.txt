@@ -1,5 +1,5 @@
 //Index	Name			Money	MinLvl	MaxLvl	MinRes	MaxRes	AccLvl	Gate
-1	"Stadium"		3000	255	*	*	*	0	50
+1	"Stadium"		3000	150	*	*	*	0	50
 2	"Lorencia"		1000	10	*	*	*	0	17
 3	"Noria"			1000	10	*	*	*	0	27
 4	"Devias"		1500	20	*	*	*	0	22
