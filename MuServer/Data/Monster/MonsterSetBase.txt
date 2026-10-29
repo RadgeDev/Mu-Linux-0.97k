@@ -1009,6 +1009,44 @@ end
 130	6	5	68	77	-1	// Magic Skeleton
 
 //=========================================================================================================================================
+// Stadium Spots Mixtos Blood Castle 6 (5 Spots - 25 Mobs)
+//=========================================================================================================================================
+// Spot 44 (BC6 Mixto) - 5 Mobs en (11, 7)
+125	6	5	11	7	-1	// Chief Skeleton Warrior
+126	6	5	11	7	-1	// Chief Skeleton Archer
+127	6	5	11	7	-1	// Dark Skull Soldier
+128	6	5	11	7	-1	// Giant Ogre
+129	6	5	11	7	-1	// Red Skeleton Knight
+
+// Spot 45 (BC6 Mixto) - 5 Mobs en (25, 8)
+126	6	5	25	8	-1	// Chief Skeleton Archer
+127	6	5	25	8	-1	// Dark Skull Soldier
+128	6	5	25	8	-1	// Giant Ogre
+129	6	5	25	8	-1	// Red Skeleton Knight
+130	6	5	25	8	-1	// Magic Skeleton
+
+// Spot 46 (BC6 Mixto) - 5 Mobs en (39, 8)
+125	6	5	39	8	-1	// Chief Skeleton Warrior
+127	6	5	39	8	-1	// Dark Skull Soldier
+128	6	5	39	8	-1	// Giant Ogre
+129	6	5	39	8	-1	// Red Skeleton Knight
+130	6	5	39	8	-1	// Magic Skeleton
+
+// Spot 47 (BC6 Mixto) - 5 Mobs en (55, 5)
+126	6	5	55	5	-1	// Chief Skeleton Archer
+127	6	5	55	5	-1	// Dark Skull Soldier
+128	6	5	55	5	-1	// Giant Ogre
+129	6	5	55	5	-1	// Red Skeleton Knight
+130	6	5	55	5	-1	// Magic Skeleton
+
+// Spot 48 (BC6 Mixto) - 5 Mobs en (71, 6)
+125	6	5	71	6	-1	// Chief Skeleton Warrior
+126	6	5	71	6	-1	// Chief Skeleton Archer
+128	6	5	71	6	-1	// Giant Ogre
+129	6	5	71	6	-1	// Red Skeleton Knight
+130	6	5	71	6	-1	// Magic Skeleton
+
+//=========================================================================================================================================
 // Icarus (18 Spots)
 //=========================================================================================================================================
 //Mob	MapNum	Range	PosX	PosY	Direct	Name
